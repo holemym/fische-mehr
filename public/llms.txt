@@ -1,0 +1,35 @@
+# Fische & mehr
+
+> A small neighbourhood fishmonger and import shop in Vienna's 2nd district
+> (Glockengasse 22, 1020 Vienna, near Taborstraße). Its speciality is LIVE fish,
+> kept in tanks and freshly slaughtered, cleaned and filleted to order. Alongside
+> live and day-fresh fish it sells specialties imported from Uzbekistan and the
+> wider Central Asian region: dried fruit, nuts, natural honey, spices, pickles
+> and spirits. Not a supermarket, not e-commerce — a small, personal shop. No
+> online prices or checkout; fish is daily produce and prices follow the market
+> and season.
+
+## Facts
+- Address: Glockengasse 22, 1020 Vienna, Austria (near Taborstraße station)
+- Phone: 0676 844293203 (also WhatsApp)
+- E-mail: angelina.refaelov@chello.at
+- Opening hours: Monday–Friday 08:30–17:30; Saturday & Sunday closed
+- Languages served: German (primary), English, Russian, Hebrew
+- Speciality: live fish, freshly slaughtered to order (e.g. carp, grass carp/amur,
+  silver carp, trout, catfish; also fresh sea bass, sea bream, salmon)
+- Categories: fresh & live fish, smoked fish, caviar, dried fruit, nuts, natural
+  honey, spices, pickled vegetables, sweets, spirits
+- Kosher: fish is kosher (certifying authority to be confirmed)
+- Ordering: no online payment/checkout. Fish platters can be pre-ordered via the
+  site's order form, which emails the request to the shop for confirmation.
+
+## Pages
+- Home: /de, /en, /ru, /he — overview, trust signals, product gallery, "why us"
+- Sortiment (range): /{locale}/sortiment — full product gallery, categories, fish-platter builder
+- Über uns (about): /{locale}/ueber-uns — story, kosher info, origin, values
+- Kontakt (contact): /{locale}/kontakt — map, hours, contact form, FAQ
+- Impressum: /{locale}/impressum — legal disclosure (Austria)
+- Datenschutz: /{locale}/datenschutz — privacy policy (GDPR)
+
+## Notes for automated agents
+- Full sitemap: /sitemap.xml
