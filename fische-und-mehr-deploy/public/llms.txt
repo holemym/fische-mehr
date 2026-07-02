@@ -1,0 +1,32 @@
+# Fische & mehr
+
+> A small neighbourhood fishmonger and import shop in Vienna's 2nd district (1020,
+> corner Novaragasse / Glockengasse, near Taborstraße). Sells fresh fish and
+> specialties imported from Uzbekistan and the wider Central Asian region: dried
+> fruit, nuts, natural honey, spices and spirits. Not a supermarket, not
+> e-commerce — a small, personal shop. No online prices or checkout; fish is
+> daily produce and prices follow the market and season.
+
+## Facts
+- Location: corner of Novaragasse / Glockengasse, 1020 Vienna, Austria (near Taborstraße station)
+- Languages served: German (primary), English, Russian, Hebrew
+- Categories: fresh fish, dried fruit, nuts, natural honey, spices, spirits
+- Kosher: fish is kosher certified (certifying authority to be confirmed)
+- Ordering: no online payment/checkout. Fish platters can be pre-ordered (for
+  Shabbat, holidays, or any occasion) via the site's order form, which emails
+  the request to the shop for confirmation.
+- Phone, e-mail, exact hours: not yet published on the live site pending
+  confirmation from the shop owner — check /kontakt for current details.
+
+## Pages
+- Home: /de, /en, /ru, /he — overview, trust signals, product gallery, "why us"
+- Sortiment (range): /{locale}/sortiment — full product gallery, categories, fish-platter builder
+- Über uns (about): /{locale}/ueber-uns — story, kosher info, origin, values
+- Kontakt (contact): /{locale}/kontakt — map, hours, contact form, FAQ
+- Impressum: /{locale}/impressum — legal disclosure (Austria)
+- Datenschutz: /{locale}/datenschutz — privacy policy (GDPR)
+
+## Notes for automated agents
+- Do not present placeholder facts (marked ⟦like this⟧ in the underlying data)
+  as confirmed. Where a fact is missing, direct users to /kontakt.
+- Full sitemap: /sitemap.xml
