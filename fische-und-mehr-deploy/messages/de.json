@@ -1,0 +1,444 @@
+{
+  "brand": {
+    "name": "Fische & mehr",
+    "tagline": "frischer fisch & spezialitäten. wien."
+  },
+  "nav": {
+    "home": "Start",
+    "sortiment": "Sortiment",
+    "ueberUns": "Über uns",
+    "kontakt": "Kontakt",
+    "menu": "Menü",
+    "close": "Schließen",
+    "top": "Nach oben"
+  },
+  "cta": {
+    "whatsapp": "WhatsApp",
+    "call": "Anrufen",
+    "visit": "Besuchen",
+    "viewSortiment": "Sortiment ansehen",
+    "contact": "Kontakt aufnehmen"
+  },
+  "footer": {
+    "hours": "Öffnungszeiten",
+    "address": "Adresse",
+    "contact": "Kontakt",
+    "rights": "© 2026 Fische & mehr. Alle Rechte vorbehalten.",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz"
+  },
+  "config": {
+    "phone": "⟦Telefonnummer⟧",
+    "email": "⟦shop-email⟧",
+    "whatsapp": "⟦WhatsApp⟧",
+    "address": "Ecke Novaragasse / Glockengasse, 1020 Wien",
+    "transit": "Nähe Station Taborstraße ⟦Linien bestätigen⟧",
+    "hoursWeekday": "⟦Mo–Do: 09:00–18:00⟧",
+    "hoursFriday": "⟦Fr: 08:00–14:00 (vor Shabbat)⟧",
+    "hoursWeekend": "⟦So–Sa: geschlossen / nach Vereinbarung⟧"
+  },
+  "whatsappPrefill": "Hallo Fische & mehr, ich habe eine Frage zum Tagesangebot.",
+  "home": {
+    "hero": {
+      "eyebrow": "fisch & spezialitäten · wien 1020",
+      "title": "frischer fisch.\nund vieles mehr.",
+      "subtitle": "ein kleines fachgeschäft im 2. bezirk: wirklich frischer fisch — dazu trockenfrüchte, nüsse, naturhonig, gewürze und spirituosen aus usbekistan und der region.",
+      "ctaPrimary": "Sortiment ansehen",
+      "ctaSecond": "So finden Sie uns"
+    },
+    "trust": {
+      "kosher": {
+        "label": "koscher",
+        "value": "zertifiziert ⟦durch Instanz⟧"
+      },
+      "location": {
+        "label": "lage",
+        "value": "1020 wien, 2. bezirk"
+      },
+      "fresh": {
+        "label": "frische",
+        "value": "tagesfrisch, kein lager"
+      }
+    },
+    "product": {
+      "eyebrow": "das produkt",
+      "title": "frische, die man sieht.",
+      "body": "frischer fisch ist in wien seltener als man denkt. wir setzen auf qualität statt sortimentsbreite — was im tresen liegt, lag nicht tagelang im kühlhaus. das schmeckt man. das sieht man."
+    },
+    "sortiment": {
+      "eyebrow": "was es gibt",
+      "title": "zwei dinge, beide richtig gut.",
+      "fish": {
+        "title": "fisch",
+        "body": "frisch, koscher, sorgfältig ausgewählt. von klassisch bis besonders."
+      },
+      "spec": {
+        "title": "spezialitäten",
+        "body": "trockenfrüchte, gewürze und produkte aus usbekistan, tadschikistan und der region."
+      },
+      "cta": "Ganzes Sortiment ansehen"
+    },
+    "origin": {
+      "eyebrow": "herkunft",
+      "title": "von zentralasien\nin den zweiten bezirk.",
+      "body": "die spezialitäten sind kein zufall. sie kommen von dort, wo wir herkommen — und bringen ein stück heimat nach wien.",
+      "cta": "Unsere Geschichte"
+    },
+    "kosher": {
+      "eyebrow": "koscher",
+      "title": "koscher ist kein etikett.\nes ist ein versprechen.",
+      "body": "unser fisch ist koscher zertifiziert ⟦— durch Instanz/Beschreibung⟧. für unsere kundinnen und kunden bedeutet das: verlässlichkeit, ohne nachfragen zu müssen. besonders freitags vor shabbat."
+    },
+    "location": {
+      "eyebrow": "finden & besuchen",
+      "title": "mitten im zweiten.",
+      "hoursTitle": "öffnungszeiten",
+      "addrTitle": "adresse",
+      "cta": "Route & Kontakt"
+    },
+    "cta": {
+      "title": "kommen sie vorbei.",
+      "body": "fragen zum tagesangebot? rufen sie an oder schreiben sie uns auf whatsapp. wir helfen gern.",
+      "call": "Anrufen",
+      "whatsapp": "WhatsApp schreiben"
+    }
+  },
+  "sortiment": {
+    "hero": {
+      "eyebrow": "sortiment",
+      "title": "was bei uns im tresen liegt.",
+      "intro": "preise nennen wir hier bewusst nicht — frischer fisch ist tagesware, die preise richten sich nach markt und saison. fragen sie einfach nach, im laden, telefonisch oder per whatsapp."
+    },
+    "fish": {
+      "eyebrow": "fisch",
+      "title": "frischer fisch, koscher.",
+      "body": "wir führen eine sorgfältig ausgewählte auswahl statt eines endlosen sortiments. das hält die qualität hoch und die frische verlässlich. welche arten gerade da sind, hängt vom fang und von der saison ab.",
+      "note": "⟦Konkrete Fischarten hier auflisten, sobald bestätigt: z.B. Lachs, Forelle, Karpfen, Wolfsbarsch, …⟧"
+    },
+    "spec": {
+      "eyebrow": "spezialitäten",
+      "title": "schätze aus zentralasien.",
+      "body": "getrocknete früchte, nüsse, gewürze und ausgewählte produkte aus usbekistan, tadschikistan und der region. dinge mit herkunft und geschichte — die man in wien selten bekommt.",
+      "note": "⟦Konkrete Produkte hier auflisten, sobald bestätigt⟧"
+    },
+    "platter": {
+      "eyebrow": "für shabbat",
+      "title": "fischplatten auf vorbestellung.",
+      "body": "für shabbat und feiertage stellen wir fischplatten zusammen. rechtzeitig vorbestellen — am besten telefonisch oder per whatsapp.",
+      "cta": "Vorbestellen"
+    },
+    "cta": {
+      "title": "etwas bestimmtes gesucht?",
+      "body": "rufen sie an oder schreiben sie uns. wir sagen ihnen, was heute frisch ist."
+    }
+  },
+  "ueber": {
+    "hero": {
+      "eyebrow": "über uns",
+      "title": "ein laden, eine herkunft,\neine überzeugung."
+    },
+    "story": {
+      "eyebrow": "die geschichte",
+      "title": "⟦Gründer-Story-Titel⟧",
+      "body": "⟦PLATZHALTER: Die echte Gründungsgeschichte fehlt noch. Wer steht hinter dem Laden? Warum Fisch? Warum koscher? Warum die Verbindung nach Zentralasien? David liefert den echten Text nach. Bis dahin steht hier ein Platzhalter, damit Layout und Länge stimmen — etwa drei bis vier Absätze, persönlich erzählt, nicht werblich.⟧"
+    },
+    "kosher": {
+      "eyebrow": "koscher",
+      "title": "worauf sie sich verlassen können.",
+      "body": "unser fisch ist koscher zertifiziert ⟦durch Instanz — Details ergänzen⟧. das ist für uns kein verkaufsargument, sondern selbstverständlichkeit gegenüber einer gemeinschaft, die genau weiß, worauf es ankommt."
+    },
+    "origin": {
+      "eyebrow": "herkunft",
+      "title": "usbekistan, tadschikistan, wien.",
+      "body": "die spezialitäten in unserem laden kommen von dort, wo unsere wurzeln liegen. sie sind eine brücke — zwischen zwei welten, und zwischen menschen, die ein stück heimat suchen."
+    },
+    "values": {
+      "eyebrow": "haltung",
+      "title": "klein, ehrlich, spezialisiert.",
+      "v1": {
+        "title": "qualität vor menge",
+        "body": "lieber wenige arten wirklich frisch als ein volles regal von gestern."
+      },
+      "v2": {
+        "title": "persönlich",
+        "body": "wir kennen unsere ware und unsere kundschaft. das ist kein supermarkt."
+      },
+      "v3": {
+        "title": "verlässlich",
+        "body": "koscher, frisch, da wenn sie uns brauchen — besonders vor den feiertagen."
+      }
+    }
+  },
+  "kontakt": {
+    "hero": {
+      "eyebrow": "kontakt",
+      "title": "finden sie uns."
+    },
+    "address": {
+      "title": "adresse"
+    },
+    "hours": {
+      "title": "öffnungszeiten",
+      "friday": "freitag (vor shabbat)",
+      "note": "an feiertagen können die zeiten abweichen. rufen sie im zweifel kurz an."
+    },
+    "phone": {
+      "title": "telefon"
+    },
+    "whatsapp": {
+      "title": "whatsapp",
+      "body": "am schnellsten erreichen sie uns per whatsapp — auch für fragen zum tagesangebot oder für vorbestellungen."
+    },
+    "email": {
+      "title": "e-mail"
+    },
+    "transit": {
+      "title": "anfahrt",
+      "body": "⟦Öffentliche Verkehrsmittel / Parken ergänzen⟧"
+    },
+    "form": {
+      "title": "schreiben sie uns.",
+      "name": "Name",
+      "contact": "E-Mail oder Telefon",
+      "message": "Ihre Nachricht",
+      "submit": "Absenden",
+      "sending": "Wird gesendet …",
+      "success": "Danke! Wir melden uns so bald wie möglich.",
+      "error": "Etwas ist schiefgelaufen. Bitte rufen Sie uns an oder schreiben Sie per WhatsApp.",
+      "required": "Bitte füllen Sie dieses Feld aus.",
+      "requiredMark": "Pflichtfeld"
+    }
+  },
+  "gallery": {
+    "eyebrow": "die auslage",
+    "title": "ein blick\nin die auslage.",
+    "intro": "keine preisliste — fisch ist tagesware. das hier ist ein eindruck von dem, was bei uns über den tresen geht. fragen sie im laden, telefonisch oder per whatsapp nach dem tagesangebot.",
+    "all": "Alles",
+    "fish": "Fisch",
+    "spec": "Spezialitäten",
+    "count": "{count} Bilder",
+    "tagFish": "fisch",
+    "tagSpec": "spezialität",
+    "note": "⟦Platzhalter-Bilder — durch echte Produktfotos vom Shooting ersetzen. Reihenfolge & Auswahl frei.⟧"
+  },
+  "categories": {
+    "eyebrow": "was wir führen",
+    "title": "fisch — und alles,\nwas dazugehört.",
+    "intro": "ein fischgeschäft mit herz fürs importierte. neben frischem fisch finden sie bei uns ausgesuchte spezialitäten aus usbekistan und der region — nichts abgehobenes, einfach gute ware.",
+    "fish": {
+      "title": "frischer fisch",
+      "body": "tagesfrisch ausgewählt. welche arten da sind, hängt von fang und saison ab."
+    },
+    "dried": {
+      "title": "trockenfrüchte",
+      "body": "aprikosen, rosinen, melone und mehr — sonnengetrocknet, aus der region."
+    },
+    "nuts": {
+      "title": "nüsse",
+      "body": "walnüsse, mandeln, pistazien. zum knabbern, backen, schenken."
+    },
+    "honey": {
+      "title": "naturhonig",
+      "body": "echter, naturbelassener honig. kräftig und ehrlich im geschmack."
+    },
+    "spices": {
+      "title": "gewürze",
+      "body": "aromatische gewürze für die küche zentralasiens und darüber hinaus."
+    },
+    "spirits": {
+      "title": "spirituosen",
+      "body": "ausgewählte spirituosen und getränke aus der region."
+    }
+  },
+  "notifier": {
+    "eyebrow": "frischer-fisch-alarm",
+    "title": "wir sagen bescheid,\nwenn frischer fisch da ist.",
+    "body": "hinterlassen sie ihre e-mail — wir melden uns, wenn neue ware eintrifft oder es vor den feiertagen etwas besonderes gibt. kein spam, jederzeit abbestellbar.",
+    "placeholder": "Ihre E-Mail-Adresse",
+    "submit": "Benachrichtigen",
+    "sending": "Wird gesendet …",
+    "success": "Eingetragen! Wir sagen Bescheid.",
+    "error": "Etwas ist schiefgelaufen. Bitte später erneut versuchen.",
+    "invalid": "Bitte gültige E-Mail-Adresse eingeben."
+  },
+  "findus": {
+    "eyebrow": "so finden sie uns",
+    "title": "an der ecke,\nim zweiten bezirk.",
+    "addrTitle": "adresse",
+    "hoursTitle": "öffnungszeiten",
+    "transitTitle": "anfahrt",
+    "mapCta": "In Karten öffnen",
+    "directionsCta": "Route planen",
+    "mapAlt": "Karte: Standort von Fische & mehr, Ecke Novaragasse / Glockengasse, 1020 Wien"
+  },
+  "todayFresh": {
+    "label": "heute frisch",
+    "note": "⟦Vom Ladenbesitzer laufend aktualisieren — z. B. Lachs, Forelle, Wolfsbarsch.⟧",
+    "items": [
+      "Lachs",
+      "Forelle",
+      "Wolfsbarsch"
+    ]
+  },
+  "reviews": {
+    "eyebrow": "was kundinnen und kunden sagen",
+    "title": "man merkt,\ndass es echt ist.",
+    "googleCta": "Alle Bewertungen auf Google",
+    "note": "⟦Platzhalter-Stimmen — durch echte Google-Rezensionen ersetzen, sobald verfügbar.⟧",
+    "items": [
+      {
+        "initials": "M.K.",
+        "name": "M. K.",
+        "quote": "Endlich ein Laden im 2. Bezirk, wo der Fisch wirklich frisch ist. Man sieht es sofort."
+      },
+      {
+        "initials": "R.B.",
+        "name": "R. B.",
+        "quote": "Die Trockenfrüchte und der Honig sind großartig — erinnert an zu Hause."
+      },
+      {
+        "initials": "S.L.",
+        "name": "S. L.",
+        "quote": "Freundlich, persönlich, verlässlich vor Shabbat. Genau das, was man sich wünscht."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "häufige fragen",
+    "title": "gut zu wissen.",
+    "items": [
+      {
+        "q": "Kann ich Fisch oder Fischplatten vorbestellen?",
+        "a": "Ja. Besonders vor Shabbat und Feiertagen stellen wir Fischplatten auf Vorbestellung zusammen. Am besten im Laden oder telefonisch, rechtzeitig vorher."
+      },
+      {
+        "q": "Ist der Fisch koscher zertifiziert?",
+        "a": "Ja, unser Fisch ist koscher zertifiziert ⟦— durch Instanz ergänzen⟧."
+      },
+      {
+        "q": "Was habt ihr außer Fisch?",
+        "a": "Spezialitäten aus Usbekistan, Tadschikistan und der Region: Trockenfrüchte, Nüsse, Naturhonig, Gewürze und Spirituosen."
+      },
+      {
+        "q": "Wie sind die Öffnungszeiten?",
+        "a": "⟦Mo–Do: 09:00–18:00⟧, ⟦Fr: 08:00–14:00 (vor Shabbat)⟧. An Feiertagen können die Zeiten abweichen — im Zweifel kurz anrufen."
+      },
+      {
+        "q": "Wie komme ich zu euch?",
+        "a": "Ecke Novaragasse / Glockengasse, 1020 Wien — nur wenige Schritte von der Station Taborstraße. ⟦Öffis-Linien & Parken ergänzen⟧."
+      },
+      {
+        "q": "Kann ich online bestellen?",
+        "a": "Aktuell gibt es keinen Onlineshop. Kommen Sie vorbei oder rufen Sie an — wir sagen Ihnen gern, was heute frisch ist."
+      }
+    ]
+  },
+  "platter": {
+    "eyebrow": "fischplatte",
+    "title": "stellen sie ihre\nfischplatte zusammen.",
+    "intro": "für shabbat, feiertage oder einfach so. wählen sie aus, was drauf soll — wir melden uns zur bestätigung. keine online-zahlung, nur eine unverbindliche vorbestellung per e-mail.",
+    "occasionLabel": "anlass",
+    "occasionShabbat": "Shabbat",
+    "occasionHoliday": "Feiertag",
+    "occasionOther": "Sonstiges",
+    "personsLabel": "für wie viele personen",
+    "selectionLabel": "auswahl",
+    "selectionHint": "⟦Beispiel-Auswahl — echte Fischarten bestätigen.⟧ mehrfachauswahl möglich.",
+    "items": [
+      "Lachs",
+      "Forelle",
+      "Karpfen",
+      "Wolfsbarsch",
+      "Hering",
+      "Geräucherter Fisch"
+    ],
+    "dateLabel": "wunschtermin zur abholung",
+    "nameLabel": "name",
+    "contactLabel": "e-mail oder telefon",
+    "notesLabel": "besondere wünsche",
+    "notesPlaceholder": "z. B. Menge, Zuschnitt, Allergien …",
+    "submit": "Vorbestellung senden",
+    "sending": "Wird gesendet …",
+    "success": "Danke! Ihre Vorbestellung ist angekommen — wir melden uns zur Bestätigung.",
+    "error": "Etwas ist schiefgelaufen. Bitte rufen Sie uns an oder schreiben Sie per WhatsApp.",
+    "required": "Bitte ausfüllen.",
+    "summaryHeading": "Fischplatten-Vorbestellung"
+  },
+  "why": {
+    "eyebrow": "warum fische & mehr",
+    "title": "klein, ehrlich,\nund genau richtig.",
+    "c1": {
+      "title": "wirklich frisch",
+      "body": "fisch, der nicht tagelang im kühlhaus lag. was im tresen liegt, ist frisch — das schmeckt man und das sieht man."
+    },
+    "c2": {
+      "title": "herkunft im regal",
+      "body": "trockenfrüchte, nüsse, naturhonig, gewürze und mehr aus usbekistan und der region — dinge mit geschichte, die man in wien selten findet."
+    },
+    "c3": {
+      "title": "ihr geschäft ums eck",
+      "body": "kein supermarkt. wir kennen unsere ware und unsere kundschaft — persönlich, mitten im zweiten bezirk."
+    }
+  },
+  "alt": {
+    "hero": "Frischer Lachs, editorial auf einem Tablett angerichtet",
+    "productFresh": "Makroaufnahme von frischem Lachs, appetitliche Textur",
+    "sortimentFish": "Frischer Fisch auf Eis im Verkaufstresen",
+    "sortimentSpecialties": "Zentralasiatische Spezialitäten, Trockenfrüchte und Gewürze",
+    "specialtyDetail": "Detailaufnahme einer Fischkonserve, editorial",
+    "origin": "Stimmungsbild Herkunft Zentralasien",
+    "kosher": "Frische Lachshaut, sauber und glänzend",
+    "boats": "Fischerboote, Stimmungsbild Authentizität",
+    "parrotfish": "Bunter Fisch auf Eis",
+    "shootFishIce": "Frischer Fisch dicht auf Eis, Nahaufnahme",
+    "shootStorefront": "Ladenfront von Fische & mehr, Ecke Novaragasse",
+    "shootFreshFish": "Frisch gefangener Fisch in Nahaufnahme",
+    "shootSmokedFishRow": "Geräucherter Fisch, aufgereiht zum Trocknen",
+    "shootHoneyJar": "Naturhonig mit Honigwabe, Makroaufnahme",
+    "shootSalmonFillet": "Lachsfilet und ganzer Fisch in der Auslage",
+    "shootTinnedFish": "Fischkonserven in der Holzkiste",
+    "shootSeashells": "Muscheln und Meeresschnecken, Nahaufnahme",
+    "shootSalmonSlices": "Aufgeschnittenes Lachsfilet auf dem Schneidebrett",
+    "shootSmokedCounter": "Geräucherter Fisch im Verkaufstresen",
+    "shootOwnerFish1": "Der Inhaber von Fische & mehr mit frischem Fisch",
+    "shootOwnerFish2": "Der Inhaber von Fische & mehr im Laden",
+    "shootFrozenFish1": "Tiefgekühlter Fisch, verpackt",
+    "shootFrozenFish2": "Tiefgekühlter Fisch, Sortiment",
+    "shootCaviarTins": "Kaviardosen im Sortiment",
+    "shootCondensedMilk": "Kondensmilch im Regal",
+    "shootSweetsShelf": "Süßwaren-Regal",
+    "shootPickledJars1": "Eingelegtes Gemüse im Glas",
+    "shootPickledJars2": "Eingelegtes Gemüse im Glas, Regalansicht",
+    "shootSpirits1": "Spirituosenauswahl im Regal",
+    "shootSpirits2": "Spirituosenauswahl, Nahaufnahme",
+    "shootSunflowerSeeds": "Sonnenblumenkerne im Regal",
+    "shootDriedGoodsShelf": "Regal mit Trockenwaren und Hülsenfrüchten",
+    "shootGrainBags": "Getreide- und Hülsenfrüchte-Auswahl im Regal"
+  },
+  "meta": {
+    "home": {
+      "title": "Fische & mehr — Frischer koscherer Fisch in Wien 1020",
+      "description": "Frischer, koscher zertifizierter Fisch im 2. Bezirk in Wien. Dazu Spezialitäten aus Usbekistan und Tadschikistan. Tagesfrisch, persönlich, spezialisiert."
+    },
+    "sortiment": {
+      "title": "Sortiment — Fische & mehr",
+      "description": "Frischer koscherer Fisch und zentralasiatische Spezialitäten. Tagesware — fragen Sie nach dem aktuellen Angebot."
+    },
+    "ueber": {
+      "title": "Über uns — Fische & mehr",
+      "description": "Die Geschichte hinter Fische & mehr: koscherer Fisch, Herkunft in Zentralasien, ein kleines spezialisiertes Fachgeschäft in Wien."
+    },
+    "kontakt": {
+      "title": "Kontakt — Fische & mehr",
+      "description": "Besuchen Sie uns im 2. Bezirk in Wien. Öffnungszeiten, Adresse, Telefon und WhatsApp."
+    },
+    "impressum": {
+      "title": "Impressum — Fische & mehr",
+      "description": "Impressum und Offenlegung von Fische & mehr, Wien 1020."
+    },
+    "datenschutz": {
+      "title": "Datenschutz — Fische & mehr",
+      "description": "Datenschutzerklärung von Fische & mehr gemäß DSGVO."
+    }
+  }
+}

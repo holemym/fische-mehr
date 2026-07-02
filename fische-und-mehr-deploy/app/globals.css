@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --header-h: 4.5rem;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-paper text-navy font-sans antialiased;
+    font-feature-settings: 'kern' 1, 'liga' 1;
+  }
+
+  /* Visible, on-brand focus ring for keyboard users */
+  :focus-visible {
+    outline: 2px solid theme('colors.coral');
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background: theme('colors.coral');
+    color: theme('colors.paper');
+  }
+}
+
+@layer components {
+  /* Eyebrow: mono, uppercase, coral, tracked — the swiss-documentation note */
+  .eyebrow {
+    @apply font-mono uppercase text-sea tracking-eyebrow;
+    font-size: 0.6875rem; /* ~11px, scales the ~8.5px spec up for legibility/contrast */
+    line-height: 1;
+  }
+
+  /* Editorial container with generous, responsive gutters */
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8 lg:px-12;
+  }
+
+  /* Recolors the raw OpenStreetMap tile palette (bright green parks, yellow roads,
+     purple POI icons) toward the site's navy/cream/sea system, so the embedded map
+     doesn't clash with the rest of the brand. Paired with a multiply overlay in
+     FindUs.tsx for the final tint. */
+  .map-tint {
+    filter: grayscale(0.55) sepia(0.2) hue-rotate(158deg) saturate(1.35) brightness(0.94)
+      contrast(1.06);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
+/* Respect users who prefer reduced motion — disable all reveal/parallax animation. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
