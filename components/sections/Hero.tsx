@@ -8,13 +8,13 @@ import { ArrowRight } from '@/components/ui/icons';
 
 export default function Hero() {
   const t = useTranslations('home.hero');
-  const alt = useTranslations('alt')('shootFreshFish');
+  const alt = useTranslations('alt')('shootLiveCarp');
 
   return (
     <section className="relative isolate flex min-h-[92vh] items-end overflow-hidden bg-sea-deep">
-      {/* Real fresh-fish photo from the shop */}
+      {/* Live fish (carp in the tank) — the shop's signature */}
       <Image
-        src="/images/shoot-fresh-fish.webp"
+        src="/images/shoot-live-carp.webp"
         alt={alt}
         fill
         priority
@@ -41,7 +41,7 @@ export default function Hero() {
           <div className="mt-9 flex flex-wrap items-center gap-3">
             <Link
               href="/sortiment"
-              className="inline-flex h-12 items-center gap-2 rounded-full bg-cream px-7 font-mono text-[0.8rem] uppercase tracking-[0.12em] text-sea-deep transition-colors duration-200 hover:bg-sea-light hover:text-sea-deep"
+              className="inline-flex h-12 items-center gap-2 rounded-full bg-cream px-7 font-mono text-[0.8rem] uppercase tracking-[0.12em] text-sea-deep transition-colors duration-200 hover:bg-cream-soft hover:text-sea-deep"
             >
               {t('ctaPrimary')}
               <ArrowRight />

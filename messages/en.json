@@ -2,7 +2,7 @@
   "_meta": "DRAFT — machine translation from de.json. Needs native EN review before launch.",
   "brand": {
     "name": "Fische & mehr",
-    "tagline": "fresh fish & specialties. vienna."
+    "tagline": "live fish & specialties. vienna."
   },
   "nav": {
     "home": "Home",
@@ -41,9 +41,9 @@
   "whatsappPrefill": "Hello Fische & mehr, I have a question about today's selection.",
   "home": {
     "hero": {
-      "eyebrow": "fish & specialties · vienna 1020",
-      "title": "fresh fish.\nand much more.",
-      "subtitle": "a small neighbourhood shop in the 2nd district: genuinely fresh fish — plus dried fruit, nuts, natural honey, spices and spirits from Uzbekistan and the region.",
+      "eyebrow": "live fish · vienna 1020",
+      "title": "live fish.\nand much more.",
+      "subtitle": "a small speciality shop in the 2nd district: live fish, freshly slaughtered for you — plus dried fruit, nuts, natural honey, spices and spirits from uzbekistan and the region.",
       "ctaPrimary": "View the range",
       "ctaSecond": "How to find us"
     },
@@ -57,21 +57,21 @@
         "value": "1020 vienna, 2nd district"
       },
       "fresh": {
-        "label": "freshness",
-        "value": "daily-fresh, no storage"
+        "label": "live",
+        "value": "freshly slaughtered"
       }
     },
     "product": {
       "eyebrow": "the product",
-      "title": "freshness you can see.",
-      "body": "fresh fish is rarer in vienna than you'd think. we focus on quality over breadth — what's in the counter hasn't sat in cold storage for days. you can taste it. you can see it."
+      "title": "fresh, alive.",
+      "body": "live fish is rarer in vienna than you'd think. here it waits in the tank until you order — and is slaughtered fresh for you. fish doesn't get fresher. you taste it. you see it."
     },
     "sortiment": {
       "eyebrow": "what we have",
       "title": "two things, both done right.",
       "fish": {
         "title": "fish",
-        "body": "fresh, kosher, carefully selected. from classic to special."
+        "body": "live, fresh, carefully chosen. from classic to special."
       },
       "spec": {
         "title": "specialties",
@@ -112,7 +112,7 @@
     },
     "fish": {
       "eyebrow": "fish",
-      "title": "fresh fish, kosher.",
+      "title": "live fish, freshly slaughtered.",
       "body": "we carry a carefully chosen selection rather than an endless range. that keeps the quality high and the freshness dependable. which species are in right now depends on the catch and the season.",
       "note": "Live in the tank: carp and amur (grass carp), slaughtered fresh for you. Also day-fresh: salmon, trout, sea bass, sea bream, smoked fish, caviar and more. What's in stock depends on season and delivery."
     },
@@ -227,8 +227,8 @@
     "title": "fish — and everything\nthat goes with it.",
     "intro": "a fish shop with a soft spot for the imported. alongside fresh fish you'll find selected specialties from Uzbekistan and the region — nothing fancy, just good stuff.",
     "fish": {
-      "title": "fresh fish",
-      "body": "selected daily-fresh. which species are in depends on the catch and the season."
+      "title": "live fish",
+      "body": "live in the tank, freshly slaughtered for you. which species are in depends on the catch and the season."
     },
     "dried": {
       "title": "dried fruit",
@@ -252,8 +252,8 @@
     }
   },
   "notifier": {
-    "eyebrow": "fresh-fish alert",
-    "title": "we'll let you know\nwhen fresh fish arrives.",
+    "eyebrow": "fish alert",
+    "title": "we'll let you know\nwhen a fresh catch is in.",
     "body": "leave your email — we'll get in touch when new stock comes in or there's something special before the holidays. no spam, unsubscribe any time.",
     "placeholder": "Your email address",
     "submit": "Notify me",
@@ -306,8 +306,8 @@
     "eyebrow": "why fische & mehr",
     "title": "small, honest,\nand just right.",
     "c1": {
-      "title": "genuinely fresh",
-      "body": "fish that hasn't sat in cold storage for days. what's in the counter is fresh — you taste it and you see it."
+      "title": "live & fresh",
+      "body": "live fish from the tank, freshly slaughtered for you — not sitting in cold storage for days. you taste it and you see it."
     },
     "c2": {
       "title": "origin on the shelf",
@@ -362,16 +362,18 @@
     "shootSeabass": "Fresh sea bass stacked in rows",
     "shootFishFresh2": "Fresh whole fish, cut open on ice",
     "shootSmokedFillets": "Smoked fish fillets in the counter",
-    "shootDorade": "Fresh sea bream on ice, close-up"
+    "shootDorade": "Fresh sea bream on ice, close-up",
+    "shootLiveCarp": "Live carp in the water tank at Fische & mehr",
+    "shootTuna": "Fresh tuna loins, freshly cut"
   },
   "meta": {
     "home": {
-      "title": "Fische & mehr — Fresh kosher fish in Vienna 1020",
-      "description": "Fresh, kosher certified fish in Vienna's 2nd district. Plus specialties from Uzbekistan and Tajikistan. Daily-fresh, personal, specialized."
+      "title": "Fische & mehr — Live & fresh fish in Vienna 1020",
+      "description": "Live fish, freshly slaughtered for you, in Vienna's 2nd district. Plus kosher specialties from Uzbekistan and Tajikistan. Day-fresh, personal, specialised."
     },
     "sortiment": {
       "title": "Range — Fische & mehr",
-      "description": "Fresh kosher fish and Central Asian specialties. Daily produce — ask about today's selection."
+      "description": "Live and fresh fish and Central-Asian specialties. Daily produce — ask for today's offer."
     },
     "ueber": {
       "title": "About — Fische & mehr",
@@ -486,5 +488,10 @@
         "desc": "refined and mild — day-fresh, ideal whole from the oven."
       }
     ]
+  },
+  "portions": {
+    "eyebrow": "freshly cut",
+    "title": "this is what\nour portions look like.",
+    "body": "every fish is cut fresh for you — in the size you need."
   }
 }

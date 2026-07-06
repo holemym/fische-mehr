@@ -42,9 +42,10 @@ export default function SortimentPage({
         intro={t('hero.intro')}
       />
 
+      {/* Wizard up top — it's the main action on this page */}
+      <PlatterBuilder />
       <ProductGallery />
       <ProductCategories />
-      <PlatterBuilder />
       <FreshFishNotifier />
     </>
   );

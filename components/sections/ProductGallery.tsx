@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useRef, useLayoutEffect } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import Eyebrow from '@/components/ui/Eyebrow';
@@ -9,6 +9,12 @@ import { clsx } from '@/lib/clsx';
 
 type Cat = 'fish' | 'spec';
 type Tile = { img: string; cat: Cat };
+
+// Row-span masonry tuning: rows are ROW_UNIT tall, GAP between items. Each tile
+// spans however many rows its real (uncropped) height needs — computed on the
+// client from the measured column width and the image's aspect ratio.
+const ROW_UNIT = 8;
+const GAP = 12;
 
 // Real pixel dimensions of every gallery source image, so each tile renders at
 // its true aspect ratio (masonry layout below) instead of being force-cropped
@@ -60,6 +66,8 @@ const DIMS: Record<string, [number, number]> = {
   'shoot-fish-fresh-2': [1125, 2000],
   'shoot-smoked-fillets': [1125, 2000],
   'shoot-dorade': [1125, 2000],
+  'shoot-live-carp': [941, 1672],
+  'shoot-tuna': [1125, 2000],
 };
 
 // Picture-forward masonry. Real shop photos only — the generic placeholder
@@ -67,8 +75,10 @@ const DIMS: Record<string, [number, number]> = {
 // kept). Fish shots lead, specialties follow.
 const TILES: Tile[] = [
   // Live & fresh fish
+  { img: 'shoot-live-carp', cat: 'fish' },
   { img: 'shoot-whole-fish-ice', cat: 'fish' },
   { img: 'shoot-storefront', cat: 'fish' },
+  { img: 'shoot-tuna', cat: 'fish' },
   { img: 'shoot-dorade', cat: 'fish' },
   { img: 'shoot-fish-ice', cat: 'fish' },
   { img: 'shoot-seabass', cat: 'fish' },
@@ -125,6 +135,35 @@ export default function ProductGallery() {
     [filter],
   );
 
+  const gridRef = useRef<HTMLDivElement>(null);
+
+  // Measure each tile's real height (from its column width + aspect ratio) and
+  // set its grid-row span, so landscape shots can be wide (2 columns) while every
+  // photo keeps its true aspect ratio — no cropping, no ragged gaps.
+  useLayoutEffect(() => {
+    const grid = gridRef.current;
+    if (!grid) return;
+    const layout = () => {
+      const figures = grid.querySelectorAll<HTMLElement>('figure[data-aspect]');
+      figures.forEach((fig) => {
+        const aspect = parseFloat(fig.dataset.aspect || '1'); // width / height
+        const width = fig.getBoundingClientRect().width;
+        if (!width) return;
+        const height = width / aspect;
+        const span = Math.max(1, Math.round((height + GAP) / (ROW_UNIT + GAP)));
+        fig.style.gridRowEnd = `span ${span}`;
+      });
+    };
+    layout();
+    const ro = new ResizeObserver(layout);
+    ro.observe(grid);
+    window.addEventListener('resize', layout);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener('resize', layout);
+    };
+  }, [tiles]);
+
   const altKey: Record<string, string> = {
     'product-fresh': 'productFresh',
     'sortiment-fish': 'sortimentFish',
@@ -171,6 +210,8 @@ export default function ProductGallery() {
     'shoot-fish-fresh-2': 'shootFishFresh2',
     'shoot-smoked-fillets': 'shootSmokedFillets',
     'shoot-dorade': 'shootDorade',
+    'shoot-live-carp': 'shootLiveCarp',
+    'shoot-tuna': 'shootTuna',
   };
 
   return (
@@ -209,23 +250,39 @@ export default function ProductGallery() {
           </span>
         </div>
 
-        {/* Masonry gallery — each tile keeps the photo's real aspect ratio
-            (no forced crop into a fixed cell), so tall and wide shots both
-            show their full frame. */}
-        <div className="mt-8 columns-2 gap-2.5 sm:gap-3 md:columns-3 lg:columns-4">
+        {/* Row-span masonry — every tile keeps the photo's real aspect ratio
+            (no forced crop); landscape shots span 2 columns so they read bigger. */}
+        <div
+          ref={gridRef}
+          className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4"
+          style={{ gridAutoRows: `${ROW_UNIT}px` }}
+        >
           {tiles.map((tile, i) => {
             const [w, h] = DIMS[tile.img];
+            const landscape = w > h;
+            // Rough pre-hydration span estimate (refined client-side); avoids a
+            // collapsed first paint before useLayoutEffect measures real widths.
+            const estWidth = landscape ? 640 : 320;
+            const estSpan = Math.max(
+              1,
+              Math.round((estWidth / (w / h) + GAP) / (ROW_UNIT + GAP)),
+            );
             return (
               <figure
                 key={`${tile.img}-${i}`}
-                className="group relative mb-2.5 block break-inside-avoid overflow-hidden rounded-sm bg-sea-deep/5 sm:mb-3"
+                data-aspect={w / h}
+                style={{ gridRowEnd: `span ${estSpan}` }}
+                className={clsx(
+                  'group relative block overflow-hidden rounded-sm bg-sea-deep/5',
+                  landscape && 'col-span-2',
+                )}
               >
                 <Image
                   src={`/images/${tile.img}.webp`}
                   alt={alt(altKey[tile.img] ?? 'hero')}
                   width={w}
                   height={h}
-                  sizes="(min-width:1024px) 25vw, (min-width:768px) 33vw, 50vw"
+                  sizes="(min-width:1024px) 480px, (min-width:768px) 340px, 100vw"
                   className="block h-auto w-full transition-transform duration-[600ms] ease-out-soft group-hover:scale-[1.05] motion-reduce:transform-none"
                 />
                 {/* Sea wash on hover + category tag */}
@@ -241,8 +298,8 @@ export default function ProductGallery() {
           })}
         </div>
 
-        {/* Placeholder note */}
-        <p className="mt-6 inline-block rounded-sm border border-dashed border-coral/50 bg-coral/5 px-4 py-2.5 font-mono text-xs leading-relaxed text-grey-dark">
+        {/* Caption */}
+        <p className="mt-6 text-pretty text-sm leading-relaxed text-grey">
           {t('note')}
         </p>
       </div>

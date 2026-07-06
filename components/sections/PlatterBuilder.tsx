@@ -63,13 +63,18 @@ export default function PlatterBuilder() {
       return;
     }
 
-    // Compose a clear, human-readable order summary as the email body.
+    // Compose a clear, human-readable order summary as the email body — fully
+    // self-contained so the shop sees everything (incl. who ordered) at a glance.
     const date = String(data.get('date') ?? '') || '—';
     const notes = String(data.get('notes') ?? '').trim() || '—';
     data.set(
       'message',
       [
         `${t('summaryHeading')}`,
+        '',
+        `${t('nameLabel')}: ${name}`,
+        `${t('contactLabel')}: ${contact}`,
+        '',
         `${t('occasionLabel')}: ${occasionLabel(occasion)}`,
         `${t('personsLabel')}: ${persons}`,
         `${t('selectionLabel')}: ${[...selected].join(', ') || '—'}`,
@@ -77,8 +82,10 @@ export default function PlatterBuilder() {
         `${t('notesLabel')}: ${notes}`,
       ].join('\n'),
     );
-    data.set('_subject', t('summaryHeading'));
+    data.set('_subject', `${t('summaryHeading')} — ${name}`);
     data.set('form', 'platter-builder');
+    // Let the shop reply straight to the customer if they entered an e-mail.
+    if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact)) data.set('_replyto', contact);
 
     setStatus('sending');
     try {

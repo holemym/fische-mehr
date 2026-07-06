@@ -8,22 +8,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // — Sea-blue + cream system (refined toward the logo blue #042C5F) —
+        // — Royal-blue + cream system (matched to the shop's store/logo blue) —
         cream: '#f7f2e8', // warm off-white, primary bg
         'cream-soft': '#efe7d6',
-        foam: '#e4eef3', // pale sea tint for alternating sections
-        sea: '#1c5f8c', // primary sea blue (cleaner, less teal)
-        'sea-deep': '#0a3354', // deep sea-navy — dark sections / strong text
-        'sea-ink': '#062339', // near-black ocean — body text
-        'sea-light': '#74b4d6', // accents, foam highlights, lines
-        sand: '#c9a05f', // warm fine accent on deep sea
+        foam: '#e6eef8', // pale royal tint for alternating sections
+        sea: '#08497e', // deep royal accent — icons, lines, button hover, links
+        'sea-deep': '#0a5fa5', // the store's royal blue — dark sections / strong text
+        'sea-ink': '#08243f', // near-black royal — body text
+        'sea-light': '#6ba6d9', // light royal — highlights, the "&", accents on dark
+        sand: '#c9a05f', // warm fine accent on royal blue
         coral: '#c25a3e', // demoted: rare warm accent only
         grey: '#79858b',
         'grey-dark': '#3a4751',
 
         // — Legacy aliases (so not-yet-migrated sections keep rendering) —
-        navy: '#0a3354',
-        'navy-soft': '#1c5f8c',
+        navy: '#0a5fa5',
+        'navy-soft': '#08497e',
         paper: '#f7f2e8',
         'paper-soft': '#efe7d6',
         gold: '#c9a05f',

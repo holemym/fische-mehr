@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/navigation';
 import { SITE } from '@/lib/site';
 import Eyebrow from '@/components/ui/Eyebrow';
 import SectionTitle from '@/components/ui/SectionTitle';
@@ -11,6 +12,7 @@ type Species = { name: string; desc: string };
 export default function LiveFish() {
   const t = useTranslations('liveFish');
   const alt = useTranslations('alt');
+  const nav = useTranslations('nav');
   const species = t.raw('species') as Species[];
 
   return (
@@ -22,8 +24,8 @@ export default function LiveFish() {
             <div className="grid grid-cols-2 gap-3 sm:gap-4">
               <div className="relative mt-8 aspect-[3/4] overflow-hidden rounded-sm bg-sea/20 sm:mt-12">
                 <Image
-                  src="/images/shoot-dorade.webp"
-                  alt={alt('shootDorade')}
+                  src="/images/shoot-live-carp.webp"
+                  alt={alt('shootLiveCarp')}
                   fill
                   sizes="(min-width:1024px) 22vw, 45vw"
                   className="object-cover"
@@ -76,13 +78,22 @@ export default function LiveFish() {
               <p className="mt-9 max-w-lg text-pretty text-sm leading-relaxed text-cream/60">
                 {t('note')}
               </p>
-              <a
-                href={SITE.phoneHref}
-                className="mt-7 inline-flex h-12 items-center gap-2 rounded-full bg-cream px-6 font-mono text-xs uppercase tracking-[0.12em] text-sea-deep transition-colors duration-200 hover:bg-sand"
-              >
-                {t('cta')}
-                <ArrowRight width={14} height={14} />
-              </a>
+              <div className="mt-7 flex flex-wrap items-center gap-3">
+                <a
+                  href={SITE.phoneHref}
+                  className="inline-flex h-12 items-center gap-2 rounded-full bg-cream px-6 font-mono text-xs uppercase tracking-[0.12em] text-sea-deep transition-colors duration-200 hover:bg-sand"
+                >
+                  {t('cta')}
+                  <ArrowRight width={14} height={14} />
+                </a>
+                <Link
+                  href="/sortiment"
+                  className="inline-flex h-12 items-center gap-2 rounded-full border border-cream/35 px-6 font-mono text-xs uppercase tracking-[0.12em] text-cream transition-colors duration-200 hover:border-cream hover:bg-cream hover:text-sea-deep"
+                >
+                  {nav('sortiment')}
+                  <ArrowRight width={14} height={14} />
+                </Link>
+              </div>
             </Reveal>
           </div>
         </div>

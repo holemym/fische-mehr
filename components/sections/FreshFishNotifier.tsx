@@ -72,7 +72,7 @@ export default function FreshFishNotifier() {
           ) : (
             <form onSubmit={onSubmit} noValidate>
               {/* hidden context so the shop knows what this submission is */}
-              <input type="hidden" name="_subject" value="Frischer-Fisch-Alarm — Anmeldung" />
+              <input type="hidden" name="_subject" value="Fisch-Alarm — neue Anmeldung über die Website" />
               <input type="hidden" name="form" value="fresh-fish-notifier" />
               <label htmlFor="notify-email" className="sr-only">
                 {t('placeholder')}

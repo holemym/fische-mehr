@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "Fische & mehr",
-    "tagline": "frischer fisch & spezialitäten. wien."
+    "tagline": "lebendige fische & spezialitäten. wien."
   },
   "nav": {
     "home": "Start",
@@ -40,9 +40,9 @@
   "whatsappPrefill": "Hallo Fische & mehr, ich habe eine Frage zum Tagesangebot.",
   "home": {
     "hero": {
-      "eyebrow": "fisch & spezialitäten · wien 1020",
-      "title": "frischer fisch.\nund vieles mehr.",
-      "subtitle": "ein kleines fachgeschäft im 2. bezirk: wirklich frischer fisch — dazu trockenfrüchte, nüsse, naturhonig, gewürze und spirituosen aus usbekistan und der region.",
+      "eyebrow": "lebendige fische · wien 1020",
+      "title": "lebendige fische.\nund vieles mehr.",
+      "subtitle": "ein kleines fachgeschäft im 2. bezirk: lebendige fische, frisch für sie geschlachtet — dazu trockenfrüchte, nüsse, naturhonig, gewürze und spirituosen aus usbekistan und der region.",
       "ctaPrimary": "Sortiment ansehen",
       "ctaSecond": "So finden Sie uns"
     },
@@ -56,21 +56,21 @@
         "value": "1020 wien, 2. bezirk"
       },
       "fresh": {
-        "label": "frische",
-        "value": "tagesfrisch, kein lager"
+        "label": "lebendig",
+        "value": "frisch geschlachtet"
       }
     },
     "product": {
       "eyebrow": "das produkt",
-      "title": "frische, die man sieht.",
-      "body": "frischer fisch ist in wien seltener als man denkt. wir setzen auf qualität statt sortimentsbreite — was im tresen liegt, lag nicht tagelang im kühlhaus. das schmeckt man. das sieht man."
+      "title": "lebendig frisch.",
+      "body": "lebendige fische sind in wien seltener als man denkt. bei uns warten sie im becken, bis sie bestellt werden — und werden frisch für sie geschlachtet. frischer geht es nicht. das schmeckt man. das sieht man."
     },
     "sortiment": {
       "eyebrow": "was es gibt",
       "title": "zwei dinge, beide richtig gut.",
       "fish": {
         "title": "fisch",
-        "body": "frisch, koscher, sorgfältig ausgewählt. von klassisch bis besonders."
+        "body": "lebendig, frisch, sorgfältig ausgewählt. von klassisch bis besonders."
       },
       "spec": {
         "title": "spezialitäten",
@@ -111,9 +111,9 @@
     },
     "fish": {
       "eyebrow": "fisch",
-      "title": "frischer fisch, koscher.",
+      "title": "lebendige fische, frisch geschlachtet.",
       "body": "wir führen eine sorgfältig ausgewählte auswahl statt eines endlosen sortiments. das hält die qualität hoch und die frische verlässlich. welche arten gerade da sind, hängt vom fang und von der saison ab.",
-      "note": "Lebend im Becken: u. a. Karpfen und Amur (Graskarpfen), frisch für Sie geschlachtet. Tagesfrisch außerdem: Lachs, Forelle, Wolfsbarsch, Dorade, geräucherter Fisch, Kaviar und mehr. Was genau da ist, hängt von Saison und Lieferung ab."
+      "note": "Lebendig im Becken: u. a. Karpfen und Amur (Graskarpfen), frisch für Sie geschlachtet. Tagesfrisch außerdem: Lachs, Forelle, Wolfsbarsch, Dorade, geräucherter Fisch, Kaviar und mehr. Was genau da ist, hängt von Saison und Lieferung ab."
     },
     "spec": {
       "eyebrow": "spezialitäten",
@@ -140,7 +140,7 @@
     "story": {
       "eyebrow": "die geschichte",
       "title": "ein familienbetrieb\nmit wurzeln in zentralasien.",
-      "body": "fische & mehr ist ein kleines fachgeschäft im 2. wiener gemeindebezirk, geführt von einer familie mit wurzeln in zentralasien. mit ihnen kam die überzeugung, dass fisch wirklich frisch sein muss — am besten lebend, direkt aus dem becken. neben lebenden und tagesfrischen fischen bringen wir spezialitäten aus usbekistan, tadschikistan und der region nach wien: dinge, die nach heimat schmecken. heute steht dafür der tresen an der glockengasse — persönlich geführt, mit beratung wie früher."
+      "body": "fische & mehr ist ein kleines fachgeschäft im 2. wiener gemeindebezirk, geführt von einer familie mit wurzeln in zentralasien. mit ihnen kam die überzeugung, dass fisch wirklich frisch sein muss — am besten lebendig, direkt aus dem becken. neben lebendigen und tagesfrischen fischen bringen wir spezialitäten aus usbekistan, tadschikistan und der region nach wien: dinge, die nach heimat schmecken. heute steht dafür der tresen an der glockengasse — persönlich geführt, mit beratung wie früher."
     },
     "kosher": {
       "eyebrow": "koscher",
@@ -226,8 +226,8 @@
     "title": "fisch — und alles,\nwas dazugehört.",
     "intro": "ein fischgeschäft mit herz fürs importierte. neben frischem fisch finden sie bei uns ausgesuchte spezialitäten aus usbekistan und der region — nichts abgehobenes, einfach gute ware.",
     "fish": {
-      "title": "frischer fisch",
-      "body": "tagesfrisch ausgewählt. welche arten da sind, hängt von fang und saison ab."
+      "title": "lebendige fische",
+      "body": "lebendig im becken, frisch für sie geschlachtet. welche arten da sind, hängt von fang und saison ab."
     },
     "dried": {
       "title": "trockenfrüchte",
@@ -251,8 +251,8 @@
     }
   },
   "notifier": {
-    "eyebrow": "frischer-fisch-alarm",
-    "title": "wir sagen bescheid,\nwenn frischer fisch da ist.",
+    "eyebrow": "fisch-alarm",
+    "title": "wir sagen bescheid,\nwenn frischer fang da ist.",
     "body": "hinterlassen sie ihre e-mail — wir melden uns, wenn neue ware eintrifft oder es vor den feiertagen etwas besonderes gibt. kein spam, jederzeit abbestellbar.",
     "placeholder": "Ihre E-Mail-Adresse",
     "submit": "Benachrichtigen",
@@ -368,8 +368,8 @@
     "eyebrow": "warum fische & mehr",
     "title": "klein, ehrlich,\nund genau richtig.",
     "c1": {
-      "title": "wirklich frisch",
-      "body": "fisch, der nicht tagelang im kühlhaus lag. was im tresen liegt, ist frisch — das schmeckt man und das sieht man."
+      "title": "lebendig & frisch",
+      "body": "lebendige fische aus dem becken, frisch für sie geschlachtet — nicht tagelang im kühlhaus gelegen. das schmeckt man und das sieht man."
     },
     "c2": {
       "title": "herkunft im regal",
@@ -381,11 +381,11 @@
     }
   },
   "liveFish": {
-    "eyebrow": "lebende fische",
+    "eyebrow": "lebendige fische",
     "title": "frisch ist, was heute\nnoch geschwommen ist.",
-    "body": "das herz unseres geschäfts sind lebende fische. sie warten bei uns im becken, bis sie bestellt werden — dann werden sie frisch für sie geschlachtet, geputzt und filetiert. frischer geht fisch nicht. genau so kennt man es aus zentralasien, und genau so machen wir es mitten im zweiten bezirk.",
-    "listTitle": "typische arten, lebend & frisch geschlachtet",
-    "note": "welche fische gerade lebend im becken sind, hängt von saison und lieferung ab — fragen Sie einfach im laden oder telefonisch nach.",
+    "body": "das herz unseres geschäfts sind lebendige fische. sie warten bei uns im becken, bis sie bestellt werden — dann werden sie frisch für sie geschlachtet, geputzt und filetiert. frischer geht fisch nicht. genau so kennt man es aus zentralasien, und genau so machen wir es mitten im zweiten bezirk.",
+    "listTitle": "typische arten, lebendig & frisch geschlachtet",
+    "note": "welche fische gerade lebendig im becken sind, hängt von saison und lieferung ab — fragen Sie einfach im laden oder telefonisch nach.",
     "cta": "Nach dem Tagesfang fragen",
     "species": [
       {
@@ -458,16 +458,18 @@
     "shootSpirits2": "Spirituosenauswahl, Nahaufnahme",
     "shootSunflowerSeeds": "Sonnenblumenkerne im Regal",
     "shootDriedGoodsShelf": "Regal mit Trockenwaren und Hülsenfrüchten",
-    "shootGrainBags": "Getreide- und Hülsenfrüchte-Auswahl im Regal"
+    "shootGrainBags": "Getreide- und Hülsenfrüchte-Auswahl im Regal",
+    "shootLiveCarp": "Lebendige Karpfen im Wasserbecken bei Fische & mehr",
+    "shootTuna": "Frische Thunfisch-Loins, frisch zugeschnitten"
   },
   "meta": {
     "home": {
-      "title": "Fische & mehr — Frischer koscherer Fisch in Wien 1020",
-      "description": "Frischer, koscher zertifizierter Fisch im 2. Bezirk in Wien. Dazu Spezialitäten aus Usbekistan und Tadschikistan. Tagesfrisch, persönlich, spezialisiert."
+      "title": "Fische & mehr — Lebendige & frische Fische in Wien 1020",
+      "description": "Lebendige Fische, frisch für Sie geschlachtet, im 2. Bezirk in Wien. Dazu koschere Spezialitäten aus Usbekistan und Tadschikistan. Tagesfrisch, persönlich, spezialisiert."
     },
     "sortiment": {
       "title": "Sortiment — Fische & mehr",
-      "description": "Frischer koscherer Fisch und zentralasiatische Spezialitäten. Tagesware — fragen Sie nach dem aktuellen Angebot."
+      "description": "Lebendige und frische Fische sowie zentralasiatische Spezialitäten. Tagesware — fragen Sie nach dem aktuellen Angebot."
     },
     "ueber": {
       "title": "Über uns — Fische & mehr",
@@ -485,5 +487,10 @@
       "title": "Datenschutz — Fische & mehr",
       "description": "Datenschutzerklärung von Fische & mehr gemäß DSGVO."
     }
+  },
+  "portions": {
+    "eyebrow": "frisch zugeschnitten",
+    "title": "so sehen unsere\nportionen aus.",
+    "body": "jeder fisch wird bei uns frisch für sie zugeschnitten — in der größe, die sie brauchen."
   }
 }

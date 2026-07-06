@@ -45,6 +45,7 @@ export default function Header() {
     href === '/' ? pathname === '/' : pathname.startsWith(href);
 
   return (
+    <>
     <header
       className={clsx(
         'sticky top-0 z-50 transition-[background-color,border-color,backdrop-filter] duration-300',
@@ -123,17 +124,21 @@ export default function Header() {
           {open ? <Close width={24} height={24} /> : <Menu width={24} height={24} />}
         </button>
       </div>
+    </header>
 
-      {/* Mobile full-screen overlay */}
+      {/* Mobile full-screen overlay — rendered as a sibling of <header> (not a
+          child) so its `fixed` positioning is not trapped in the header's
+          backdrop-filter containing block once the header gets backdrop-blur on
+          scroll. That trapping is what broke the menu after scrolling on mobile. */}
       <div
         id="mobile-menu"
         className={clsx(
-          'fixed inset-0 top-[var(--header-h)] z-40 bg-sea-deep text-cream md:hidden',
+          'fixed inset-x-0 bottom-0 top-[var(--header-h)] z-40 overflow-y-auto bg-sea-deep text-cream md:hidden',
           'transition-opacity duration-300',
           open ? 'opacity-100' : 'pointer-events-none opacity-0',
         )}
       >
-        <div className="container-page flex h-full flex-col justify-between py-10">
+        <div className="container-page flex min-h-full flex-col justify-between py-10">
           <nav className="flex flex-col gap-1" aria-label="Hauptnavigation mobil">
             {NAV.map(({ href, key }) => (
               <Link
@@ -161,6 +166,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-    </header>
+    </>
   );
 }

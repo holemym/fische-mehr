@@ -7,6 +7,7 @@ import TodayFresh from '@/components/sections/TodayFresh';
 import TrustBar from '@/components/sections/TrustBar';
 import Marquee from '@/components/sections/Marquee';
 import LiveFish from '@/components/sections/LiveFish';
+import Portions from '@/components/sections/Portions';
 import ProductGallery from '@/components/sections/ProductGallery';
 import ProductCategories from '@/components/sections/ProductCategories';
 import Product from '@/components/sections/Product';
@@ -39,6 +40,7 @@ export default function HomePage({
       <LiveFish />
       <Marquee />
       <ProductGallery />
+      <Portions />
       <ProductCategories />
       <Product />
       <WhyStack />
