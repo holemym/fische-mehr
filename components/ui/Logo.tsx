@@ -26,8 +26,8 @@ export function Logo({
   return (
     <span className={clsx('inline-flex items-center gap-2.5', className)}>
       <FishMark className={markClass} />
-      <span className="font-display text-lg lowercase tracking-tight">
-        fische <span className="text-sea-light">&amp;</span> mehr
+      <span className="font-display text-lg tracking-tight">
+        Fische <span className="text-sea-light">&amp;</span> mehr
       </span>
     </span>
   );

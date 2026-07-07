@@ -90,7 +90,7 @@ export default function WhyStack() {
                     0{i + 1}
                   </span>
                   <div className="max-w-xl">
-                    <h3 className="font-display text-3xl lowercase tracking-tight text-sea-deep">
+                    <h3 className="font-display text-3xl tracking-tight text-sea-deep">
                       {t(`${k}.title`)}
                     </h3>
                     <p className="mt-3 text-pretty leading-relaxed text-grey-dark">

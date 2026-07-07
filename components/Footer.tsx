@@ -33,8 +33,8 @@ export default function Footer() {
               height={48}
               className="h-11 w-11 rounded-sm"
             />
-            <span className="font-display text-2xl lowercase tracking-tight">
-              fische <span className="text-sea-light">&amp;</span> mehr
+            <span className="font-display text-2xl tracking-tight">
+              Fische <span className="text-sea-light">&amp;</span> mehr
             </span>
           </span>
           <p className="mt-3 font-mono text-xs uppercase tracking-[0.14em] text-sand">

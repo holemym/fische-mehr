@@ -163,10 +163,13 @@ blocks first paint. A **custom branded loop** rendered with Remotion lives in
 `../hero-remotion/` — see its README to re-render.
 
 ### Logo & favicon
-Real logo assets: `public/logo-mark.svg` (fish mark, used inline as `<FishMark>` in
-`components/ui/Logo.tsx`), `public/logo-full.svg` (full lockup, used in JSON-LD `logo`),
-`public/wave.svg`. Favicon (`public/favicon.svg`) uses the real fish mark on a sea-deep
-background. No PNG icon set (apple-touch-icon, android-chrome sizes) exists yet — see TODO list.
+The real shop logo (blue badge with white fish + waves, "FISCHE & MEHR") is now used site-wide:
+`public/images/logo-badge.webp` in the Header & Footer, and a full PNG icon set generated from it —
+`public/favicon.ico`, `favicon-16x16.png`, `favicon-32x32.png`, `apple-touch-icon.png`,
+`android-chrome-192x192.png`, `android-chrome-512x512.png`, plus `public/logo.png` (512px, used as
+the JSON-LD `logo`). Wired in `app/[locale]/layout.tsx` (`icons`) and `public/site.webmanifest`.
+The decorative `<FishMark>` SVG (`components/ui/Logo.tsx`, `public/logo-mark.svg`) is still used for
+ambient watermarks (`BrandBackdrop`, etc.). Source logo: `../extra photos from david/fische logo old.jpg`.
 
 ---
 
@@ -234,24 +237,31 @@ reading-direction-sensitive content, and mirroring them wasn't worth the complex
 
 ## TODO facts the shop owner still needs to provide
 
-- [ ] **Exact house number** — `config.address` (all 4 message files) + `lib/site.ts` `streetAddress`
-- [ ] **Geo coordinates** — `lib/site.ts` `geo` (currently an approximation of the street corner)
-- [ ] **Kosher certification body** — `home.trust.kosher.value`, `home.kosher.body`, `ueber.kosher.body`, `faq.items`
-- [ ] **Exact opening hours** — the free-text `config.hoursWeekday/Friday/Weekend` in messages, AND separately `SITE.hours` in `lib/site.ts` for structured data (see comment there)
-- [ ] **Fish species list** — `sortiment.fish.note`
-- [ ] **Specialty products list** — `sortiment.spec.note`
-- [ ] **Real founder story** — `ueber.story.title` + `ueber.story.body`
-- [ ] **Transit / parking info** — `kontakt.transit.body`
-- [ ] **Shop phone, e-mail, WhatsApp number** — all currently ⟦placeholders⟧ in `lib/site.ts` and messages (deliberately stripped of any personal contact info)
-- [ ] **Production domain** — `lib/site.ts` `url`
+> Full, prioritised, client-facing version lives in **`CLIENT-QUESTIONS.md`** (repo root, in German).
+
+### ✅ Provided / done (July 2026)
+Address **Glockengasse 22, 1020 Wien** + geocoded `geo` coords · phone **0676 844293203** ·
+email **angelina.refaelov@chello.at** · WhatsApp (same number) · hours **Mo–Fr 08:30–17:30, Sa/So
+geschlossen** (display + `SITE.hours` JSON-LD) · real logo + full favicon/app-icon set (generated
+from the shop's logo) · 11 new shop photos processed + distributed across the site · new
+**"Lebende Fische"** section · fish + specialty product notes written · founder story drafted
+(grounded, flagged for confirmation) · fake testimonials removed. **No `⟦⟧` placeholders remain**
+in `lib/site.ts` or `messages/*.json`.
+
+### ⏳ Still outstanding
+- [ ] **Impressum legal data** — Firmenwortlaut/Inhaber:in, UID (ATU…), Firmenbuch — currently
+      "(wird ergänzt)" in `components/LegalContent.tsx`. Legally required; cannot be fabricated.
+- [ ] **Live-fish species list** — confirm/adjust `liveFish.species` (all 4 message files) + `sortiment.fish.note`
+- [ ] **Kosher certification body** — copy currently says "koscher" without naming a certifier
+- [ ] **Founder story** — confirm/expand `ueber.story.*` (a grounded draft is in place)
+- [ ] **Confirm WhatsApp is active** on 0676 844293203 (WhatsApp buttons link to it)
+- [ ] **Transit lines / parking** — `kontakt.transit.body`, `config.transit`
 - [ ] **Google Business Profile review link** — `lib/site.ts` `googleReviewsLink`, once claimed
-- [ ] **Real testimonials** — `reviews.items` are placeholder quotes, clearly marked
+- [ ] **Real testimonials** — Reviews section was removed; re-add with real Google quotes if wanted
 - [ ] **Instagram / social links** — `lib/site.ts` `instagram`
-- [ ] **Specialties photo + real shoot photos** — replace `public/images/*` (keep filenames)
-- [ ] **Impressum / Datenschutz specifics** — company name, UID, Firmenbuch (see `⟦…⟧` in `components/LegalContent.tsx`); have a lawyer review before launch
-- [ ] **Formspree form ID** — `.env.local`
-- [ ] **PNG icon set** — apple-touch-icon.png (180×180), favicon PNGs, android-chrome sizes — generate from `public/logo-mark.svg` (e.g. via realfavicongenerator.net); no local rasterizer (`sharp`) was available in this environment
-- [ ] **Native EN / RU / HE review** — all three are machine drafts (`_meta` flag in each file)
+- [ ] **Production domain** — `lib/site.ts` `url` (currently `fische-mehr.vercel.app`)
+- [ ] **Formspree form ID** — `NEXT_PUBLIC_FORMSPREE_ID` (Vercel env); forms don't send without it
+- [ ] **Native EN / RU / HE review** — all three are solid machine drafts (`_meta` flag in each file)
 
 ---
 

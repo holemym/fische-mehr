@@ -43,7 +43,7 @@ export default function Faq() {
             {items.map((item, i) => (
               <details key={i} className="group py-1">
                 <summary className="flex cursor-pointer list-none items-center justify-between gap-4 py-4 text-sea-deep marker:content-none">
-                  <dt className="font-display text-lg lowercase tracking-tight sm:text-xl">
+                  <dt className="font-display text-lg tracking-tight sm:text-xl">
                     {item.q}
                   </dt>
                   <span

@@ -41,7 +41,7 @@ export default function ProductCategories() {
                 <SectionNumber index={i + 1} total={ITEMS.length} />
                 <FishMark className="h-5 w-auto text-sea/25 transition-colors duration-300 group-hover:text-sea" />
               </div>
-              <h3 className="mt-5 font-display text-2xl lowercase tracking-tight text-sea-deep">
+              <h3 className="mt-5 font-display text-2xl tracking-tight text-sea-deep">
                 {t(`${key}.title`)}
               </h3>
               <p className="mt-2.5 text-pretty text-sm leading-relaxed text-grey-dark">

@@ -59,7 +59,7 @@ export default function ContactForm() {
         aria-live="polite"
         className="rounded-sm border border-navy/15 bg-paper-soft p-8 text-navy"
       >
-        <p className="font-display text-2xl lowercase tracking-tight">{t('success')}</p>
+        <p className="font-display text-2xl tracking-tight">{t('success')}</p>
       </div>
     );
   }

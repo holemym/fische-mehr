@@ -70,7 +70,7 @@ export default function FindUs() {
               <Pin className="text-sea" />
               <h3 className="eyebrow">{t('addrTitle')}</h3>
             </div>
-            <p className="mt-3 font-display text-xl lowercase tracking-tight text-sea-deep">
+            <p className="mt-3 font-display text-xl tracking-tight text-sea-deep">
               {c('address')}
             </p>
           </Reveal>

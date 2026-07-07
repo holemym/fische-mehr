@@ -65,7 +65,7 @@ export default function FreshFishNotifier() {
             <p
               role="status"
               aria-live="polite"
-              className="rounded-sm border border-sea-light/30 bg-sea/20 p-6 font-display text-2xl lowercase tracking-tight text-cream"
+              className="rounded-sm border border-sea-light/30 bg-sea/20 p-6 font-display text-2xl tracking-tight text-cream"
             >
               {t('success')}
             </p>

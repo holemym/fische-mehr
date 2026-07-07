@@ -28,7 +28,7 @@ export default function SectionTitle({
   return (
     <Tag
       className={clsx(
-        'font-display font-normal lowercase tracking-tight text-balance',
+        'font-display font-normal tracking-tight text-balance',
         'leading-[1.05]',
         sizes[size],
         className,

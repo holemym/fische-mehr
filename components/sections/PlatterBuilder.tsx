@@ -122,7 +122,7 @@ export default function PlatterBuilder() {
               aria-live="polite"
               className="max-w-xl rounded-sm border border-sea-deep/15 bg-cream p-8"
             >
-              <p className="font-display text-2xl lowercase tracking-tight text-sea-deep">
+              <p className="font-display text-2xl tracking-tight text-sea-deep">
                 {t('success')}
               </p>
             </div>

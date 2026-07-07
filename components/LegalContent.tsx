@@ -7,7 +7,7 @@ import { SITE } from '@/lib/site';
  */
 
 const H = ({ children }: { children: React.ReactNode }) => (
-  <h2 className="mt-10 font-display text-2xl lowercase tracking-tight text-sea-deep first:mt-0">
+  <h2 className="mt-10 font-display text-2xl tracking-tight text-sea-deep first:mt-0">
     {children}
   </h2>
 );

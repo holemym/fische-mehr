@@ -140,7 +140,7 @@ export default function UeberUnsPage({
             {VALUES.map((v, i) => (
               <Reveal key={v} delay={i * 80} className="bg-cream p-8 sm:p-9">
                 <p className="font-mono text-sm text-sea">0{i + 1}</p>
-                <h3 className="mt-4 font-display text-2xl lowercase tracking-tight text-sea-deep">
+                <h3 className="mt-4 font-display text-2xl tracking-tight text-sea-deep">
                   {t(`values.${v}.title`)}
                 </h3>
                 <p className="mt-3 text-pretty leading-relaxed text-grey-dark">

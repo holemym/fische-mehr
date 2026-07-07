@@ -18,7 +18,7 @@ export default function TrustBar() {
               className="flex flex-col gap-1.5 py-7 sm:px-8 sm:py-9 sm:first:pl-0 sm:last:pr-0"
             >
               <dt className="eyebrow">{t(`${key}.label`)}</dt>
-              <dd className="font-display text-xl lowercase tracking-tight text-navy sm:text-2xl">
+              <dd className="font-display text-xl tracking-tight text-navy sm:text-2xl">
                 {t(`${key}.value`)}
               </dd>
             </Reveal>

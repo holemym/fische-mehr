@@ -73,7 +73,7 @@ export default function KontaktPage({
           {/* Message form */}
           <Reveal delay={80}>
             <div className="rounded-sm border border-sea-deep/10 bg-cream p-6 sm:p-8">
-              <h2 className="font-display text-3xl lowercase tracking-tight text-sea-deep">
+              <h2 className="font-display text-3xl tracking-tight text-sea-deep">
                 {t('form.title')}
               </h2>
               <p className="mt-2 text-sm text-grey">

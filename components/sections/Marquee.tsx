@@ -17,7 +17,7 @@ export default function Marquee() {
       <div className="flex w-max animate-marquee items-center motion-reduce:animate-none">
         {track.map((word, i) => (
           <span key={i} className="flex items-center whitespace-nowrap">
-            <span className="px-7 font-display text-xl lowercase tracking-tight text-cream sm:text-2xl">
+            <span className="px-7 font-display text-xl tracking-tight text-cream sm:text-2xl">
               {word}
             </span>
             <span aria-hidden className="text-sand">

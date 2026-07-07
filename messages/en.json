@@ -2,7 +2,7 @@
   "_meta": "DRAFT — machine translation from de.json. Needs native EN review before launch.",
   "brand": {
     "name": "Fische & mehr",
-    "tagline": "live fish & specialties. vienna."
+    "tagline": "Live fish & specialties. Vienna."
   },
   "nav": {
     "home": "Home",
@@ -42,163 +42,163 @@
   "home": {
     "hero": {
       "eyebrow": "live fish · vienna 1020",
-      "title": "live fish.\nand much more.",
-      "subtitle": "a small speciality shop in the 2nd district: live fish, freshly slaughtered for you — plus dried fruit, nuts, natural honey, spices and spirits from uzbekistan and the region.",
+      "title": "Live fish.\nAnd much more.",
+      "subtitle": "A small speciality shop in the 2nd district: live fish, freshly slaughtered for you — plus dried fruit, nuts, natural honey, spices and spirits from Uzbekistan and the region.",
       "ctaPrimary": "View the range",
       "ctaSecond": "How to find us"
     },
     "trust": {
       "kosher": {
-        "label": "kosher",
-        "value": "kosher · traditional"
+        "label": "Kosher",
+        "value": "Kosher · traditional"
       },
       "location": {
-        "label": "location",
+        "label": "Location",
         "value": "1020 vienna, 2nd district"
       },
       "fresh": {
-        "label": "live",
-        "value": "freshly slaughtered"
+        "label": "Live",
+        "value": "Freshly slaughtered"
       }
     },
     "product": {
-      "eyebrow": "the product",
-      "title": "fresh, alive.",
-      "body": "live fish is rarer in vienna than you'd think. here it waits in the tank until you order — and is slaughtered fresh for you. fish doesn't get fresher. you taste it. you see it."
+      "eyebrow": "The product",
+      "title": "Fresh, alive.",
+      "body": "Live fish is rarer in Vienna than you'd think. Here it waits in the tank until you order — and is slaughtered fresh for you. Fish doesn't get fresher. You taste it. You see it."
     },
     "sortiment": {
-      "eyebrow": "what we have",
-      "title": "two things, both done right.",
+      "eyebrow": "What we have",
+      "title": "Two things, both done right.",
       "fish": {
-        "title": "fish",
-        "body": "live, fresh, carefully chosen. from classic to special."
+        "title": "Fish",
+        "body": "Live, fresh, carefully chosen. From classic to special."
       },
       "spec": {
-        "title": "specialties",
-        "body": "dried fruit, spices and products from Uzbekistan, Tajikistan and the region."
+        "title": "Specialties",
+        "body": "Dried fruit, spices and products from Uzbekistan, Tajikistan and the region."
       },
       "cta": "See the full range"
     },
     "origin": {
-      "eyebrow": "origin",
-      "title": "from central asia\nto the second district.",
-      "body": "the specialties are no accident. they come from where we come from — bringing a piece of home to vienna.",
+      "eyebrow": "Origin",
+      "title": "From Central Asia\nTo the second district.",
+      "body": "The specialties are no accident. They come from where we come from — bringing a piece of home to Vienna.",
       "cta": "Our story"
     },
     "kosher": {
-      "eyebrow": "kosher",
-      "title": "kosher isn't a label.\nit's a promise.",
-      "body": "our fish is kosher and carefully handled. for our customers that means reliability — without having to ask."
+      "eyebrow": "Kosher",
+      "title": "Kosher isn't a label.\nIt's a promise.",
+      "body": "Our fish is kosher and carefully handled. For our customers that means reliability — without having to ask."
     },
     "location": {
-      "eyebrow": "find & visit",
-      "title": "right in the second.",
-      "hoursTitle": "opening hours",
-      "addrTitle": "address",
+      "eyebrow": "Find & visit",
+      "title": "Right in the second.",
+      "hoursTitle": "Opening hours",
+      "addrTitle": "Address",
       "cta": "Route & contact"
     },
     "cta": {
-      "title": "come by.",
-      "body": "questions about today's selection? give us a call or message us on whatsapp. we're happy to help.",
+      "title": "Come by.",
+      "body": "Questions about today's selection? Give us a call or message us on WhatsApp. We're happy to help.",
       "call": "Call",
       "whatsapp": "Message on WhatsApp"
     }
   },
   "sortiment": {
     "hero": {
-      "eyebrow": "range",
-      "title": "what's in our counter.",
-      "intro": "we deliberately don't list prices here — fresh fish is daily produce, and prices follow the market and the season. just ask, in the shop, by phone or on whatsapp."
+      "eyebrow": "Range",
+      "title": "What's in our counter.",
+      "intro": "We deliberately don't list prices here — fresh fish is daily produce, and prices follow the market and the season. Just ask, in the shop, by phone or on WhatsApp."
     },
     "fish": {
-      "eyebrow": "fish",
-      "title": "live fish, freshly slaughtered.",
-      "body": "we carry a carefully chosen selection rather than an endless range. that keeps the quality high and the freshness dependable. which species are in right now depends on the catch and the season.",
-      "note": "Live in the tank: carp and amur (grass carp), slaughtered fresh for you. Also day-fresh: salmon, trout, sea bass, sea bream, smoked fish, caviar and more. What's in stock depends on season and delivery."
+      "eyebrow": "Fish",
+      "title": "Live fish, freshly slaughtered.",
+      "body": "We carry a carefully chosen selection rather than an endless range. That keeps the quality high and the freshness dependable. Which species are in right now depends on the catch and the season.",
+      "note": "Live in the tank: carp and Amur (grass carp), slaughtered fresh for you. Also day-fresh: salmon, trout, sea bass, sea bream, smoked fish, caviar and more. What's in stock depends on season and delivery."
     },
     "spec": {
-      "eyebrow": "specialties",
-      "title": "treasures from central asia.",
-      "body": "dried fruit, nuts, spices and selected products from Uzbekistan, Tajikistan and the region. things with origin and story — rarely found in vienna.",
+      "eyebrow": "Specialties",
+      "title": "Treasures from Central Asia.",
+      "body": "Dried fruit, nuts, spices and selected products from Uzbekistan, Tajikistan and the region. Things with origin and story — rarely found in Vienna.",
       "note": "Dried fruit, nuts, natural honey, spices, pickled vegetables, sweets and spirits from Uzbekistan, Tajikistan and the region."
     },
     "platter": {
-      "eyebrow": "for shabbat",
-      "title": "fish platters to pre-order.",
-      "body": "for shabbat and holidays we put together fish platters. order in good time — best by phone or whatsapp.",
+      "eyebrow": "For Shabbat",
+      "title": "Fish platters to pre-order.",
+      "body": "For Shabbat and holidays we put together fish platters. Order in good time — best by phone or WhatsApp.",
       "cta": "Pre-order"
     },
     "cta": {
-      "title": "looking for something specific?",
-      "body": "give us a call or message us. we'll tell you what's fresh today."
+      "title": "Looking for something specific?",
+      "body": "Give us a call or message us. We'll tell you what's fresh today."
     }
   },
   "ueber": {
     "hero": {
-      "eyebrow": "about us",
-      "title": "one shop, one origin,\none conviction."
+      "eyebrow": "About us",
+      "title": "One shop, one origin,\nOne conviction."
     },
     "story": {
-      "eyebrow": "the story",
-      "title": "a family business\nwith roots in central asia.",
-      "body": "fische & mehr is a small speciality shop in vienna's 2nd district, run by a family with roots in central asia. with them came the conviction that fish has to be truly fresh — ideally live, straight from the tank. alongside live and day-fresh fish we bring specialities from uzbekistan, tajikistan and the region to vienna: things that taste of home. today all of that lives behind the counter on glockengasse — personally run, with advice like in the old days."
+      "eyebrow": "The story",
+      "title": "A family business\nWith roots in Central Asia.",
+      "body": "Fische & mehr is a small speciality shop in Vienna's 2nd district, run by a family with roots in Central Asia. With them came the conviction that fish has to be truly fresh — ideally live, straight from the tank. Alongside live and day-fresh fish we bring specialities from Uzbekistan, Tajikistan and the region to Vienna: things that taste of home. Today all of that lives behind the counter on Glockengasse — personally run, with advice like in the old days."
     },
     "kosher": {
-      "eyebrow": "kosher",
-      "title": "what you can rely on.",
-      "body": "our fish is kosher. for us that's not a selling point but a matter of course toward a community that knows exactly what matters."
+      "eyebrow": "Kosher",
+      "title": "What you can rely on.",
+      "body": "Our fish is kosher. For us that's not a selling point but a matter of course toward a community that knows exactly what matters."
     },
     "origin": {
-      "eyebrow": "origin",
-      "title": "uzbekistan, tajikistan, vienna.",
-      "body": "the specialties in our shop come from where our roots are. they are a bridge — between two worlds, and between people looking for a piece of home."
+      "eyebrow": "Origin",
+      "title": "Uzbekistan, Tajikistan, Vienna.",
+      "body": "The specialties in our shop come from where our roots are. They are a bridge — between two worlds, and between people looking for a piece of home."
     },
     "values": {
-      "eyebrow": "approach",
-      "title": "small, honest, specialized.",
+      "eyebrow": "Approach",
+      "title": "Small, honest, specialized.",
       "v1": {
-        "title": "quality over quantity",
-        "body": "a few species genuinely fresh, rather than a full shelf from yesterday."
+        "title": "Quality over quantity",
+        "body": "A few species genuinely fresh, rather than a full shelf from yesterday."
       },
       "v2": {
-        "title": "personal",
-        "body": "we know our goods and our customers. this is not a supermarket."
+        "title": "Personal",
+        "body": "We know our goods and our customers. This is not a supermarket."
       },
       "v3": {
-        "title": "dependable",
-        "body": "kosher, fresh, there when you need us — especially before the holidays."
+        "title": "Dependable",
+        "body": "Kosher, fresh, there when you need us — especially before the holidays."
       }
     }
   },
   "kontakt": {
     "hero": {
-      "eyebrow": "contact",
-      "title": "find us."
+      "eyebrow": "Contact",
+      "title": "Find us."
     },
     "address": {
-      "title": "address"
+      "title": "Address"
     },
     "hours": {
-      "title": "opening hours",
-      "friday": "friday (before shabbat)",
-      "note": "hours may differ on holidays. when in doubt, give us a quick call."
+      "title": "Opening hours",
+      "friday": "Friday (before Shabbat)",
+      "note": "Hours may differ on holidays. When in doubt, give us a quick call."
     },
     "phone": {
-      "title": "phone"
+      "title": "Phone"
     },
     "whatsapp": {
-      "title": "whatsapp",
-      "body": "the fastest way to reach us is whatsapp — also for questions about today's selection or for pre-orders."
+      "title": "WhatsApp",
+      "body": "The fastest way to reach us is WhatsApp — also for questions about today's selection or for pre-orders."
     },
     "email": {
-      "title": "e-mail"
+      "title": "E-mail"
     },
     "transit": {
-      "title": "getting here",
+      "title": "Getting here",
       "body": "Just a few minutes' walk from Taborstraße station. Well connected by public transport; you'll find parking in the surrounding streets."
     },
     "form": {
-      "title": "write to us.",
+      "title": "Write to us.",
       "name": "Name",
       "contact": "E-mail or phone",
       "message": "Your message",
@@ -211,50 +211,50 @@
     }
   },
   "gallery": {
-    "eyebrow": "the counter",
-    "title": "a look\ninside the counter.",
-    "intro": "no price list — fish is daily produce. this is an impression of what goes over our counter. ask in the shop, by phone or on whatsapp about today's selection.",
+    "eyebrow": "The counter",
+    "title": "A look\nInside the counter.",
+    "intro": "No price list — fish is daily produce. This is an impression of what goes over our counter. Ask in the shop, by phone or on WhatsApp about today's selection.",
     "all": "All",
     "fish": "Fish",
     "spec": "Specialties",
     "count": "{count} images",
-    "tagFish": "fish",
-    "tagSpec": "specialty",
+    "tagFish": "Fish",
+    "tagSpec": "Specialty",
     "note": "Photos from our shop. The daily offer changes — just ask what's fresh today."
   },
   "categories": {
-    "eyebrow": "what we carry",
-    "title": "fish — and everything\nthat goes with it.",
-    "intro": "a fish shop with a soft spot for the imported. alongside fresh fish you'll find selected specialties from Uzbekistan and the region — nothing fancy, just good stuff.",
+    "eyebrow": "What we carry",
+    "title": "Fish — and everything\nThat goes with it.",
+    "intro": "A fish shop with a soft spot for the imported. Alongside fresh fish you'll find selected specialties from Uzbekistan and the region — nothing fancy, just good stuff.",
     "fish": {
-      "title": "live fish",
-      "body": "live in the tank, freshly slaughtered for you. which species are in depends on the catch and the season."
+      "title": "Live fish",
+      "body": "Live in the tank, freshly slaughtered for you. Which species are in depends on the catch and the season."
     },
     "dried": {
-      "title": "dried fruit",
-      "body": "apricots, raisins, melon and more — sun-dried, from the region."
+      "title": "Dried fruit",
+      "body": "Apricots, raisins, melon and more — sun-dried, from the region."
     },
     "nuts": {
-      "title": "nuts",
-      "body": "walnuts, almonds, pistachios. to snack, bake or give."
+      "title": "Nuts",
+      "body": "Walnuts, almonds, pistachios. To snack, bake or give."
     },
     "honey": {
-      "title": "natural honey",
-      "body": "real, unprocessed honey. bold and honest in taste."
+      "title": "Natural honey",
+      "body": "Real, unprocessed honey. Bold and honest in taste."
     },
     "spices": {
-      "title": "spices",
-      "body": "aromatic spices for Central Asian cooking and beyond."
+      "title": "Spices",
+      "body": "Aromatic spices for Central Asian cooking and beyond."
     },
     "spirits": {
-      "title": "spirits",
-      "body": "selected spirits and drinks from the region."
+      "title": "Spirits",
+      "body": "Selected spirits and drinks from the region."
     }
   },
   "notifier": {
-    "eyebrow": "fish alert",
-    "title": "we'll let you know\nwhen a fresh catch is in.",
-    "body": "leave your email — we'll get in touch when new stock comes in or there's something special before the holidays. no spam, unsubscribe any time.",
+    "eyebrow": "Fish alert",
+    "title": "We'll let you know\nWhen a fresh catch is in.",
+    "body": "Leave your email — we'll get in touch when new stock comes in or there's something special before the holidays. No spam, unsubscribe any time.",
     "placeholder": "Your email address",
     "submit": "Notify me",
     "sending": "Sending …",
@@ -263,18 +263,18 @@
     "invalid": "Please enter a valid email address."
   },
   "findus": {
-    "eyebrow": "how to find us",
-    "title": "on the corner,\nin the second district.",
-    "addrTitle": "address",
-    "hoursTitle": "opening hours",
-    "transitTitle": "getting here",
+    "eyebrow": "How to find us",
+    "title": "On the corner,\nIn the second district.",
+    "addrTitle": "Address",
+    "hoursTitle": "Opening hours",
+    "transitTitle": "Getting here",
     "mapCta": "Open in Maps",
     "directionsCta": "Get directions",
     "mapAlt": "Map: location of Fische & mehr, corner Novaragasse / Glockengasse, 1020 Vienna"
   },
   "faq": {
-    "eyebrow": "frequent questions",
-    "title": "good to know.",
+    "eyebrow": "Frequent questions",
+    "title": "Good to know.",
     "items": [
       {
         "q": "Can I pre-order fish or fish platters?",
@@ -303,19 +303,19 @@
     ]
   },
   "why": {
-    "eyebrow": "why fische & mehr",
-    "title": "small, honest,\nand just right.",
+    "eyebrow": "Why fische & mehr",
+    "title": "Small, honest,\nAnd just right.",
     "c1": {
-      "title": "live & fresh",
-      "body": "live fish from the tank, freshly slaughtered for you — not sitting in cold storage for days. you taste it and you see it."
+      "title": "Live & fresh",
+      "body": "Live fish from the tank, freshly slaughtered for you — not sitting in cold storage for days. You taste it and you see it."
     },
     "c2": {
-      "title": "origin on the shelf",
-      "body": "dried fruit, nuts, natural honey, spices and more from Uzbekistan and the region — things with a story, rarely found in Vienna."
+      "title": "Origin on the shelf",
+      "body": "Dried fruit, nuts, natural honey, spices and more from Uzbekistan and the region — things with a story, rarely found in Vienna."
     },
     "c3": {
-      "title": "your shop round the corner",
-      "body": "not a supermarket. we know our goods and our customers — personal, right in the 2nd district."
+      "title": "Your shop round the corner",
+      "body": "Not a supermarket. We know our goods and our customers — personal, right in the 2nd district."
     }
   },
   "alt": {
@@ -393,16 +393,16 @@
     }
   },
   "platter": {
-    "eyebrow": "fish platter",
-    "title": "build your\nfish platter.",
-    "intro": "for shabbat, holidays or just because. pick what goes on it — we'll get back to you to confirm. no online payment, just a no-obligation pre-order by email.",
-    "occasionLabel": "occasion",
+    "eyebrow": "Fish platter",
+    "title": "Build your\nFish platter.",
+    "intro": "For Shabbat, holidays or just because. Pick what goes on it — we'll get back to you to confirm. No online payment, just a no-obligation pre-order by email.",
+    "occasionLabel": "Occasion",
     "occasionShabbat": "Shabbat",
     "occasionHoliday": "Holiday",
     "occasionOther": "Other",
-    "personsLabel": "for how many people",
-    "selectionLabel": "selection",
-    "selectionHint": "just tell us what should go on the platter. multiple choice possible.",
+    "personsLabel": "For how many people",
+    "selectionLabel": "Selection",
+    "selectionHint": "Just tell us what should go on the platter. Multiple choice possible.",
     "items": [
       "Salmon",
       "Trout",
@@ -411,11 +411,11 @@
       "Herring",
       "Smoked fish"
     ],
-    "dateLabel": "preferred pickup date",
-    "nameLabel": "name",
-    "contactLabel": "e-mail or phone",
-    "notesLabel": "special requests",
-    "notesPlaceholder": "e.g. quantity, cut, allergies …",
+    "dateLabel": "Preferred pickup date",
+    "nameLabel": "Name",
+    "contactLabel": "E-mail or phone",
+    "notesLabel": "Special requests",
+    "notesPlaceholder": "E.G. Quantity, cut, allergies …",
     "submit": "Send pre-order",
     "sending": "Sending …",
     "success": "Thank you! Your pre-order arrived — we'll get back to you to confirm.",
@@ -424,7 +424,7 @@
     "summaryHeading": "Fish platter pre-order"
   },
   "todayFresh": {
-    "label": "fresh today",
+    "label": "Fresh today",
     "note": "Kept up to date by our team.",
     "items": [
       "Salmon",
@@ -433,8 +433,8 @@
     ]
   },
   "reviews": {
-    "eyebrow": "what customers say",
-    "title": "you can tell\nit's genuine.",
+    "eyebrow": "What customers say",
+    "title": "You can tell\nIt's genuine.",
     "googleCta": "All reviews on Google",
     "note": "",
     "items": [
@@ -456,42 +456,42 @@
     ]
   },
   "liveFish": {
-    "eyebrow": "live fish",
-    "title": "fresh means it was\nstill swimming today.",
-    "body": "the heart of our shop is live fish. they wait in the tank until you order — then they're slaughtered, cleaned and filleted fresh for you. fish doesn't get fresher than this. that's how it's done in central asia, and that's how we do it in the middle of the 2nd district.",
-    "listTitle": "typical species, live & freshly slaughtered",
-    "note": "which fish are live in the tank right now depends on season and delivery — just ask in the shop or by phone.",
+    "eyebrow": "Live fish",
+    "title": "Fresh means it was\nStill swimming today.",
+    "body": "The heart of our shop is live fish. They wait in the tank until you order — then they're slaughtered, cleaned and filleted fresh for you. Fish doesn't get fresher than this. That's how it's done in Central Asia, and that's how we do it in the middle of the 2nd district.",
+    "listTitle": "Typical species, live & freshly slaughtered",
+    "note": "Which fish are live in the tank right now depends on season and delivery — just ask in the shop or by phone.",
     "cta": "Ask about today's catch",
     "species": [
       {
         "name": "Carp",
-        "desc": "the classic — rich and juicy, traditional for holidays and gefilte fish."
+        "desc": "The classic — rich and juicy, traditional for holidays and gefilte fish."
       },
       {
         "name": "Amur (grass carp)",
-        "desc": "firm, lean fillet with a mild taste — a central asian favourite."
+        "desc": "Firm, lean fillet with a mild taste — a Central Asian favourite."
       },
       {
-        "name": "Silver carp (tolstolob)",
-        "desc": "large and generous, delicate in flavour — ideal for the whole family."
+        "name": "Silver carp (Tolstolob)",
+        "desc": "Large and generous, delicate in flavour — ideal for the whole family."
       },
       {
         "name": "Trout",
-        "desc": "tender and fine, quick to prepare — always in demand, popular year-round."
+        "desc": "Tender and fine, quick to prepare — always in demand, popular year-round."
       },
       {
         "name": "Catfish (wels)",
-        "desc": "few bones and generous, perfect for frying, grilling and braising."
+        "desc": "Few bones and generous, perfect for frying, grilling and braising."
       },
       {
         "name": "Sea bass & sea bream",
-        "desc": "refined and mild — day-fresh, ideal whole from the oven."
+        "desc": "Refined and mild — day-fresh, ideal whole from the oven."
       }
     ]
   },
   "portions": {
-    "eyebrow": "freshly cut",
-    "title": "this is what\nour portions look like.",
-    "body": "every fish is cut fresh for you — in the size you need."
+    "eyebrow": "Freshly cut",
+    "title": "This is what\nOur portions look like.",
+    "body": "Every fish is cut fresh for you — in the size you need."
   }
 }

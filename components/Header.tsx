@@ -69,8 +69,8 @@ export default function Header() {
             priority
             className="h-9 w-9 rounded-sm"
           />
-          <span className="font-display text-lg lowercase tracking-tight">
-            fische <span className="text-sea-light">&amp;</span> mehr
+          <span className="font-display text-lg tracking-tight">
+            Fische <span className="text-sea-light">&amp;</span> mehr
           </span>
         </Link>
 
@@ -146,7 +146,7 @@ export default function Header() {
                 href={href}
                 aria-current={isActive(href) ? 'page' : undefined}
                 className={clsx(
-                  'font-display text-4xl lowercase tracking-tight transition-colors',
+                  'font-display text-4xl tracking-tight transition-colors',
                   isActive(href) ? 'text-sea-light' : 'text-cream hover:text-sea-light',
                 )}
               >

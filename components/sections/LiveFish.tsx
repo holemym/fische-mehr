@@ -65,7 +65,7 @@ export default function LiveFish() {
                       <span className="font-mono text-xs text-sea-light">
                         {String(i + 1).padStart(2, '0')}
                       </span>
-                      <span className="font-display text-xl lowercase tracking-tight text-cream">
+                      <span className="font-display text-xl tracking-tight text-cream">
                         {s.name}
                       </span>
                     </div>

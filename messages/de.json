@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "Fische & mehr",
-    "tagline": "lebendige fische & spezialitäten. wien."
+    "tagline": "Lebendige Fische & Spezialitäten. Wien."
   },
   "nav": {
     "home": "Start",
@@ -40,164 +40,164 @@
   "whatsappPrefill": "Hallo Fische & mehr, ich habe eine Frage zum Tagesangebot.",
   "home": {
     "hero": {
-      "eyebrow": "lebendige fische · wien 1020",
-      "title": "lebendige fische.\nund vieles mehr.",
-      "subtitle": "ein kleines fachgeschäft im 2. bezirk: lebendige fische, frisch für sie geschlachtet — dazu trockenfrüchte, nüsse, naturhonig, gewürze und spirituosen aus usbekistan und der region.",
+      "eyebrow": "Lebendige Fische · Wien 1020",
+      "title": "Lebendige Fische.\nUnd vieles mehr.",
+      "subtitle": "Ein kleines Fachgeschäft im 2. Bezirk: lebendige Fische, frisch für Sie geschlachtet — dazu Trockenfrüchte, Nüsse, Naturhonig, Gewürze und Spirituosen aus Usbekistan und der Region.",
       "ctaPrimary": "Sortiment ansehen",
       "ctaSecond": "So finden Sie uns"
     },
     "trust": {
       "kosher": {
-        "label": "koscher",
-        "value": "koscher · traditionell"
+        "label": "Koscher",
+        "value": "Koscher · traditionell"
       },
       "location": {
-        "label": "lage",
-        "value": "1020 wien, 2. bezirk"
+        "label": "Lage",
+        "value": "1020 Wien, 2. Bezirk"
       },
       "fresh": {
-        "label": "lebendig",
-        "value": "frisch geschlachtet"
+        "label": "Lebendig",
+        "value": "Frisch geschlachtet"
       }
     },
     "product": {
-      "eyebrow": "das produkt",
-      "title": "lebendig frisch.",
-      "body": "lebendige fische sind in wien seltener als man denkt. bei uns warten sie im becken, bis sie bestellt werden — und werden frisch für sie geschlachtet. frischer geht es nicht. das schmeckt man. das sieht man."
+      "eyebrow": "Das Produkt",
+      "title": "Lebendig frisch.",
+      "body": "Lebendige Fische sind in Wien seltener als man denkt. Bei uns warten sie im Becken, bis sie bestellt werden — und werden frisch für Sie geschlachtet. Frischer geht es nicht. Das schmeckt man. Das sieht man."
     },
     "sortiment": {
-      "eyebrow": "was es gibt",
-      "title": "zwei dinge, beide richtig gut.",
+      "eyebrow": "Was es gibt",
+      "title": "Zwei Dinge, beide richtig gut.",
       "fish": {
-        "title": "fisch",
-        "body": "lebendig, frisch, sorgfältig ausgewählt. von klassisch bis besonders."
+        "title": "Fisch",
+        "body": "Lebendig, frisch, sorgfältig ausgewählt. Von klassisch bis besonders."
       },
       "spec": {
-        "title": "spezialitäten",
-        "body": "trockenfrüchte, gewürze und produkte aus usbekistan, tadschikistan und der region."
+        "title": "Spezialitäten",
+        "body": "Trockenfrüchte, Gewürze und Produkte aus Usbekistan, Tadschikistan und der Region."
       },
       "cta": "Ganzes Sortiment ansehen"
     },
     "origin": {
-      "eyebrow": "herkunft",
-      "title": "von zentralasien\nin den zweiten bezirk.",
-      "body": "die spezialitäten sind kein zufall. sie kommen von dort, wo wir herkommen — und bringen ein stück heimat nach wien.",
+      "eyebrow": "Herkunft",
+      "title": "Von Zentralasien\nin den zweiten Bezirk.",
+      "body": "Die Spezialitäten sind kein Zufall. Sie kommen von dort, wo wir herkommen — und bringen ein Stück Heimat nach Wien.",
       "cta": "Unsere Geschichte"
     },
     "kosher": {
-      "eyebrow": "koscher",
-      "title": "koscher ist kein etikett.\nes ist ein versprechen.",
-      "body": "unser fisch ist koscher und wird sorgfältig verarbeitet. für unsere kundinnen und kunden bedeutet das verlässlichkeit — ohne nachfragen zu müssen."
+      "eyebrow": "Koscher",
+      "title": "Koscher ist kein Etikett.\nEs ist ein Versprechen.",
+      "body": "Unser Fisch ist koscher und wird sorgfältig verarbeitet. Für unsere Kundinnen und Kunden bedeutet das Verlässlichkeit — ohne nachfragen zu müssen."
     },
     "location": {
-      "eyebrow": "finden & besuchen",
-      "title": "mitten im zweiten.",
-      "hoursTitle": "öffnungszeiten",
-      "addrTitle": "adresse",
+      "eyebrow": "Finden & besuchen",
+      "title": "Mitten im Zweiten.",
+      "hoursTitle": "Öffnungszeiten",
+      "addrTitle": "Adresse",
       "cta": "Route & Kontakt"
     },
     "cta": {
-      "title": "kommen sie vorbei.",
-      "body": "fragen zum tagesangebot? rufen sie an oder schreiben sie uns auf whatsapp. wir helfen gern.",
+      "title": "Kommen Sie vorbei.",
+      "body": "Fragen zum Tagesangebot? Rufen Sie an oder schreiben Sie uns auf WhatsApp. Wir helfen gern.",
       "call": "Anrufen",
       "whatsapp": "WhatsApp schreiben"
     }
   },
   "sortiment": {
     "hero": {
-      "eyebrow": "sortiment",
-      "title": "was bei uns im tresen liegt.",
-      "intro": "preise nennen wir hier bewusst nicht — frischer fisch ist tagesware, die preise richten sich nach markt und saison. fragen sie einfach nach, im laden, telefonisch oder per whatsapp."
+      "eyebrow": "Sortiment",
+      "title": "Was bei uns im Tresen liegt.",
+      "intro": "Preise nennen wir hier bewusst nicht — frischer Fisch ist Tagesware, die Preise richten sich nach Markt und Saison. Fragen Sie einfach nach, im Laden, telefonisch oder per WhatsApp."
     },
     "fish": {
-      "eyebrow": "fisch",
-      "title": "lebendige fische, frisch geschlachtet.",
-      "body": "wir führen eine sorgfältig ausgewählte auswahl statt eines endlosen sortiments. das hält die qualität hoch und die frische verlässlich. welche arten gerade da sind, hängt vom fang und von der saison ab.",
+      "eyebrow": "Fisch",
+      "title": "Lebendige Fische, frisch geschlachtet.",
+      "body": "Wir führen eine sorgfältig ausgewählte Auswahl statt eines endlosen Sortiments. Das hält die Qualität hoch und die Frische verlässlich. Welche Arten gerade da sind, hängt vom Fang und von der Saison ab.",
       "note": "Lebendig im Becken: u. a. Karpfen und Amur (Graskarpfen), frisch für Sie geschlachtet. Tagesfrisch außerdem: Lachs, Forelle, Wolfsbarsch, Dorade, geräucherter Fisch, Kaviar und mehr. Was genau da ist, hängt von Saison und Lieferung ab."
     },
     "spec": {
-      "eyebrow": "spezialitäten",
-      "title": "schätze aus zentralasien.",
-      "body": "getrocknete früchte, nüsse, gewürze und ausgewählte produkte aus usbekistan, tadschikistan und der region. dinge mit herkunft und geschichte — die man in wien selten bekommt.",
+      "eyebrow": "Spezialitäten",
+      "title": "Schätze aus Zentralasien.",
+      "body": "Getrocknete Früchte, Nüsse, Gewürze und ausgewählte Produkte aus Usbekistan, Tadschikistan und der Region. Dinge mit Herkunft und Geschichte — die man in Wien selten bekommt.",
       "note": "Getrocknete Früchte, Nüsse, Naturhonig, Gewürze, eingelegtes Gemüse, Süßwaren und Spirituosen aus Usbekistan, Tadschikistan und der Region."
     },
     "platter": {
-      "eyebrow": "für shabbat",
-      "title": "fischplatten auf vorbestellung.",
-      "body": "für shabbat und feiertage stellen wir fischplatten zusammen. rechtzeitig vorbestellen — am besten telefonisch oder per whatsapp.",
+      "eyebrow": "Für Shabbat",
+      "title": "Fischplatten auf Vorbestellung.",
+      "body": "Für Shabbat und Feiertage stellen wir Fischplatten zusammen. Rechtzeitig vorbestellen — am besten telefonisch oder per WhatsApp.",
       "cta": "Vorbestellen"
     },
     "cta": {
-      "title": "etwas bestimmtes gesucht?",
-      "body": "rufen sie an oder schreiben sie uns. wir sagen ihnen, was heute frisch ist."
+      "title": "Etwas Bestimmtes gesucht?",
+      "body": "Rufen Sie an oder schreiben Sie uns. Wir sagen Ihnen, was heute frisch ist."
     }
   },
   "ueber": {
     "hero": {
-      "eyebrow": "über uns",
-      "title": "ein laden, eine herkunft,\neine überzeugung."
+      "eyebrow": "Über uns",
+      "title": "Ein Laden, eine Herkunft,\neine Überzeugung."
     },
     "story": {
-      "eyebrow": "die geschichte",
-      "title": "ein familienbetrieb\nmit wurzeln in zentralasien.",
-      "body": "fische & mehr ist ein kleines fachgeschäft im 2. wiener gemeindebezirk, geführt von einer familie mit wurzeln in zentralasien. mit ihnen kam die überzeugung, dass fisch wirklich frisch sein muss — am besten lebendig, direkt aus dem becken. neben lebendigen und tagesfrischen fischen bringen wir spezialitäten aus usbekistan, tadschikistan und der region nach wien: dinge, die nach heimat schmecken. heute steht dafür der tresen an der glockengasse — persönlich geführt, mit beratung wie früher."
+      "eyebrow": "Die Geschichte",
+      "title": "Ein Familienbetrieb\nmit Wurzeln in Zentralasien.",
+      "body": "Fische & mehr ist ein kleines Fachgeschäft im 2. Wiener Gemeindebezirk, geführt von einer Familie mit Wurzeln in Zentralasien. Mit ihnen kam die Überzeugung, dass Fisch wirklich frisch sein muss — am besten lebendig, direkt aus dem Becken. Neben lebendigen und tagesfrischen Fischen bringen wir Spezialitäten aus Usbekistan, Tadschikistan und der Region nach Wien: Dinge, die nach Heimat schmecken. Heute steht dafür der Tresen an der Glockengasse — persönlich geführt, mit Beratung wie früher."
     },
     "kosher": {
-      "eyebrow": "koscher",
-      "title": "worauf sie sich verlassen können.",
-      "body": "unser fisch ist koscher. das ist für uns kein verkaufsargument, sondern selbstverständlichkeit gegenüber einer gemeinschaft, die genau weiß, worauf es ankommt."
+      "eyebrow": "Koscher",
+      "title": "Worauf Sie sich verlassen können.",
+      "body": "Unser Fisch ist koscher. Das ist für uns kein Verkaufsargument, sondern Selbstverständlichkeit gegenüber einer Gemeinschaft, die genau weiß, worauf es ankommt."
     },
     "origin": {
-      "eyebrow": "herkunft",
-      "title": "usbekistan, tadschikistan, wien.",
-      "body": "die spezialitäten in unserem laden kommen von dort, wo unsere wurzeln liegen. sie sind eine brücke — zwischen zwei welten, und zwischen menschen, die ein stück heimat suchen."
+      "eyebrow": "Herkunft",
+      "title": "Usbekistan, Tadschikistan, Wien.",
+      "body": "Die Spezialitäten in unserem Laden kommen von dort, wo unsere Wurzeln liegen. Sie sind eine Brücke — zwischen zwei Welten, und zwischen Menschen, die ein Stück Heimat suchen."
     },
     "values": {
-      "eyebrow": "haltung",
-      "title": "klein, ehrlich, spezialisiert.",
+      "eyebrow": "Haltung",
+      "title": "Klein, ehrlich, spezialisiert.",
       "v1": {
-        "title": "qualität vor menge",
-        "body": "lieber wenige arten wirklich frisch als ein volles regal von gestern."
+        "title": "Qualität vor Menge",
+        "body": "Lieber wenige Arten wirklich frisch als ein volles Regal von gestern."
       },
       "v2": {
-        "title": "persönlich",
-        "body": "wir kennen unsere ware und unsere kundschaft. das ist kein supermarkt."
+        "title": "Persönlich",
+        "body": "Wir kennen unsere Ware und unsere Kundschaft. Das ist kein Supermarkt."
       },
       "v3": {
-        "title": "verlässlich",
-        "body": "koscher, frisch, da wenn sie uns brauchen — besonders vor den feiertagen."
+        "title": "Verlässlich",
+        "body": "Koscher, frisch, da wenn Sie uns brauchen — besonders vor den Feiertagen."
       }
     }
   },
   "kontakt": {
     "hero": {
-      "eyebrow": "kontakt",
-      "title": "finden sie uns."
+      "eyebrow": "Kontakt",
+      "title": "Finden Sie uns."
     },
     "address": {
-      "title": "adresse"
+      "title": "Adresse"
     },
     "hours": {
-      "title": "öffnungszeiten",
-      "friday": "freitag (vor shabbat)",
-      "note": "an feiertagen können die zeiten abweichen. rufen sie im zweifel kurz an."
+      "title": "Öffnungszeiten",
+      "friday": "Freitag (vor Shabbat)",
+      "note": "An Feiertagen können die Zeiten abweichen. Rufen Sie im Zweifel kurz an."
     },
     "phone": {
-      "title": "telefon"
+      "title": "Telefon"
     },
     "whatsapp": {
-      "title": "whatsapp",
-      "body": "am schnellsten erreichen sie uns per whatsapp — auch für fragen zum tagesangebot oder für vorbestellungen."
+      "title": "WhatsApp",
+      "body": "Am schnellsten erreichen Sie uns per WhatsApp — auch für Fragen zum Tagesangebot oder für Vorbestellungen."
     },
     "email": {
-      "title": "e-mail"
+      "title": "E-Mail"
     },
     "transit": {
-      "title": "anfahrt",
+      "title": "Anfahrt",
       "body": "Nur wenige Gehminuten von der Station Taborstraße. Mit den öffentlichen Verkehrsmitteln gut erreichbar; in den Seitenstraßen finden Sie Parkmöglichkeiten."
     },
     "form": {
-      "title": "schreiben sie uns.",
+      "title": "Schreiben Sie uns.",
       "name": "Name",
       "contact": "E-Mail oder Telefon",
       "message": "Ihre Nachricht",
@@ -210,50 +210,50 @@
     }
   },
   "gallery": {
-    "eyebrow": "die auslage",
-    "title": "ein blick\nin die auslage.",
-    "intro": "keine preisliste — fisch ist tagesware. das hier ist ein eindruck von dem, was bei uns über den tresen geht. fragen sie im laden, telefonisch oder per whatsapp nach dem tagesangebot.",
+    "eyebrow": "Die Auslage",
+    "title": "Ein Blick\nin die Auslage.",
+    "intro": "Keine Preisliste — Fisch ist Tagesware. Das hier ist ein Eindruck von dem, was bei uns über den Tresen geht. Fragen Sie im Laden, telefonisch oder per WhatsApp nach dem Tagesangebot.",
     "all": "Alles",
     "fish": "Fisch",
     "spec": "Spezialitäten",
     "count": "{count} Bilder",
-    "tagFish": "fisch",
-    "tagSpec": "spezialität",
+    "tagFish": "Fisch",
+    "tagSpec": "Spezialität",
     "note": "Fotos aus unserem Geschäft. Das Tagesangebot wechselt — fragen Sie einfach nach, was heute frisch ist."
   },
   "categories": {
-    "eyebrow": "was wir führen",
-    "title": "fisch — und alles,\nwas dazugehört.",
-    "intro": "ein fischgeschäft mit herz fürs importierte. neben frischem fisch finden sie bei uns ausgesuchte spezialitäten aus usbekistan und der region — nichts abgehobenes, einfach gute ware.",
+    "eyebrow": "Was wir führen",
+    "title": "Fisch — und alles,\nwas dazugehört.",
+    "intro": "Ein Fischgeschäft mit Herz fürs Importierte. Neben frischem Fisch finden Sie bei uns ausgesuchte Spezialitäten aus Usbekistan und der Region — nichts Abgehobenes, einfach gute Ware.",
     "fish": {
-      "title": "lebendige fische",
-      "body": "lebendig im becken, frisch für sie geschlachtet. welche arten da sind, hängt von fang und saison ab."
+      "title": "Lebendige Fische",
+      "body": "Lebendig im Becken, frisch für Sie geschlachtet. Welche Arten da sind, hängt von Fang und Saison ab."
     },
     "dried": {
-      "title": "trockenfrüchte",
-      "body": "aprikosen, rosinen, melone und mehr — sonnengetrocknet, aus der region."
+      "title": "Trockenfrüchte",
+      "body": "Aprikosen, Rosinen, Melone und mehr — sonnengetrocknet, aus der Region."
     },
     "nuts": {
-      "title": "nüsse",
-      "body": "walnüsse, mandeln, pistazien. zum knabbern, backen, schenken."
+      "title": "Nüsse",
+      "body": "Walnüsse, Mandeln, Pistazien. Zum Knabbern, Backen, Schenken."
     },
     "honey": {
-      "title": "naturhonig",
-      "body": "echter, naturbelassener honig. kräftig und ehrlich im geschmack."
+      "title": "Naturhonig",
+      "body": "Echter, naturbelassener Honig. Kräftig und ehrlich im Geschmack."
     },
     "spices": {
-      "title": "gewürze",
-      "body": "aromatische gewürze für die küche zentralasiens und darüber hinaus."
+      "title": "Gewürze",
+      "body": "Aromatische Gewürze für die Küche Zentralasiens und darüber hinaus."
     },
     "spirits": {
-      "title": "spirituosen",
-      "body": "ausgewählte spirituosen und getränke aus der region."
+      "title": "Spirituosen",
+      "body": "Ausgewählte Spirituosen und Getränke aus der Region."
     }
   },
   "notifier": {
-    "eyebrow": "fisch-alarm",
-    "title": "wir sagen bescheid,\nwenn frischer fang da ist.",
-    "body": "hinterlassen sie ihre e-mail — wir melden uns, wenn neue ware eintrifft oder es vor den feiertagen etwas besonderes gibt. kein spam, jederzeit abbestellbar.",
+    "eyebrow": "Fisch-Alarm",
+    "title": "Wir sagen Bescheid,\nwenn frischer Fang da ist.",
+    "body": "Hinterlassen Sie Ihre E-Mail — wir melden uns, wenn neue Ware eintrifft oder es vor den Feiertagen etwas Besonderes gibt. Kein Spam, jederzeit abbestellbar.",
     "placeholder": "Ihre E-Mail-Adresse",
     "submit": "Benachrichtigen",
     "sending": "Wird gesendet …",
@@ -262,17 +262,17 @@
     "invalid": "Bitte gültige E-Mail-Adresse eingeben."
   },
   "findus": {
-    "eyebrow": "so finden sie uns",
-    "title": "an der ecke,\nim zweiten bezirk.",
-    "addrTitle": "adresse",
-    "hoursTitle": "öffnungszeiten",
-    "transitTitle": "anfahrt",
+    "eyebrow": "So finden Sie uns",
+    "title": "An der Ecke,\nim zweiten Bezirk.",
+    "addrTitle": "Adresse",
+    "hoursTitle": "Öffnungszeiten",
+    "transitTitle": "Anfahrt",
     "mapCta": "In Karten öffnen",
     "directionsCta": "Route planen",
     "mapAlt": "Karte: Standort von Fische & mehr, Ecke Novaragasse / Glockengasse, 1020 Wien"
   },
   "todayFresh": {
-    "label": "heute frisch",
+    "label": "Heute frisch",
     "note": "Vom Team laufend aktualisiert.",
     "items": [
       "Lachs",
@@ -281,8 +281,8 @@
     ]
   },
   "reviews": {
-    "eyebrow": "was kundinnen und kunden sagen",
-    "title": "man merkt,\ndass es echt ist.",
+    "eyebrow": "Was Kundinnen und Kunden sagen",
+    "title": "Man merkt,\ndass es echt ist.",
     "googleCta": "Alle Bewertungen auf Google",
     "note": "",
     "items": [
@@ -304,8 +304,8 @@
     ]
   },
   "faq": {
-    "eyebrow": "häufige fragen",
-    "title": "gut zu wissen.",
+    "eyebrow": "Häufige Fragen",
+    "title": "Gut zu wissen.",
     "items": [
       {
         "q": "Kann ich Fisch oder Fischplatten vorbestellen?",
@@ -334,15 +334,15 @@
     ]
   },
   "platter": {
-    "eyebrow": "fischplatte",
-    "title": "stellen sie ihre\nfischplatte zusammen.",
-    "intro": "für shabbat, feiertage oder einfach so. wählen sie aus, was drauf soll — wir melden uns zur bestätigung. keine online-zahlung, nur eine unverbindliche vorbestellung per e-mail.",
-    "occasionLabel": "anlass",
+    "eyebrow": "Fischplatte",
+    "title": "Stellen Sie Ihre\nFischplatte zusammen.",
+    "intro": "Für Shabbat, Feiertage oder einfach so. Wählen Sie aus, was drauf soll — wir melden uns zur Bestätigung. Keine Online-Zahlung, nur eine unverbindliche Vorbestellung per E-Mail.",
+    "occasionLabel": "Anlass",
     "occasionShabbat": "Shabbat",
     "occasionHoliday": "Feiertag",
     "occasionOther": "Sonstiges",
-    "personsLabel": "für wie viele personen",
-    "selectionLabel": "auswahl",
+    "personsLabel": "Für wie viele Personen",
+    "selectionLabel": "Auswahl",
     "selectionHint": "sagen Sie uns einfach, was auf die platte soll. mehrfachauswahl möglich.",
     "items": [
       "Lachs",
@@ -352,10 +352,10 @@
       "Hering",
       "Geräucherter Fisch"
     ],
-    "dateLabel": "wunschtermin zur abholung",
-    "nameLabel": "name",
-    "contactLabel": "e-mail oder telefon",
-    "notesLabel": "besondere wünsche",
+    "dateLabel": "Wunschtermin zur Abholung",
+    "nameLabel": "Name",
+    "contactLabel": "E-Mail oder Telefon",
+    "notesLabel": "Besondere Wünsche",
     "notesPlaceholder": "z. B. Menge, Zuschnitt, Allergien …",
     "submit": "Vorbestellung senden",
     "sending": "Wird gesendet …",
@@ -365,52 +365,52 @@
     "summaryHeading": "Fischplatten-Vorbestellung"
   },
   "why": {
-    "eyebrow": "warum fische & mehr",
-    "title": "klein, ehrlich,\nund genau richtig.",
+    "eyebrow": "Warum Fische & mehr",
+    "title": "Klein, ehrlich,\nund genau richtig.",
     "c1": {
-      "title": "lebendig & frisch",
-      "body": "lebendige fische aus dem becken, frisch für sie geschlachtet — nicht tagelang im kühlhaus gelegen. das schmeckt man und das sieht man."
+      "title": "Lebendig & frisch",
+      "body": "Lebendige Fische aus dem Becken, frisch für Sie geschlachtet — nicht tagelang im Kühlhaus gelegen. Das schmeckt man und das sieht man."
     },
     "c2": {
-      "title": "herkunft im regal",
-      "body": "trockenfrüchte, nüsse, naturhonig, gewürze und mehr aus usbekistan und der region — dinge mit geschichte, die man in wien selten findet."
+      "title": "Herkunft im Regal",
+      "body": "Trockenfrüchte, Nüsse, Naturhonig, Gewürze und mehr aus Usbekistan und der Region — Dinge mit Geschichte, die man in Wien selten findet."
     },
     "c3": {
-      "title": "ihr geschäft ums eck",
-      "body": "kein supermarkt. wir kennen unsere ware und unsere kundschaft — persönlich, mitten im zweiten bezirk."
+      "title": "Ihr Geschäft ums Eck",
+      "body": "Kein Supermarkt. Wir kennen unsere Ware und unsere Kundschaft — persönlich, mitten im zweiten Bezirk."
     }
   },
   "liveFish": {
-    "eyebrow": "lebendige fische",
-    "title": "frisch ist, was heute\nnoch geschwommen ist.",
-    "body": "das herz unseres geschäfts sind lebendige fische. sie warten bei uns im becken, bis sie bestellt werden — dann werden sie frisch für sie geschlachtet, geputzt und filetiert. frischer geht fisch nicht. genau so kennt man es aus zentralasien, und genau so machen wir es mitten im zweiten bezirk.",
-    "listTitle": "typische arten, lebendig & frisch geschlachtet",
+    "eyebrow": "Lebendige Fische",
+    "title": "Frisch ist, was heute\nnoch geschwommen ist.",
+    "body": "Das Herz unseres Geschäfts sind lebendige Fische. Sie warten bei uns im Becken, bis sie bestellt werden — dann werden sie frisch für Sie geschlachtet, geputzt und filetiert. Frischer geht Fisch nicht. Genau so kennt man es aus Zentralasien, und genau so machen wir es mitten im zweiten Bezirk.",
+    "listTitle": "Typische Arten, lebendig & frisch geschlachtet",
     "note": "welche fische gerade lebendig im becken sind, hängt von saison und lieferung ab — fragen Sie einfach im laden oder telefonisch nach.",
     "cta": "Nach dem Tagesfang fragen",
     "species": [
       {
         "name": "Karpfen",
-        "desc": "der klassiker — kräftig und saftig, traditionell für festtage und gefilte fisch."
+        "desc": "Der Klassiker — kräftig und saftig, traditionell für Festtage und gefilte Fisch."
       },
       {
         "name": "Amur (Graskarpfen)",
-        "desc": "festes, mageres filet mit mildem geschmack — ein zentralasiatischer liebling."
+        "desc": "Festes, mageres Filet mit mildem Geschmack — ein zentralasiatischer Liebling."
       },
       {
         "name": "Silberkarpfen (Tolstolob)",
-        "desc": "groß und ergiebig, zart im geschmack — ideal für die ganze familie."
+        "desc": "Groß und ergiebig, zart im Geschmack — ideal für die ganze Familie."
       },
       {
         "name": "Forelle",
-        "desc": "zart und fein, schnell zubereitet — immer gefragt, ganzjährig beliebt."
+        "desc": "Zart und fein, schnell zubereitet — immer gefragt, ganzjährig beliebt."
       },
       {
         "name": "Wels (Waller)",
-        "desc": "grätenarm und ergiebig, perfekt zum braten, grillen und schmoren."
+        "desc": "Grätenarm und ergiebig, perfekt zum Braten, Grillen und Schmoren."
       },
       {
         "name": "Wolfsbarsch & Dorade",
-        "desc": "edel und mild — tagesfrisch, ideal im ganzen aus dem ofen."
+        "desc": "Edel und mild — tagesfrisch, ideal im Ganzen aus dem Ofen."
       }
     ]
   },
@@ -489,8 +489,8 @@
     }
   },
   "portions": {
-    "eyebrow": "frisch zugeschnitten",
-    "title": "so sehen unsere\nportionen aus.",
-    "body": "jeder fisch wird bei uns frisch für sie zugeschnitten — in der größe, die sie brauchen."
+    "eyebrow": "Frisch zugeschnitten",
+    "title": "So sehen unsere\nPortionen aus.",
+    "body": "Jeder Fisch wird bei uns frisch für Sie zugeschnitten — in der Größe, die Sie brauchen."
   }
 }

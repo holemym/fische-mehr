@@ -37,7 +37,7 @@ export default function SortimentTeaser() {
                     className="object-cover transition-transform duration-700 ease-out-soft group-hover:scale-[1.03] motion-reduce:transform-none"
                   />
                 </div>
-                <h3 className="mt-6 font-display text-3xl lowercase tracking-tight text-navy">
+                <h3 className="mt-6 font-display text-3xl tracking-tight text-navy">
                   {t(`${key}.title`)}
                 </h3>
                 <p className="mt-3 max-w-md text-pretty leading-relaxed text-grey-dark">

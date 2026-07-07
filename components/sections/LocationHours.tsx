@@ -37,7 +37,7 @@ export default function LocationHours() {
               <Pin className="text-coral" />
               <h3 className="eyebrow">{t('addrTitle')}</h3>
             </div>
-            <p className="mt-5 font-display text-xl lowercase tracking-tight text-navy">
+            <p className="mt-5 font-display text-xl tracking-tight text-navy">
               {c('address')}
             </p>
             <div className="mt-7">
