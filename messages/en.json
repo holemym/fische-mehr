@@ -43,14 +43,14 @@
     "hero": {
       "eyebrow": "live fish · vienna 1020",
       "title": "Live fish.\nAnd much more.",
-      "subtitle": "A small speciality shop in the 2nd district: live fish, freshly slaughtered for you — plus dried fruit, nuts, natural honey, spices and spirits from Uzbekistan and the region.",
+      "subtitle": "Live, fresh and smoked fish, plus a wide selection of fish delicacies. We prepare your fish on site just the way you like it and vacuum-seal it fresh for you.\n\nWe also offer a range of delicacies from many countries, as well as spirits. Come by and let us surprise you!",
       "ctaPrimary": "View the range",
       "ctaSecond": "How to find us"
     },
     "trust": {
       "kosher": {
-        "label": "Kosher",
-        "value": "Kosher · traditional"
+        "label": "On site",
+        "value": "Freshly vacuum-sealed"
       },
       "location": {
         "label": "Location",
@@ -85,11 +85,6 @@
       "body": "The specialties are no accident. They come from where we come from — bringing a piece of home to Vienna.",
       "cta": "Our story"
     },
-    "kosher": {
-      "eyebrow": "Kosher",
-      "title": "Kosher isn't a label.\nIt's a promise.",
-      "body": "Our fish is kosher and carefully handled. For our customers that means reliability — without having to ask."
-    },
     "location": {
       "eyebrow": "Find & visit",
       "title": "Right in the second.",
@@ -123,9 +118,9 @@
       "note": "Dried fruit, nuts, natural honey, spices, pickled vegetables, sweets and spirits from Uzbekistan, Tajikistan and the region."
     },
     "platter": {
-      "eyebrow": "For Shabbat",
+      "eyebrow": "By pre-order",
       "title": "Fish platters to pre-order.",
-      "body": "For Shabbat and holidays we put together platters of smoked fish. Pre-order in good time — best by phone or WhatsApp.",
+      "body": "On request we put together individual smoked-fish platters for any occasion and deliver them straight to you.",
       "cta": "Pre-order"
     },
     "cta": {
@@ -142,11 +137,6 @@
       "eyebrow": "The story",
       "title": "A family business\nWith roots in Central Asia.",
       "body": "Fische & mehr is a small speciality shop in Vienna's 2nd district, run by a family with roots in Central Asia. With them came the conviction that fish has to be truly fresh — ideally live, straight from the tank. Alongside live and day-fresh fish we bring specialities from Uzbekistan, Tajikistan and the region to Vienna: things that taste of home. Today all of that lives behind the counter on Glockengasse — personally run, with advice like in the old days."
-    },
-    "kosher": {
-      "eyebrow": "Kosher",
-      "title": "What you can rely on.",
-      "body": "Our fish is kosher. For us that's not a selling point but a matter of course toward a community that knows exactly what matters."
     },
     "origin": {
       "eyebrow": "Origin",
@@ -166,7 +156,7 @@
       },
       "v3": {
         "title": "Dependable",
-        "body": "Kosher, fresh, there when you need us — especially before the holidays."
+        "body": "Fresh and reliable, there when you need us."
       }
     }
   },
@@ -180,8 +170,8 @@
     },
     "hours": {
       "title": "Opening hours",
-      "friday": "Friday (before Shabbat)",
-      "note": "Hours may differ on holidays. When in doubt, give us a quick call."
+      "friday": "Friday",
+      "note": "For questions, feel free to give us a call."
     },
     "phone": {
       "title": "Phone"
@@ -254,7 +244,7 @@
   "notifier": {
     "eyebrow": "Fish alert",
     "title": "We'll let you know\nWhen a fresh catch is in.",
-    "body": "Leave your email — we'll get in touch when new stock comes in or there's something special before the holidays. No spam, unsubscribe any time.",
+    "body": "Leave your e-mail — we'll let you know when new stock arrives or there's something special. No spam, unsubscribe anytime.",
     "placeholder": "Your email address",
     "submit": "Notify me",
     "sending": "Sending …",
@@ -278,19 +268,19 @@
     "items": [
       {
         "q": "Can I pre-order fish or fish platters?",
-        "a": "Yes. Especially before Shabbat and holidays we put together fish platters to pre-order. Best in the shop or by phone, in good time."
-      },
-      {
-        "q": "Is the fish kosher certified?",
-        "a": "Yes, our fish is kosher. For questions about preparation, just talk to us directly."
+        "a": "Yes. On request we put together individual smoked-fish platters for any occasion and deliver them to you. Best in the shop or by phone, in good time."
       },
       {
         "q": "What do you have besides fish?",
-        "a": "Specialties from Uzbekistan, Tajikistan and the region: dried fruit, nuts, natural honey, spices and spirits."
+        "a": "Fish delicacies plus specialties from many countries: dried fruit, nuts, natural honey, spices, pickled vegetables, sweets and spirits."
+      },
+      {
+        "q": "Do you prepare the fish on site?",
+        "a": "Yes. We prepare your fish in the shop just the way you like it and vacuum-seal it fresh for you."
       },
       {
         "q": "What are your opening hours?",
-        "a": "Monday to Friday from 08:30 to 17:30. Closed Saturday and Sunday. Hours may differ on public holidays — when in doubt, give us a quick call."
+        "a": "Monday to Friday from 08:30 to 17:30. Closed Saturday and Sunday."
       },
       {
         "q": "How do I get to you?",
@@ -298,7 +288,7 @@
       },
       {
         "q": "Can I order online?",
-        "a": "There's no online shop at the moment. Come by or call — we're happy to tell you what's fresh today."
+        "a": "There's currently no online shop. Come by or give us a call — we're happy to tell you what's fresh today."
       }
     ]
   },
@@ -369,7 +359,7 @@
   "meta": {
     "home": {
       "title": "Fische & mehr — Live & fresh fish in Vienna 1020",
-      "description": "Live fish, freshly slaughtered for you, in Vienna's 2nd district. Plus kosher specialties from Uzbekistan and Tajikistan. Day-fresh, personal, specialised."
+      "description": "Live, fresh and smoked fish and fish delicacies in Vienna's 2nd district. Plus delicacies from many countries and spirits. Prepared on site and freshly vacuum-sealed."
     },
     "sortiment": {
       "title": "Range — Fische & mehr",
@@ -377,7 +367,7 @@
     },
     "ueber": {
       "title": "About — Fische & mehr",
-      "description": "The story behind Fische & mehr: kosher fish, Central Asian origins, a small specialized shop in Vienna."
+      "description": "The story behind Fische & mehr: fresh fish, Central-Asian roots, a small specialised shop in Vienna."
     },
     "kontakt": {
       "title": "Contact — Fische & mehr",
@@ -393,13 +383,9 @@
     }
   },
   "platter": {
-    "eyebrow": "Fish platter",
-    "title": "Build your\nFish platter.",
-    "intro": "For Shabbat, holidays or just because — our platter of smoked fish. Choose what goes on it — we'll get in touch to confirm. No online payment, just a non-binding pre-order by e-mail.",
-    "occasionLabel": "Occasion",
-    "occasionShabbat": "Shabbat",
-    "occasionHoliday": "Holiday",
-    "occasionOther": "Other",
+    "eyebrow": "Smoked-fish platter",
+    "title": "Build your\nsmoked-fish platter.",
+    "intro": "On request we put together individual smoked-fish platters for any occasion and deliver them straight to you. Choose what goes on it — we'll get in touch to confirm. No online payment, just a non-binding pre-order by e-mail.",
     "personsLabel": "For how many people",
     "selectionLabel": "Selection",
     "selectionHint": "Just tell us what should go on the platter. Multiple choice possible.",
@@ -411,7 +397,7 @@
       "Sprats",
       "Butterfish"
     ],
-    "dateLabel": "Preferred pickup date",
+    "dateLabel": "Preferred date",
     "nameLabel": "Name",
     "contactLabel": "E-mail or phone",
     "notesLabel": "Special requests",
@@ -451,7 +437,7 @@
       {
         "initials": "S.L.",
         "name": "S. L.",
-        "quote": "Friendly, personal, dependable before Shabbat. Exactly what you'd want."
+        "quote": "Friendly, personal, dependable. Exactly what you'd want."
       }
     ]
   },

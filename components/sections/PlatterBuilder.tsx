@@ -10,28 +10,21 @@ import { Button } from '@/components/ui/Button';
 import { clsx } from '@/lib/clsx';
 
 type Status = 'idle' | 'sending' | 'success' | 'error';
-type Occasion = 'shabbat' | 'holiday' | 'other';
-
-const OCCASIONS: Occasion[] = ['shabbat', 'holiday', 'other'];
 
 /**
- * Interactive fish-platter builder. No online payment — this composes a clear
- * summary of the request and sends it to the shop by e-mail (Formspree), as a
- * non-binding pre-order. Occasion + persons + item selection are all client
- * state; the assembled summary is what actually gets mailed.
+ * Interactive smoked-fish-platter builder. No online payment — this composes a
+ * clear summary of the request and sends it to the shop by e-mail (Formspree),
+ * as a non-binding pre-order. Persons + item selection are client state; the
+ * assembled summary is what actually gets mailed.
  */
 export default function PlatterBuilder() {
   const t = useTranslations('platter');
   const items = t.raw('items') as string[];
 
-  const [occasion, setOccasion] = useState<Occasion>('shabbat');
   const [persons, setPersons] = useState(4);
   const [selected, setSelected] = useState<Set<string>>(new Set([items[0]]));
   const [status, setStatus] = useState<Status>('idle');
   const [errors, setErrors] = useState<{ name?: boolean; contact?: boolean }>({});
-
-  const occasionLabel = (o: Occasion) =>
-    o === 'shabbat' ? t('occasionShabbat') : o === 'holiday' ? t('occasionHoliday') : t('occasionOther');
 
   function toggleItem(item: string) {
     setSelected((prev) => {
@@ -43,9 +36,9 @@ export default function PlatterBuilder() {
 
   const summary = useMemo(() => {
     const list = [...selected].join(', ') || '—';
-    return `${occasionLabel(occasion)} · ${persons} ${t('personsLabel')} · ${list}`;
+    return `${persons} ${t('personsLabel')} · ${list}`;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [occasion, persons, selected]);
+  }, [persons, selected]);
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -74,7 +67,6 @@ export default function PlatterBuilder() {
         `${t('nameLabel')}: ${name}`,
         `${t('contactLabel')}: ${contact}`,
         '',
-        `${t('occasionLabel')}: ${occasionLabel(occasion)}`,
         `${t('personsLabel')}: ${persons}`,
         `${t('selectionLabel')}: ${[...selected].join(', ') || '—'}`,
         `${t('dateLabel')}: ${date}`,
@@ -130,32 +122,6 @@ export default function PlatterBuilder() {
             <form onSubmit={onSubmit} noValidate className="grid gap-10 lg:grid-cols-[1.3fr_1fr]">
               {/* Builder */}
               <div className="space-y-8 rounded-sm border border-sea-deep/10 bg-cream p-6 sm:p-8">
-                {/* Occasion */}
-                <div>
-                  <p className="font-mono text-xs uppercase tracking-[0.12em] text-sea-deep">
-                    {t('occasionLabel')}
-                  </p>
-                  <div className="mt-3 flex flex-wrap gap-2">
-                    {OCCASIONS.map((o) => (
-                      <button
-                        key={o}
-                        type="button"
-                        onClick={() => setOccasion(o)}
-                        aria-pressed={occasion === o}
-                        className={clsx(
-                          'cursor-pointer rounded-full px-4 py-2 font-mono text-xs uppercase tracking-[0.1em] transition-colors',
-                          occasion === o
-                            ? 'bg-sea-deep text-cream'
-                            : 'border border-sea-deep/20 text-sea-deep hover:border-sea-deep/50',
-                        )}
-                      >
-                        {occasionLabel(o)}
-                      </button>
-                    ))}
-                  </div>
-                  <input type="hidden" name="occasion" value={occasionLabel(occasion)} />
-                </div>
-
                 {/* Persons */}
                 <div>
                   <label

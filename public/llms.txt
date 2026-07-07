@@ -15,18 +15,19 @@
 - E-mail: angelina.refaelov@chello.at
 - Opening hours: Monday–Friday 08:30–17:30; Saturday & Sunday closed
 - Languages served: German (primary), English, Russian, Hebrew
-- Speciality: live fish, freshly slaughtered to order (kosher — carp, silver carp,
-  trout; also fresh mackerel, sea bass, sea bream, salmon). All fish is kosher.
+- Speciality: live fish, freshly slaughtered to order (carp, silver carp, trout;
+  also fresh mackerel, sea bass, sea bream, salmon). Fish is processed on site to
+  order and vacuum-sealed fresh.
 - Categories: fresh & live fish, smoked fish, caviar, dried fruit, nuts, natural
   honey, spices, pickled vegetables, sweets, spirits
-- Kosher: fish is kosher (certifying authority to be confirmed)
+- Delicacies from many countries plus spirits are also sold
 - Ordering: no online payment/checkout. Smoked-fish platters can be pre-ordered via the
   site's order form, which emails the request to the shop for confirmation.
 
 ## Pages
 - Home: /de, /en, /ru, /he — overview, trust signals, product gallery, "why us"
 - Sortiment (range): /{locale}/sortiment — full product gallery, categories, fish-platter builder
-- Über uns (about): /{locale}/ueber-uns — story, kosher info, origin, values
+- Über uns (about): /{locale}/ueber-uns — story, origin, values
 - Kontakt (contact): /{locale}/kontakt — map, hours, contact form, FAQ
 - Impressum: /{locale}/impressum — legal disclosure (Austria)
 - Datenschutz: /{locale}/datenschutz — privacy policy (GDPR)

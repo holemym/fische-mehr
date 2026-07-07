@@ -9,8 +9,6 @@ import Eyebrow from '@/components/ui/Eyebrow';
 import SectionTitle from '@/components/ui/SectionTitle';
 import SectionNumber from '@/components/ui/SectionNumber';
 import Reveal from '@/components/ui/Reveal';
-import Wave from '@/components/ui/Wave';
-import BrandBackdrop from '@/components/ui/BrandBackdrop';
 
 export async function generateMetadata({
   params: { locale },
@@ -56,7 +54,7 @@ export default function UeberUnsPage({
           </Reveal>
           <Reveal className="max-w-xl">
             <div className="flex items-center gap-3">
-              <SectionNumber index={1} total={4} />
+              <SectionNumber index={1} total={3} />
               <Eyebrow as="span">{t('story.eyebrow')}</Eyebrow>
             </div>
             <SectionTitle className="mt-4">{t('story.title')}</SectionTitle>
@@ -65,40 +63,14 @@ export default function UeberUnsPage({
             </p>
           </Reveal>
         </div>
-        <Wave fill="fill-sea-deep" position="bottom" />
       </section>
 
-      {/* 02 · Kosher — one quiet mention (deep sea block) */}
-      <section className="relative overflow-hidden bg-sea-deep text-cream">
-        <BrandBackdrop
-          variant="fish"
-          className="-right-4 top-1/2 h-52 w-52 -translate-y-1/2 text-sea-light/[0.06] sm:h-60 sm:w-60"
-        />
-        <div className="container-page relative py-24 sm:py-28">
-          <Reveal className="max-w-2xl">
-            <div className="flex items-center gap-3">
-              <SectionNumber index={2} total={4} onDark />
-              <Eyebrow as="span" className="text-sand">
-                {t('kosher.eyebrow')}
-              </Eyebrow>
-            </div>
-            <SectionTitle size="md" className="mt-4 text-cream">
-              {t('kosher.title')}
-            </SectionTitle>
-            <p className="mt-6 max-w-xl text-pretty leading-relaxed text-cream/85">
-              {t('kosher.body')}
-            </p>
-          </Reveal>
-        </div>
-        <Wave fill="fill-cream" position="bottom" />
-      </section>
-
-      {/* 03 · Origin — Uzbekistan / Tajikistan imports */}
+      {/* 02 · Origin — Central-Asian imports */}
       <section className="bg-cream py-24 sm:py-32">
         <div className="container-page grid items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
           <Reveal className="max-w-md">
             <div className="flex items-center gap-3">
-              <SectionNumber index={3} total={4} />
+              <SectionNumber index={2} total={3} />
               <Eyebrow as="span">{t('origin.eyebrow')}</Eyebrow>
             </div>
             <SectionTitle className="mt-4">{t('origin.title')}</SectionTitle>
@@ -131,7 +103,7 @@ export default function UeberUnsPage({
         <div className="container-page">
           <Reveal className="max-w-2xl">
             <div className="flex items-center gap-3">
-              <SectionNumber index={4} total={4} />
+              <SectionNumber index={3} total={3} />
               <Eyebrow as="span">{t('values.eyebrow')}</Eyebrow>
             </div>
             <SectionTitle className="mt-4">{t('values.title')}</SectionTitle>

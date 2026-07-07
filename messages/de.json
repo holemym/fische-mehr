@@ -42,14 +42,14 @@
     "hero": {
       "eyebrow": "Lebendige Fische · Wien 1020",
       "title": "Lebendige Fische.\nUnd vieles mehr.",
-      "subtitle": "Ein kleines Fachgeschäft im 2. Bezirk: lebendige Fische, frisch für Sie geschlachtet — dazu Trockenfrüchte, Nüsse, Naturhonig, Gewürze und Spirituosen aus Usbekistan und der Region.",
+      "subtitle": "Lebendige, frische und geräucherte Fische sowie eine große Auswahl an Fischdelikatessen. Wir verarbeiten Ihren Fisch direkt vor Ort nach Wunsch und vakuumieren ihn frisch für Sie.\n\nAußerdem bieten wir verschiedene Delikatessen aus vielen Ländern sowie Spirituosen an. Kommen Sie vorbei und lassen Sie sich überraschen!",
       "ctaPrimary": "Sortiment ansehen",
       "ctaSecond": "So finden Sie uns"
     },
     "trust": {
       "kosher": {
-        "label": "Koscher",
-        "value": "Koscher · traditionell"
+        "label": "Vor Ort",
+        "value": "Frisch vakuumiert"
       },
       "location": {
         "label": "Lage",
@@ -84,11 +84,6 @@
       "body": "Die Spezialitäten sind kein Zufall. Sie kommen von dort, wo wir herkommen — und bringen ein Stück Heimat nach Wien.",
       "cta": "Unsere Geschichte"
     },
-    "kosher": {
-      "eyebrow": "Koscher",
-      "title": "Koscher ist kein Etikett.\nEs ist ein Versprechen.",
-      "body": "Unser Fisch ist koscher und wird sorgfältig verarbeitet. Für unsere Kundinnen und Kunden bedeutet das Verlässlichkeit — ohne nachfragen zu müssen."
-    },
     "location": {
       "eyebrow": "Finden & besuchen",
       "title": "Mitten im Zweiten.",
@@ -122,9 +117,9 @@
       "note": "Getrocknete Früchte, Nüsse, Naturhonig, Gewürze, eingelegtes Gemüse, Süßwaren und Spirituosen aus Usbekistan, Tadschikistan und der Region."
     },
     "platter": {
-      "eyebrow": "Für Shabbat",
+      "eyebrow": "Auf Vorbestellung",
       "title": "Fischplatten auf Vorbestellung.",
-      "body": "Für Shabbat und Feiertage stellen wir Fischplatten aus geräuchertem Fisch zusammen. Rechtzeitig vorbestellen — am besten telefonisch oder per WhatsApp.",
+      "body": "Auf Wunsch stellen wir individuelle Räucherfischplatten für jeden Anlass zusammen und liefern diese direkt zu Ihnen.",
       "cta": "Vorbestellen"
     },
     "cta": {
@@ -141,11 +136,6 @@
       "eyebrow": "Die Geschichte",
       "title": "Ein Familienbetrieb\nmit Wurzeln in Zentralasien.",
       "body": "Fische & mehr ist ein kleines Fachgeschäft im 2. Wiener Gemeindebezirk, geführt von einer Familie mit Wurzeln in Zentralasien. Mit ihnen kam die Überzeugung, dass Fisch wirklich frisch sein muss — am besten lebendig, direkt aus dem Becken. Neben lebendigen und tagesfrischen Fischen bringen wir Spezialitäten aus Usbekistan, Tadschikistan und der Region nach Wien: Dinge, die nach Heimat schmecken. Heute steht dafür der Tresen an der Glockengasse — persönlich geführt, mit Beratung wie früher."
-    },
-    "kosher": {
-      "eyebrow": "Koscher",
-      "title": "Worauf Sie sich verlassen können.",
-      "body": "Unser Fisch ist koscher. Das ist für uns kein Verkaufsargument, sondern Selbstverständlichkeit gegenüber einer Gemeinschaft, die genau weiß, worauf es ankommt."
     },
     "origin": {
       "eyebrow": "Herkunft",
@@ -165,7 +155,7 @@
       },
       "v3": {
         "title": "Verlässlich",
-        "body": "Koscher, frisch, da wenn Sie uns brauchen — besonders vor den Feiertagen."
+        "body": "Frisch und verlässlich, da wenn Sie uns brauchen."
       }
     }
   },
@@ -179,8 +169,8 @@
     },
     "hours": {
       "title": "Öffnungszeiten",
-      "friday": "Freitag (vor Shabbat)",
-      "note": "An Feiertagen können die Zeiten abweichen. Rufen Sie im Zweifel kurz an."
+      "friday": "Freitag",
+      "note": "Bei Fragen erreichen Sie uns gern telefonisch."
     },
     "phone": {
       "title": "Telefon"
@@ -253,7 +243,7 @@
   "notifier": {
     "eyebrow": "Fisch-Alarm",
     "title": "Wir sagen Bescheid,\nwenn frischer Fang da ist.",
-    "body": "Hinterlassen Sie Ihre E-Mail — wir melden uns, wenn neue Ware eintrifft oder es vor den Feiertagen etwas Besonderes gibt. Kein Spam, jederzeit abbestellbar.",
+    "body": "Hinterlassen Sie Ihre E-Mail — wir melden uns, wenn neue Ware eintrifft oder es etwas Besonderes gibt. Kein Spam, jederzeit abbestellbar.",
     "placeholder": "Ihre E-Mail-Adresse",
     "submit": "Benachrichtigen",
     "sending": "Wird gesendet …",
@@ -299,7 +289,7 @@
       {
         "initials": "S.L.",
         "name": "S. L.",
-        "quote": "Freundlich, persönlich, verlässlich vor Shabbat. Genau das, was man sich wünscht."
+        "quote": "Freundlich, persönlich, verlässlich. Genau das, was man sich wünscht."
       }
     ]
   },
@@ -309,19 +299,19 @@
     "items": [
       {
         "q": "Kann ich Fisch oder Fischplatten vorbestellen?",
-        "a": "Ja. Besonders vor Shabbat und Feiertagen stellen wir Fischplatten auf Vorbestellung zusammen. Am besten im Laden oder telefonisch, rechtzeitig vorher."
-      },
-      {
-        "q": "Ist der Fisch koscher zertifiziert?",
-        "a": "Ja, unser Fisch ist koscher. Bei Fragen zur Verarbeitung sprechen Sie uns gern direkt an."
+        "a": "Ja. Auf Wunsch stellen wir individuelle Räucherfischplatten für jeden Anlass zusammen und liefern sie direkt zu Ihnen. Am besten im Laden oder telefonisch, rechtzeitig vorher."
       },
       {
         "q": "Was habt ihr außer Fisch?",
-        "a": "Spezialitäten aus Usbekistan, Tadschikistan und der Region: Trockenfrüchte, Nüsse, Naturhonig, Gewürze und Spirituosen."
+        "a": "Fischdelikatessen sowie Spezialitäten aus vielen Ländern: Trockenfrüchte, Nüsse, Naturhonig, Gewürze, eingelegtes Gemüse, Süßwaren und Spirituosen."
+      },
+      {
+        "q": "Verarbeitet ihr den Fisch vor Ort?",
+        "a": "Ja. Wir verarbeiten Ihren Fisch direkt im Geschäft nach Wunsch und vakuumieren ihn frisch für Sie."
       },
       {
         "q": "Wie sind die Öffnungszeiten?",
-        "a": "Montag bis Freitag von 08:30 bis 17:30 Uhr. Samstag und Sonntag geschlossen. An Feiertagen können die Zeiten abweichen — im Zweifel kurz anrufen."
+        "a": "Montag bis Freitag von 08:30 bis 17:30 Uhr. Samstag und Sonntag geschlossen."
       },
       {
         "q": "Wie komme ich zu euch?",
@@ -334,13 +324,9 @@
     ]
   },
   "platter": {
-    "eyebrow": "Fischplatte",
-    "title": "Stellen Sie Ihre\nFischplatte zusammen.",
-    "intro": "Für Shabbat, Feiertage oder einfach so — unsere Fischplatte aus geräuchertem Fisch. Wählen Sie aus, was drauf soll — wir melden uns zur Bestätigung. Keine Online-Zahlung, nur eine unverbindliche Vorbestellung per E-Mail.",
-    "occasionLabel": "Anlass",
-    "occasionShabbat": "Shabbat",
-    "occasionHoliday": "Feiertag",
-    "occasionOther": "Sonstiges",
+    "eyebrow": "Räucherfischplatte",
+    "title": "Stellen Sie Ihre\nRäucherfischplatte zusammen.",
+    "intro": "Auf Wunsch stellen wir individuelle Räucherfischplatten für jeden Anlass zusammen und liefern diese direkt zu Ihnen. Wählen Sie aus, was drauf soll — wir melden uns zur Bestätigung. Keine Online-Zahlung, nur eine unverbindliche Vorbestellung per E-Mail.",
     "personsLabel": "Für wie viele Personen",
     "selectionLabel": "Auswahl",
     "selectionHint": "sagen Sie uns einfach, was auf die platte soll. mehrfachauswahl möglich.",
@@ -352,7 +338,7 @@
       "Sprotten",
       "Butterfisch"
     ],
-    "dateLabel": "Wunschtermin zur Abholung",
+    "dateLabel": "Wunschtermin",
     "nameLabel": "Name",
     "contactLabel": "E-Mail oder Telefon",
     "notesLabel": "Besondere Wünsche",
@@ -461,7 +447,7 @@
   "meta": {
     "home": {
       "title": "Fische & mehr — Lebendige & frische Fische in Wien 1020",
-      "description": "Lebendige Fische, frisch für Sie geschlachtet, im 2. Bezirk in Wien. Dazu koschere Spezialitäten aus Usbekistan und Tadschikistan. Tagesfrisch, persönlich, spezialisiert."
+      "description": "Lebendige, frische und geräucherte Fische sowie Fischdelikatessen im 2. Bezirk in Wien. Dazu Delikatessen aus vielen Ländern und Spirituosen. Vor Ort verarbeitet und frisch vakuumiert."
     },
     "sortiment": {
       "title": "Sortiment — Fische & mehr",
@@ -469,7 +455,7 @@
     },
     "ueber": {
       "title": "Über uns — Fische & mehr",
-      "description": "Die Geschichte hinter Fische & mehr: koscherer Fisch, Herkunft in Zentralasien, ein kleines spezialisiertes Fachgeschäft in Wien."
+      "description": "Die Geschichte hinter Fische & mehr: frischer Fisch, Herkunft in Zentralasien, ein kleines spezialisiertes Fachgeschäft in Wien."
     },
     "kontakt": {
       "title": "Kontakt — Fische & mehr",

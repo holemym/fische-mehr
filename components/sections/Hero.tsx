@@ -36,9 +36,13 @@ export default function Hero() {
           <SectionTitle as="h1" size="xl" className="mt-5 text-cream">
             {t('title')}
           </SectionTitle>
-          <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-cream/85 sm:text-lg">
-            {t('subtitle')}
-          </p>
+          <div className="mt-6 max-w-xl space-y-3 text-pretty text-base leading-relaxed text-cream/85 sm:text-lg">
+            {t('subtitle')
+              .split('\n\n')
+              .map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
+          </div>
           <div className="mt-9 flex flex-wrap items-center gap-3">
             <Link
               href="/sortiment"
