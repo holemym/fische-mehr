@@ -31,10 +31,10 @@ type Ns = 'home' | 'sortiment' | 'ueber' | 'kontakt' | 'impressum' | 'datenschut
 const BASE_KEYWORDS = [
   'Fische & mehr',
   'Fisch Wien',
-  'koscherer Fisch',
+  'lebende Fische Wien',
   'fresh fish Vienna',
-  'kosher fish Vienna',
-  'кошерная рыба Вена',
+  'Räucherfisch Wien',
+  'живая рыба Вена',
   '1020 Wien',
   'Usbekistan Spezialitäten',
   'Trockenfrüchte Wien',
