@@ -21,11 +21,12 @@ export default function Hero() {
         sizes="100vw"
         className="object-cover object-center"
       />
-      {/* Sea duotone tint — pulls the photo into the cream/sea palette */}
-      <div aria-hidden className="absolute inset-0 bg-sea-deep/55 mix-blend-multiply" />
+      {/* Lighter tint so the live fish reads clearly; keep the bottom darker
+          for legible text, let the top breathe. */}
+      <div aria-hidden className="absolute inset-0 bg-sea-deep/25 mix-blend-multiply" />
       <div
         aria-hidden
-        className="absolute inset-0 bg-gradient-to-t from-sea-deep via-sea-deep/70 to-sea-deep/55"
+        className="absolute inset-0 bg-gradient-to-t from-sea-deep/95 via-sea-deep/45 to-sea-deep/15"
       />
 
       {/* Content */}

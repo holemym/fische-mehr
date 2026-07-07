@@ -6,7 +6,6 @@ import { SITE } from '@/lib/site';
 import Eyebrow from '@/components/ui/Eyebrow';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Reveal from '@/components/ui/Reveal';
-import Note from '@/components/ui/Note';
 import { Button } from '@/components/ui/Button';
 import { clsx } from '@/lib/clsx';
 
@@ -218,7 +217,9 @@ export default function PlatterBuilder() {
                       );
                     })}
                   </div>
-                  <Note className="mt-4">{t('selectionHint')}</Note>
+                  <p className="mt-4 font-mono text-xs leading-relaxed text-grey">
+                    {t('selectionHint')}
+                  </p>
                 </div>
 
                 {/* Date */}

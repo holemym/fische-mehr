@@ -112,7 +112,6 @@ const TILES: Tile[] = [
   { img: 'shoot-condensed-milk', cat: 'spec' },
   { img: 'shoot-sweets-shelf', cat: 'spec' },
   { img: 'shoot-pickled-jars-1', cat: 'spec' },
-  { img: 'shoot-pickled-jars-2', cat: 'spec' },
   { img: 'shoot-spirits-1', cat: 'spec' },
   { img: 'shoot-spirits-2', cat: 'spec' },
   { img: 'shoot-sunflower-seeds', cat: 'spec' },
@@ -254,7 +253,7 @@ export default function ProductGallery() {
             (no forced crop); landscape shots span 2 columns so they read bigger. */}
         <div
           ref={gridRef}
-          className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4"
+          className="mt-8 grid grid-flow-row-dense grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4"
           style={{ gridAutoRows: `${ROW_UNIT}px` }}
         >
           {tiles.map((tile, i) => {

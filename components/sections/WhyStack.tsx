@@ -1,10 +1,10 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import Eyebrow from '@/components/ui/Eyebrow';
 import SectionTitle from '@/components/ui/SectionTitle';
-import { FishMark } from '@/components/ui/Logo';
 
 const CARDS = ['c1', 'c2', 'c3'] as const;
 
@@ -76,7 +76,15 @@ export default function WhyStack() {
               style={{ top: `calc(var(--header-h) + ${1 + i * 1.1}rem)` }}
             >
               <article className="group relative overflow-hidden rounded-lg border border-sea-deep/10 bg-cream p-8 shadow-[0_18px_50px_-30px_rgba(6,35,57,0.55)] transition-[transform,box-shadow] duration-300 ease-out-soft hover:-translate-y-1.5 hover:shadow-[0_28px_60px_-28px_rgba(6,35,57,0.65)] sm:p-10">
-                <FishMark className="pointer-events-none absolute -right-6 -top-8 h-40 w-40 text-sea/[0.05] transition-colors duration-300 group-hover:text-sea/[0.1]" />
+                {/* Original logo badge as a subtle branded watermark (multiply). */}
+                <Image
+                  src="/images/logo-badge.webp"
+                  alt=""
+                  aria-hidden
+                  width={160}
+                  height={160}
+                  className="pointer-events-none absolute -right-7 -top-9 h-40 w-40 rounded-lg opacity-[0.10] mix-blend-multiply transition-opacity duration-300 group-hover:opacity-[0.18]"
+                />
                 <div className="relative flex flex-col gap-5 sm:flex-row sm:items-start sm:gap-10">
                   <span className="font-display text-5xl font-normal leading-none text-sea-light transition-colors duration-300 group-hover:text-sea">
                     0{i + 1}
