@@ -1,8 +1,8 @@
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/navigation';
 import Eyebrow from '@/components/ui/Eyebrow';
 import SectionTitle from '@/components/ui/SectionTitle';
+import ParallaxImage from '@/components/ui/ParallaxImage';
 import Wave from '@/components/ui/Wave';
 import { ArrowRight } from '@/components/ui/icons';
 
@@ -12,13 +12,14 @@ export default function Hero() {
 
   return (
     <section className="relative isolate flex min-h-[92vh] items-end overflow-hidden bg-sea-deep">
-      {/* Live fish (carp in the tank) — the shop's signature */}
-      <Image
+      {/* Live fish (carp in the tank) — the shop's signature. Gentle parallax
+          drift on scroll for depth (disabled under reduced motion). */}
+      <ParallaxImage
         src="/images/shoot-live-carp.webp"
         alt={alt}
-        fill
         priority
         sizes="100vw"
+        strength={0.1}
         className="object-cover object-center"
       />
       {/* Lighter tint so the live fish reads clearly; keep the bottom darker

@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState, useRef, useLayoutEffect } from 'react';
+import { useMemo, useState, useRef, useEffect, useLayoutEffect } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import Eyebrow from '@/components/ui/Eyebrow';
@@ -95,13 +95,11 @@ const TILES: Tile[] = [
   { img: 'shoot-smoked-fish-row', cat: 'fish' },
   { img: 'shoot-smoked-whole', cat: 'fish' },
   { img: 'shoot-smoked-counter', cat: 'fish' },
-  { img: 'parrotfish', cat: 'fish' },
   { img: 'shoot-smoked-fillets', cat: 'fish' },
   { img: 'shoot-owner-fish-2', cat: 'fish' },
   { img: 'shoot-fish-selection', cat: 'fish' },
   { img: 'shoot-platter-catering', cat: 'fish' },
   { img: 'shoot-platters', cat: 'fish' },
-  { img: 'hero', cat: 'fish' },
   { img: 'shoot-caviar-tins', cat: 'fish' },
   { img: 'shoot-seashells', cat: 'fish' },
   { img: 'shoot-tinned-fish', cat: 'fish' },
@@ -161,6 +159,35 @@ export default function ProductGallery() {
       ro.disconnect();
       window.removeEventListener('resize', layout);
     };
+  }, [tiles]);
+
+  // Staggered scroll-reveal: each tile fades + rises as it enters the viewport,
+  // so the grid assembles itself on the way down instead of appearing all at
+  // once. Honors reduced motion (shows everything immediately, no transition).
+  useEffect(() => {
+    const grid = gridRef.current;
+    if (!grid) return;
+    const figures = Array.from(
+      grid.querySelectorAll<HTMLElement>('figure[data-aspect]'),
+    );
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) {
+      figures.forEach((f) => f.classList.add('is-in'));
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('is-in');
+            io.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.08, rootMargin: '0px 0px -5% 0px' },
+    );
+    figures.forEach((f) => io.observe(f));
+    return () => io.disconnect();
   }, [tiles]);
 
   const altKey: Record<string, string> = {
@@ -270,9 +297,13 @@ export default function ProductGallery() {
               <figure
                 key={`${tile.img}-${i}`}
                 data-aspect={w / h}
-                style={{ gridRowEnd: `span ${estSpan}` }}
+                style={{
+                  gridRowEnd: `span ${estSpan}`,
+                  // Gentle cascade across each row (capped so it never lags).
+                  transitionDelay: `${(i % 4) * 55}ms`,
+                }}
                 className={clsx(
-                  'group relative block overflow-hidden rounded-sm bg-sea-deep/5',
+                  'reveal-tile group relative block overflow-hidden rounded-sm bg-sea-deep/5',
                   landscape && 'col-span-2',
                 )}
               >

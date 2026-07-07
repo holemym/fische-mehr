@@ -9,6 +9,13 @@
 
   html {
     -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  /* Keep in-page anchor jumps clear of the sticky header. */
+  :target,
+  [id] {
+    scroll-margin-top: calc(var(--header-h) + 1.25rem);
   }
 
   body {
@@ -59,6 +66,20 @@
   .text-pretty {
     text-wrap: pretty;
   }
+
+  /* Gallery tiles rise + fade in as they scroll into view (JS adds .is-in via
+     IntersectionObserver; the per-tile transition-delay comes from inline style). */
+  .reveal-tile {
+    opacity: 0;
+    transform: translateY(18px);
+    transition:
+      opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .reveal-tile.is-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Respect users who prefer reduced motion — disable all reveal/parallax animation. */
@@ -73,5 +94,10 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
     scroll-behavior: auto !important;
+  }
+  /* Reveal-on-scroll tiles: show immediately, never start hidden. */
+  .reveal-tile {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
