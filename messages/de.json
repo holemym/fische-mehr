@@ -113,7 +113,7 @@
       "eyebrow": "Fisch",
       "title": "Lebendige Fische, frisch geschlachtet.",
       "body": "Wir führen eine sorgfältig ausgewählte Auswahl statt eines endlosen Sortiments. Das hält die Qualität hoch und die Frische verlässlich. Welche Arten gerade da sind, hängt vom Fang und von der Saison ab.",
-      "note": "Lebendig im Becken: u. a. Karpfen und Amur (Graskarpfen), frisch für Sie geschlachtet. Tagesfrisch außerdem: Lachs, Forelle, Wolfsbarsch, Dorade, geräucherter Fisch, Kaviar und mehr. Was genau da ist, hängt von Saison und Lieferung ab."
+      "note": "Lebendig im Becken: u. a. Karpfen und Silberkarpfen, frisch für Sie geschlachtet. Tagesfrisch außerdem: Lachs, Forelle, Makrele, Wolfsbarsch, Dorade, geräucherter Fisch, Kaviar und mehr. Was genau da ist, hängt von Saison und Lieferung ab."
     },
     "spec": {
       "eyebrow": "Spezialitäten",
@@ -124,7 +124,7 @@
     "platter": {
       "eyebrow": "Für Shabbat",
       "title": "Fischplatten auf Vorbestellung.",
-      "body": "Für Shabbat und Feiertage stellen wir Fischplatten zusammen. Rechtzeitig vorbestellen — am besten telefonisch oder per WhatsApp.",
+      "body": "Für Shabbat und Feiertage stellen wir Fischplatten aus geräuchertem Fisch zusammen. Rechtzeitig vorbestellen — am besten telefonisch oder per WhatsApp.",
       "cta": "Vorbestellen"
     },
     "cta": {
@@ -336,7 +336,7 @@
   "platter": {
     "eyebrow": "Fischplatte",
     "title": "Stellen Sie Ihre\nFischplatte zusammen.",
-    "intro": "Für Shabbat, Feiertage oder einfach so. Wählen Sie aus, was drauf soll — wir melden uns zur Bestätigung. Keine Online-Zahlung, nur eine unverbindliche Vorbestellung per E-Mail.",
+    "intro": "Für Shabbat, Feiertage oder einfach so — unsere Fischplatte aus geräuchertem Fisch. Wählen Sie aus, was drauf soll — wir melden uns zur Bestätigung. Keine Online-Zahlung, nur eine unverbindliche Vorbestellung per E-Mail.",
     "occasionLabel": "Anlass",
     "occasionShabbat": "Shabbat",
     "occasionHoliday": "Feiertag",
@@ -345,12 +345,12 @@
     "selectionLabel": "Auswahl",
     "selectionHint": "sagen Sie uns einfach, was auf die platte soll. mehrfachauswahl möglich.",
     "items": [
-      "Lachs",
-      "Forelle",
-      "Karpfen",
-      "Wolfsbarsch",
-      "Hering",
-      "Geräucherter Fisch"
+      "Geräucherter Lachs",
+      "Geräucherte Makrele",
+      "Geräucherte Forelle",
+      "Geräucherter Hering",
+      "Sprotten",
+      "Butterfisch"
     ],
     "dateLabel": "Wunschtermin zur Abholung",
     "nameLabel": "Name",
@@ -393,10 +393,6 @@
         "desc": "Der Klassiker — kräftig und saftig, traditionell für Festtage und gefilte Fisch."
       },
       {
-        "name": "Amur (Graskarpfen)",
-        "desc": "Festes, mageres Filet mit mildem Geschmack — ein zentralasiatischer Liebling."
-      },
-      {
         "name": "Silberkarpfen (Tolstolob)",
         "desc": "Groß und ergiebig, zart im Geschmack — ideal für die ganze Familie."
       },
@@ -405,8 +401,8 @@
         "desc": "Zart und fein, schnell zubereitet — immer gefragt, ganzjährig beliebt."
       },
       {
-        "name": "Wels (Waller)",
-        "desc": "Grätenarm und ergiebig, perfekt zum Braten, Grillen und Schmoren."
+        "name": "Makrele",
+        "desc": "Kräftig und aromatisch — frisch wie geräuchert ein Klassiker."
       },
       {
         "name": "Wolfsbarsch & Dorade",

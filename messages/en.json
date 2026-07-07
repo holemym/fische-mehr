@@ -114,7 +114,7 @@
       "eyebrow": "Fish",
       "title": "Live fish, freshly slaughtered.",
       "body": "We carry a carefully chosen selection rather than an endless range. That keeps the quality high and the freshness dependable. Which species are in right now depends on the catch and the season.",
-      "note": "Live in the tank: carp and Amur (grass carp), slaughtered fresh for you. Also day-fresh: salmon, trout, sea bass, sea bream, smoked fish, caviar and more. What's in stock depends on season and delivery."
+      "note": "Live in the tank: carp and silver carp, slaughtered fresh for you. Also day-fresh: salmon, trout, mackerel, sea bass, sea bream, smoked fish, caviar and more. What's in stock depends on season and delivery."
     },
     "spec": {
       "eyebrow": "Specialties",
@@ -125,7 +125,7 @@
     "platter": {
       "eyebrow": "For Shabbat",
       "title": "Fish platters to pre-order.",
-      "body": "For Shabbat and holidays we put together fish platters. Order in good time — best by phone or WhatsApp.",
+      "body": "For Shabbat and holidays we put together platters of smoked fish. Pre-order in good time — best by phone or WhatsApp.",
       "cta": "Pre-order"
     },
     "cta": {
@@ -395,7 +395,7 @@
   "platter": {
     "eyebrow": "Fish platter",
     "title": "Build your\nFish platter.",
-    "intro": "For Shabbat, holidays or just because. Pick what goes on it — we'll get back to you to confirm. No online payment, just a no-obligation pre-order by email.",
+    "intro": "For Shabbat, holidays or just because — our platter of smoked fish. Choose what goes on it — we'll get in touch to confirm. No online payment, just a non-binding pre-order by e-mail.",
     "occasionLabel": "Occasion",
     "occasionShabbat": "Shabbat",
     "occasionHoliday": "Holiday",
@@ -404,12 +404,12 @@
     "selectionLabel": "Selection",
     "selectionHint": "Just tell us what should go on the platter. Multiple choice possible.",
     "items": [
-      "Salmon",
-      "Trout",
-      "Carp",
-      "Sea bass",
-      "Herring",
-      "Smoked fish"
+      "Smoked salmon",
+      "Smoked mackerel",
+      "Smoked trout",
+      "Smoked herring",
+      "Sprats",
+      "Butterfish"
     ],
     "dateLabel": "Preferred pickup date",
     "nameLabel": "Name",
@@ -468,11 +468,7 @@
         "desc": "The classic — rich and juicy, traditional for holidays and gefilte fish."
       },
       {
-        "name": "Amur (grass carp)",
-        "desc": "Firm, lean fillet with a mild taste — a Central Asian favourite."
-      },
-      {
-        "name": "Silver carp (Tolstolob)",
+        "name": "Silver carp (tolstolob)",
         "desc": "Large and generous, delicate in flavour — ideal for the whole family."
       },
       {
@@ -480,8 +476,8 @@
         "desc": "Tender and fine, quick to prepare — always in demand, popular year-round."
       },
       {
-        "name": "Catfish (wels)",
-        "desc": "Few bones and generous, perfect for frying, grilling and braising."
+        "name": "Mackerel",
+        "desc": "Full-flavoured and aromatic — a classic fresh or smoked."
       },
       {
         "name": "Sea bass & sea bream",
