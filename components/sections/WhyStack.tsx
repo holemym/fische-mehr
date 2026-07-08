@@ -1,11 +1,11 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import Eyebrow from '@/components/ui/Eyebrow';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Reveal from '@/components/ui/Reveal';
-import { FishMark } from '@/components/ui/Logo';
 import { clsx } from '@/lib/clsx';
 
 const CARDS = ['c1', 'c2', 'c3'] as const;
@@ -71,8 +71,15 @@ export default function WhyStack() {
             >
               <Reveal delay={i * 90}>
                 <article className="group relative overflow-hidden rounded-lg border border-sea-deep/10 bg-cream p-8 shadow-[0_18px_50px_-30px_rgba(6,35,57,0.55)] transition-[transform,box-shadow] duration-300 ease-out-soft hover:-translate-y-1.5 hover:shadow-[0_28px_60px_-28px_rgba(6,35,57,0.65)] sm:p-10">
-                  {/* Fish-and-wave mark as a clean brand watermark on the right. */}
-                  <FishMark className="pointer-events-none absolute end-6 top-1/2 h-24 w-24 -translate-y-1/2 text-sea-light/25 transition-colors duration-300 group-hover:text-sea-light/40 sm:h-28 sm:w-28" />
+                  {/* The shop's original logo badge, at full opacity, on the right. */}
+                  <Image
+                    src="/images/logo-badge.webp"
+                    alt=""
+                    aria-hidden
+                    width={160}
+                    height={160}
+                    className="pointer-events-none absolute end-6 top-1/2 h-20 w-20 -translate-y-1/2 rounded-md sm:h-24 sm:w-24"
+                  />
                   <div className="relative flex flex-col gap-5 pe-24 sm:flex-row sm:items-start sm:gap-10 sm:pe-28">
                     <span className="font-display text-5xl font-normal leading-none text-sea-light transition-colors duration-300 group-hover:text-sea">
                       0{i + 1}
