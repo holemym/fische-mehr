@@ -18,6 +18,23 @@
     scroll-margin-top: calc(var(--header-h) + 1.25rem);
   }
 
+  /* Lenis smooth scrolling. While active it drives the scroll, so native
+     scroll-behavior must be off. (Iframe pointer-events intentionally left
+     alone so the contact map stays interactive.) */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+
   body {
     @apply bg-paper text-navy font-sans antialiased;
     font-feature-settings: 'kern' 1, 'liga' 1;

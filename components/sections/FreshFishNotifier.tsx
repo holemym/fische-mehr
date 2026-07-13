@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { SITE } from '@/lib/site';
 import Eyebrow from '@/components/ui/Eyebrow';
 import SectionTitle from '@/components/ui/SectionTitle';
+import Reveal from '@/components/ui/Reveal';
 import Wave from '@/components/ui/Wave';
 import { FishMark } from '@/components/ui/Logo';
 import BrandBackdrop from '@/components/ui/BrandBackdrop';
@@ -49,7 +50,7 @@ export default function FreshFishNotifier() {
       />
 
       <div className="container-page relative grid items-center gap-10 py-24 sm:py-28 md:grid-cols-[1.2fr_1fr]">
-        <div>
+        <Reveal>
           <div className="flex items-center gap-3">
             <FishMark className="h-6 w-auto text-sea-light" />
             <Eyebrow className="text-sand">{t('eyebrow')}</Eyebrow>
@@ -58,9 +59,9 @@ export default function FreshFishNotifier() {
             {t('title')}
           </SectionTitle>
           <p className="mt-5 max-w-md text-pretty leading-relaxed text-cream/80">{t('body')}</p>
-        </div>
+        </Reveal>
 
-        <div>
+        <Reveal delay={120}>
           {status === 'success' ? (
             <p
               role="status"
@@ -109,7 +110,7 @@ export default function FreshFishNotifier() {
               )}
             </form>
           )}
-        </div>
+        </Reveal>
       </div>
     </section>
   );

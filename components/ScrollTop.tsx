@@ -20,14 +20,19 @@ export default function ScrollTop() {
     <button
       type="button"
       aria-label={label}
-      onClick={() =>
+      onClick={() => {
+        // Route through Lenis when it's driving the scroll, so the glide matches.
+        if (window.__lenis) {
+          window.__lenis.scrollTo(0);
+          return;
+        }
         window.scrollTo({
           top: 0,
           behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches
             ? 'auto'
             : 'smooth',
-        })
-      }
+        });
+      }}
       className={clsx(
         'fixed bottom-5 end-5 z-40 flex h-11 w-11 items-center justify-center rounded-full',
         'bg-sea-deep text-cream shadow-lg transition-all duration-300 hover:bg-sea',

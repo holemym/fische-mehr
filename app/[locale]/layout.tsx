@@ -15,6 +15,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ScrollTop from '@/components/ScrollTop';
 import ScrollProgress from '@/components/ScrollProgress';
+import SmoothScroll from '@/components/SmoothScroll';
 import '../globals.css';
 
 const lora = Lora({
@@ -124,6 +125,7 @@ export default async function LocaleLayout({
     >
       <body className="min-h-dvh bg-paper text-navy">
         <NextIntlClientProvider messages={messages}>
+          <SmoothScroll />
           <ScrollProgress />
           <a
             href="#main"
