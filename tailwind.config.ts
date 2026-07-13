@@ -50,6 +50,16 @@ const config: Config = {
           from: { opacity: '0', transform: 'translateY(18px)' },
           to: { opacity: '1', transform: 'translateY(0)' },
         },
+        // On-load entrance for the hero: rise + fade, softly overshoot-eased.
+        'rise-in': {
+          from: { opacity: '0', transform: 'translateY(24px)' },
+          to: { opacity: '1', transform: 'translateY(0)' },
+        },
+        // Curtain that lifts off the hero photo on load (reveals from dark).
+        'curtain-lift': {
+          from: { opacity: '1' },
+          to: { opacity: '0' },
+        },
         'scroll-cue': {
           '0%': { transform: 'translateY(-100%)' },
           '100%': { transform: 'translateY(250%)' },
@@ -72,6 +82,10 @@ const config: Config = {
       },
       animation: {
         'reveal-up': 'reveal-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards',
+        // `both` fill so the element sits hidden through its stagger delay, then
+        // holds the final state — paired with motion-reduce:animate-none.
+        'rise-in': 'rise-in 0.85s cubic-bezier(0.22, 1, 0.36, 1) both',
+        'curtain-lift': 'curtain-lift 1.1s cubic-bezier(0.22, 1, 0.36, 1) forwards',
         'scroll-cue': 'scroll-cue 1.8s cubic-bezier(0.22, 1, 0.36, 1) infinite',
         marquee: 'marquee 32s linear infinite',
         'float-slow': 'float-slow 11s ease-in-out infinite',
