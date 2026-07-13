@@ -19,7 +19,7 @@ export default function Hero() {
         alt={alt}
         priority
         sizes="100vw"
-        strength={0.1}
+        strength={0.06}
         className="object-cover object-center"
       />
       {/* Lighter tint so the live fish reads clearly; keep the bottom darker
