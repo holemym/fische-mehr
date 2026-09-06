@@ -7,7 +7,7 @@
 
 export const SITE = {
   name: 'Fische & mehr',
-  url: 'https://fische-mehr.vercel.app', // TODO: swap for a custom domain once registered
+  url: 'https://www.fische-mehr.at', // canonical domain (www serves the site on Vercel)
   // Contact — real shop details
   phone: '0676 844293203',
   phoneHref: 'tel:+43676844293203',
