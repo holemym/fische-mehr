@@ -12,6 +12,7 @@ import BrandBackdrop from '@/components/ui/BrandBackdrop';
 
 type Status = 'idle' | 'sending' | 'success' | 'error' | 'invalid';
 
+/** E-mail sign-up for fresh-catch notices. Pale poster ground, navy type. */
 export default function FreshFishNotifier() {
   const t = useTranslations('notifier');
   const [status, setStatus] = useState<Status>('idle');
@@ -41,24 +42,24 @@ export default function FreshFishNotifier() {
   }
 
   return (
-    <section className="relative isolate overflow-hidden bg-sea-deep text-cream">
-      {/* wave at the top, spilling from the previous (cream/foam) section */}
-      <Wave fill="fill-foam" position="top" />
+    <section className="relative isolate overflow-hidden bg-foam text-sea-ink">
+      {/* wave at the top, spilling from the previous (cream) section */}
+      <Wave fill="fill-cream" position="top" />
       <BrandBackdrop
         variant="fish"
-        className="-bottom-12 right-4 h-56 w-56 text-sea-light/[0.06]"
+        className="-bottom-12 right-4 h-56 w-56 text-sea-deep/[0.06]"
       />
 
       <div className="container-page relative grid items-center gap-10 py-24 sm:py-28 md:grid-cols-[1.2fr_1fr]">
         <Reveal>
           <div className="flex items-center gap-3">
-            <FishMark className="h-6 w-auto text-sea-light" />
-            <Eyebrow className="text-sand">{t('eyebrow')}</Eyebrow>
+            <FishMark className="h-6 w-auto text-sea" />
+            <Eyebrow>{t('eyebrow')}</Eyebrow>
           </div>
-          <SectionTitle size="md" className="mt-4 text-cream">
+          <SectionTitle size="md" className="mt-4 text-sea-deep">
             {t('title')}
           </SectionTitle>
-          <p className="mt-5 max-w-md text-pretty leading-relaxed text-cream/80">{t('body')}</p>
+          <p className="mt-5 max-w-md text-pretty leading-relaxed text-grey-dark">{t('body')}</p>
         </Reveal>
 
         <Reveal delay={120}>
@@ -66,7 +67,7 @@ export default function FreshFishNotifier() {
             <p
               role="status"
               aria-live="polite"
-              className="rounded-sm border border-sea-light/30 bg-sea/20 p-6 font-display text-2xl tracking-tight text-cream"
+              className="rounded-sm border border-sea-deep/20 bg-cream p-6 font-display text-2xl tracking-tight text-sea-deep"
             >
               {t('success')}
             </p>
@@ -88,23 +89,23 @@ export default function FreshFishNotifier() {
                   required
                   placeholder={t('placeholder')}
                   aria-invalid={status === 'invalid' || undefined}
-                  className="h-12 flex-1 rounded-full border border-cream/25 bg-cream/10 px-5 text-cream placeholder:text-cream/50 focus-visible:outline-sea-light"
+                  className="h-12 flex-1 rounded-full border border-sea-deep/25 bg-cream px-5 text-sea-deep placeholder:text-grey focus-visible:outline-sea"
                 />
                 <button
                   type="submit"
                   disabled={status === 'sending'}
-                  className="h-12 shrink-0 cursor-pointer rounded-full bg-cream px-6 font-mono text-xs uppercase tracking-[0.12em] text-sea-deep transition-colors hover:bg-sea-light disabled:opacity-60"
+                  className="h-12 shrink-0 cursor-pointer rounded-full bg-sea-deep px-6 font-mono text-xs uppercase tracking-[0.12em] text-cream transition-colors hover:bg-sea disabled:opacity-60"
                 >
                   {status === 'sending' ? t('sending') : t('submit')}
                 </button>
               </div>
               {status === 'invalid' && (
-                <p role="alert" className="mt-2.5 text-sm text-sand">
+                <p role="alert" className="mt-2.5 text-sm text-coral">
                   {t('invalid')}
                 </p>
               )}
               {status === 'error' && (
-                <p role="alert" aria-live="assertive" className="mt-2.5 text-sm text-sand">
+                <p role="alert" aria-live="assertive" className="mt-2.5 text-sm text-coral">
                   {t('error')}
                 </p>
               )}
