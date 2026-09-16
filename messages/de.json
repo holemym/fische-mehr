@@ -25,7 +25,8 @@
     "contact": "Kontakt",
     "rights": "© 2026 Fische & mehr. Alle Rechte vorbehalten.",
     "impressum": "Impressum",
-    "datenschutz": "Datenschutz"
+    "datenschutz": "Datenschutz",
+    "tagline": "Fisch, Delikatessen & persönlicher Service. Wien."
   },
   "config": {
     "phone": "0676 844293203",
@@ -65,32 +66,6 @@
       "title": "Große Auswahl\nfür jeden Geschmack.",
       "body": "Unser Fischsortiment umfasst Karpfen, Goldbrasse (Dorade), Branzino (Wolfsbarsch), Forelle und Lachs – je nach Verfügbarkeit als ganzer Fisch oder als Filet.\n\nAußerdem erhalten Sie bei uns Thunfischfilet und Thunfischsteaks, Tilapiafilet, Kabeljaufilet, Zanderfilet, Silberkarpfen, Schollenfilet und Seehecht (Oslić). Unser Sortiment bieten wir je nach Fischart und Verfügbarkeit frisch oder tiefgekühlt an."
     },
-    "sortiment": {
-      "eyebrow": "Was es gibt",
-      "title": "Zwei Dinge, beide richtig gut.",
-      "fish": {
-        "title": "Fisch",
-        "body": "Lebendig, frisch, sorgfältig ausgewählt. Von klassisch bis besonders."
-      },
-      "spec": {
-        "title": "Spezialitäten",
-        "body": "Trockenfrüchte, Gewürze und ausgewählte Produkte aus verschiedenen Ländern."
-      },
-      "cta": "Ganzes Sortiment ansehen"
-    },
-    "origin": {
-      "eyebrow": "Herkunft",
-      "title": "Feine Auswahl\nim zweiten Bezirk.",
-      "body": "Die Spezialitäten sind kein Zufall. Sie kommen von dort, wo wir herkommen — und bringen ein Stück Heimat nach Wien.",
-      "cta": "Unsere Geschichte"
-    },
-    "location": {
-      "eyebrow": "Finden & besuchen",
-      "title": "Mitten im Zweiten.",
-      "hoursTitle": "Öffnungszeiten",
-      "addrTitle": "Adresse",
-      "cta": "Route & Kontakt"
-    },
     "cta": {
       "title": "Kommen Sie vorbei.",
       "body": "Fragen zum Tagesangebot? Rufen Sie an oder schreiben Sie uns auf WhatsApp. Wir helfen gern.",
@@ -118,60 +93,28 @@
     "hero": {
       "eyebrow": "Sortiment",
       "title": "Was bei uns im Tresen liegt.",
-      "intro": "Preise nennen wir hier bewusst nicht — frischer Fisch ist Tagesware, die Preise richten sich nach Markt und Saison. Fragen Sie einfach nach, im Laden, telefonisch oder per WhatsApp."
-    },
-    "fish": {
-      "eyebrow": "Fisch",
-      "title": "Lebendige Fische, frisch geschlachtet.",
-      "body": "Wir führen eine sorgfältig ausgewählte Auswahl statt eines endlosen Sortiments. Das hält die Qualität hoch und die Frische verlässlich. Welche Arten gerade da sind, hängt vom Fang und von der Saison ab.",
-      "note": "Lebendig im Becken: u. a. Karpfen und Silberkarpfen, frisch für Sie geschlachtet. Tagesfrisch außerdem: Lachs, Forelle, Makrele, Wolfsbarsch, Dorade, geräucherter Fisch, Kaviar und mehr. Was genau da ist, hängt von Saison und Lieferung ab."
-    },
-    "spec": {
-      "eyebrow": "Spezialitäten",
-      "title": "Feine Delikatessen.",
-      "body": "Getrocknete Früchte, Nüsse, Gewürze und ausgewählte Produkte aus verschiedenen Ländern. Dinge mit Herkunft und Geschichte — die man in Wien selten bekommt.",
-      "note": "Getrocknete Früchte, Nüsse, Naturhonig, Gewürze, eingelegtes Gemüse, Süßwaren und Spirituosen."
-    },
-    "platter": {
-      "eyebrow": "Auf Vorbestellung",
-      "title": "Fischplatten auf Vorbestellung.",
-      "body": "Auf Wunsch stellen wir individuelle Räucherfischplatten für jeden Anlass zusammen und liefern diese direkt zu Ihnen.",
-      "cta": "Vorbestellen"
-    },
-    "cta": {
-      "title": "Etwas Bestimmtes gesucht?",
-      "body": "Rufen Sie an oder schreiben Sie uns. Wir sagen Ihnen, was heute frisch ist."
+      "intro": "Frischer, tiefgekühlter und geräucherter Fisch, Lachskaviar und ausgewählte Delikatessen. Was heute da ist, erfahren Sie im Laden, telefonisch oder per WhatsApp."
     }
   },
   "ueber": {
     "hero": {
       "eyebrow": "Über uns",
-      "title": "Ein Laden, eine Herkunft,\neine Überzeugung."
-    },
-    "story": {
-      "eyebrow": "Die Geschichte",
-      "title": "Ein Familienbetrieb\nmit Wurzeln in Zentralasien.",
-      "body": "Fische & mehr ist ein kleines Fachgeschäft im 2. Wiener Gemeindebezirk, geführt von einer Familie mit Wurzeln in Zentralasien. Mit ihnen kam die Überzeugung, dass Fisch wirklich frisch sein muss — am besten lebendig, direkt aus dem Becken. Neben lebendigen und tagesfrischen Fischen bringen wir Spezialitäten aus Usbekistan, Tadschikistan und der Region nach Wien: Dinge, die nach Heimat schmecken. Heute steht dafür der Tresen an der Glockengasse — persönlich geführt, mit Beratung wie früher."
-    },
-    "origin": {
-      "eyebrow": "Herkunft",
-      "title": "Usbekistan, Tadschikistan, Wien.",
-      "body": "Die Spezialitäten in unserem Laden kommen von dort, wo unsere Wurzeln liegen. Sie sind eine Brücke — zwischen zwei Welten, und zwischen Menschen, die ein Stück Heimat suchen."
+      "title": "Fisch, Delikatessen &\npersönlicher Service."
     },
     "values": {
-      "eyebrow": "Haltung",
-      "title": "Klein, ehrlich, spezialisiert.",
+      "eyebrow": "Worauf es uns ankommt",
+      "title": "Qualität, Geschmack und\npersönliche Zubereitung.",
       "v1": {
-        "title": "Qualität vor Menge",
-        "body": "Lieber wenige Arten wirklich frisch als ein volles Regal von gestern."
+        "title": "Frische",
+        "body": "Lebendiger Karpfen direkt aus unserem Becken – frischer geht’s kaum. Frischer, tiefgekühlter und geräucherter Fisch, je nach Verfügbarkeit."
       },
       "v2": {
-        "title": "Persönlich",
-        "body": "Wir kennen unsere Ware und unsere Kundschaft. Das ist kein Supermarkt."
+        "title": "Persönliche Zubereitung",
+        "body": "Entschuppen, herausnehmen, schneiden, filetieren, faschieren oder vakuumieren – Sie bekommen Ihren Fisch so, wie Sie ihn für Ihre Küche brauchen."
       },
       "v3": {
-        "title": "Verlässlich",
-        "body": "Frisch und verlässlich, da wenn Sie uns brauchen."
+        "title": "Mehr als Fisch",
+        "body": "Lachskaviar sowie russische und osteuropäische Delikatessen – für alle, die den traditionellen Geschmack lieben."
       }
     }
   },
@@ -278,49 +221,17 @@
     "mapAlt": "Karte: Standort von Fische & mehr, Ecke Novaragasse / Glockengasse, 1020 Wien",
     "contactTitle": "Kontakt"
   },
-  "todayFresh": {
-    "label": "Heute frisch",
-    "note": "Vom Team laufend aktualisiert.",
-    "items": [
-      "Lachs",
-      "Forelle",
-      "Wolfsbarsch"
-    ]
-  },
-  "reviews": {
-    "eyebrow": "Was Kundinnen und Kunden sagen",
-    "title": "Man merkt,\ndass es echt ist.",
-    "googleCta": "Alle Bewertungen auf Google",
-    "note": "",
-    "items": [
-      {
-        "initials": "M.K.",
-        "name": "M. K.",
-        "quote": "Endlich ein Laden im 2. Bezirk, wo der Fisch wirklich frisch ist. Man sieht es sofort."
-      },
-      {
-        "initials": "R.B.",
-        "name": "R. B.",
-        "quote": "Die Trockenfrüchte und der Honig sind großartig — erinnert an zu Hause."
-      },
-      {
-        "initials": "S.L.",
-        "name": "S. L.",
-        "quote": "Freundlich, persönlich, verlässlich. Genau das, was man sich wünscht."
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "Häufige Fragen",
     "title": "Gut zu wissen.",
     "items": [
       {
         "q": "Kann ich Fisch oder Fischplatten vorbestellen?",
-        "a": "Ja. Auf Wunsch stellen wir individuelle Räucherfischplatten für jeden Anlass zusammen und liefern sie direkt zu Ihnen. Am besten im Laden oder telefonisch, rechtzeitig vorher."
+        "a": "Ja – am besten im Laden oder telefonisch, rechtzeitig vorher. Wir bereiten Ihren Fisch nach Wunsch vor und stellen Fischplatten für Sie zusammen."
       },
       {
         "q": "Was habt ihr außer Fisch?",
-        "a": "Fischdelikatessen sowie Spezialitäten aus vielen Ländern: Trockenfrüchte, Nüsse, Naturhonig, Gewürze, eingelegtes Gemüse, Süßwaren und Spirituosen."
+        "a": "Lachskaviar sowie russische und osteuropäische Delikatessen: eingelegte Gurken, Tomaten, Paprika, Kraut, Champignons und Knoblauch, Zucchinipüree, Paprika nach georgischer Art, Auberginen mit Paprika, russische Kondensmilch, Dorschleber in Konserven, Sprotten und mehr."
       },
       {
         "q": "Verarbeitet ihr den Fisch vor Ort?",
@@ -339,49 +250,6 @@
         "a": "Aktuell gibt es keinen Onlineshop. Kommen Sie vorbei oder rufen Sie an — wir sagen Ihnen gern, was heute frisch ist."
       }
     ]
-  },
-  "platter": {
-    "eyebrow": "Räucherfischplatte",
-    "title": "Stellen Sie Ihre\nRäucherfischplatte zusammen.",
-    "intro": "Auf Wunsch stellen wir individuelle Räucherfischplatten für jeden Anlass zusammen und liefern diese direkt zu Ihnen. Wählen Sie aus, was drauf soll — wir melden uns zur Bestätigung. Keine Online-Zahlung, nur eine unverbindliche Vorbestellung per E-Mail.",
-    "personsLabel": "Für wie viele Personen",
-    "selectionLabel": "Auswahl",
-    "selectionHint": "sagen Sie uns einfach, was auf die platte soll. mehrfachauswahl möglich.",
-    "items": [
-      "Geräucherter Lachs",
-      "Geräucherte Makrele",
-      "Geräucherte Forelle",
-      "Geräucherter Hering",
-      "Sprotten",
-      "Butterfisch"
-    ],
-    "dateLabel": "Wunschtermin",
-    "nameLabel": "Name",
-    "contactLabel": "E-Mail oder Telefon",
-    "notesLabel": "Besondere Wünsche",
-    "notesPlaceholder": "z. B. Menge, Zuschnitt, Allergien …",
-    "submit": "Vorbestellung senden",
-    "sending": "Wird gesendet …",
-    "success": "Danke! Ihre Vorbestellung ist angekommen — wir melden uns zur Bestätigung.",
-    "error": "Etwas ist schiefgelaufen. Bitte rufen Sie uns an oder schreiben Sie per WhatsApp.",
-    "required": "Bitte ausfüllen.",
-    "summaryHeading": "Fischplatten-Vorbestellung"
-  },
-  "why": {
-    "eyebrow": "Warum Fische & mehr",
-    "title": "Klein, ehrlich,\nund genau richtig.",
-    "c1": {
-      "title": "Lebendig & frisch",
-      "body": "Lebendige Fische aus dem Becken, frisch für Sie geschlachtet — nicht tagelang im Kühlhaus gelegen. Das schmeckt man und das sieht man."
-    },
-    "c2": {
-      "title": "Herkunft im Regal",
-      "body": "Trockenfrüchte, Nüsse, Naturhonig, Gewürze und mehr aus Usbekistan und der Region — Dinge mit Geschichte, die man in Wien selten findet."
-    },
-    "c3": {
-      "title": "Ihr Geschäft ums Eck",
-      "body": "Kein Supermarkt. Wir kennen unsere Ware und unsere Kundschaft — persönlich, mitten im zweiten Bezirk."
-    }
   },
   "liveFish": {
     "eyebrow": "Lebendiger Karpfen – Šaran",
@@ -474,7 +342,7 @@
   },
   "meta": {
     "home": {
-      "title": "Fische & mehr — Lebendige & frische Fische in Wien 1020",
+      "title": "Fische & mehr — Frischer Fisch, Lachskaviar & Delikatessen in Wien 1020",
       "description": "Frische, die man schmeckt: frischer, tiefgekühlter und geräucherter Fisch, Lachskaviar und russische & osteuropäische Delikatessen – Fische & Mehr, Glockengasse 22, 1020 Wien."
     },
     "sortiment": {

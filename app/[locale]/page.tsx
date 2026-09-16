@@ -43,7 +43,7 @@ export default function HomePage({
       {/* Frisch für Sie vorbereitet (portions video) */}
       <Portions />
       {/* Geräucherte Fischspezialitäten — the platter, shown, no configurator */}
-      <Product ns="home.smoked" image="/images/ang-smoked-counter.webp" altKey="angSmokedCounter" flip tone="foam" />
+      <Product ns="home.smoked" image="/images/shoot-platters.webp" altKey="shootPlatters" flip tone="foam" />
       {/* Lachskaviar */}
       <Product ns="home.caviar" image="/images/ang-lachskaviar.webp" altKey="angLachskaviar" />
       <ProductGallery />

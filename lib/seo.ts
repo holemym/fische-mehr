@@ -36,9 +36,10 @@ const BASE_KEYWORDS = [
   'Räucherfisch Wien',
   'живая рыба Вена',
   '1020 Wien',
-  'Usbekistan Spezialitäten',
-  'Trockenfrüchte Wien',
-  'Naturhonig',
+  'Lachskaviar Wien',
+  'russische Delikatessen Wien',
+  'lebender Karpfen Wien',
+  'Fischgeschäft 1020 Wien',
 ];
 
 /** Build full per-page metadata (title, description, hreflang, OG, Twitter, keywords). */

@@ -26,7 +26,8 @@
     "contact": "צור קשר",
     "rights": "© 2026 Fische & mehr. כל הזכויות שמורות.",
     "impressum": "פרטי החברה",
-    "datenschutz": "פרטיות"
+    "datenschutz": "פרטיות",
+    "tagline": "דגים, מעדנים ושירות אישי. וינה."
   },
   "config": {
     "phone": "0676 844293203",
@@ -66,32 +67,6 @@
       "title": "A wide choice\nfor every taste.",
       "body": "Our fish range includes carp, gilt-head bream (dorade), sea bass (branzino), trout and salmon – whole or as fillet, depending on availability.\n\nWe also carry tuna fillet and tuna steaks, tilapia fillet, cod fillet, pike-perch fillet, silver carp, plaice fillet and hake (Oslić). Depending on the type of fish and availability, we offer them fresh or frozen."
     },
-    "sortiment": {
-      "eyebrow": "מה יש אצלנו",
-      "title": "שני דברים, שניהם ממש טובים.",
-      "fish": {
-        "title": "דגים",
-        "body": "חי, טרי, נבחר בקפידה. מהקלאסי ועד המיוחד."
-      },
-      "spec": {
-        "title": "מעדנים",
-        "body": "פירות יבשים, תבלינים ומוצרים מאוזבקיסטאן, טג׳יקיסטאן והאזור."
-      },
-      "cta": "לצפות בכל המבחר"
-    },
-    "origin": {
-      "eyebrow": "מוצא",
-      "title": "מאסיה המרכזית\nאל המחוז השני.",
-      "body": "המעדנים אינם מקרה. הם מגיעים משם שאנחנו באים — ומביאים פיסת בית לווינה.",
-      "cta": "הסיפור שלנו"
-    },
-    "location": {
-      "eyebrow": "למצוא ולבקר",
-      "title": "בלב המחוז השני.",
-      "hoursTitle": "שעות פתיחה",
-      "addrTitle": "כתובת",
-      "cta": "מסלול וקשר"
-    },
     "cta": {
       "title": "בואו לבקר.",
       "body": "שאלות על המבחר של היום? התקשרו או כתבו לנו בוואטסאפ. נשמח לעזור.",
@@ -119,60 +94,28 @@
     "hero": {
       "eyebrow": "מבחר",
       "title": "מה מונח אצלנו על הדלפק.",
-      "intro": "אנחנו במכוון לא מציינים כאן מחירים — דג טרי הוא סחורה יומית, והמחירים תלויים בשוק ובעונה. פשוט שאלו — בחנות, בטלפון או בוואטסאפ."
-    },
-    "fish": {
-      "eyebrow": "דגים",
-      "title": "דגים חיים, נשחטים טרי.",
-      "body": "אנחנו מציעים מבחר נבחר בקפידה במקום מבחר אינסופי. כך האיכות נשמרת גבוהה והטריות אמינה. אילו סוגים יש כרגע תלוי בשלל ובעונה.",
-      "note": "חי באקווריום: קרפיון וקרפיון כסוף, נשחטים טרי במיוחד עבורכם. בנוסף טרי מדי יום: סלמון, פורל, מקרל, לברק, דניס, דגים מעושנים, קוויאר ועוד. מה שיש תלוי בעונה ובאספקה."
-    },
-    "spec": {
-      "eyebrow": "מעדנים",
-      "title": "אוצרות מאסיה המרכזית.",
-      "body": "פירות יבשים, אגוזים, תבלינים ומוצרים נבחרים מאוזבקיסטאן, טג׳יקיסטאן והאזור. דברים עם מוצא וסיפור — שקשה למצוא בווינה.",
-      "note": "פירות יבשים, אגוזים, דבש טבעי, תבלינים, ירקות כבושים, מתוקים ומשקאות מאוזבקיסטן, טג'יקיסטן והאזור."
-    },
-    "platter": {
-      "eyebrow": "בהזמנה מראש",
-      "title": "מגשי דגים בהזמנה מוקדמת.",
-      "body": "לפי בקשה אנו מרכיבים מגשי דגים מעושנים אישיים לכל אירוע ומספקים אותם ישירות אליכם.",
-      "cta": "להזמין מראש"
-    },
-    "cta": {
-      "title": "מחפשים משהו מסוים?",
-      "body": "התקשרו או כתבו לנו. נספר לכם מה טרי היום."
+      "intro": "Fresh, frozen and smoked fish, salmon caviar and selected delicacies. Ask in the shop, by phone or on WhatsApp what's in today."
     }
   },
   "ueber": {
     "hero": {
       "eyebrow": "עלינו",
-      "title": "חנות אחת, מוצא אחד,\nהשקפה אחת."
-    },
-    "story": {
-      "eyebrow": "הסיפור",
-      "title": "עסק משפחתי\nעם שורשים במרכז אסיה.",
-      "body": "Fische & mehr הוא חנות מתמחה קטנה ברובע השני של וינה, המנוהלת על ידי משפחה עם שורשים במרכז אסיה. איתם הגיעה התפיסה שדג חייב להיות טרי באמת — הכי טוב חי, ישר מהאקווריום. לצד דגים חיים וטריים מדי יום אנחנו מביאים לווינה מעדנים מאוזבקיסטן, טג'יקיסטן והאזור: דברים בטעם של בית. היום כל זה נמצא מאחורי הדלפק ברחוב Glockengasse — בניהול אישי, עם ייעוץ כמו פעם."
-    },
-    "origin": {
-      "eyebrow": "מוצא",
-      "title": "אוזבקיסטאן, טג׳יקיסטאן, וינה.",
-      "body": "המעדנים בחנות שלנו מגיעים משם שהשורשים שלנו נמצאים. הם גשר — בין שני עולמות, ובין אנשים שמחפשים פיסת בית."
+      "title": "Fish, delicacies &\npersonal service."
     },
     "values": {
-      "eyebrow": "גישה",
-      "title": "קטן, כן, מתמחה.",
+      "eyebrow": "What matters to us",
+      "title": "Quality, taste and\npersonal preparation.",
       "v1": {
-        "title": "איכות לפני כמות",
-        "body": "עדיף מעט סוגים טריים באמת מאשר מדף מלא מאתמול."
+        "title": "Freshness",
+        "body": "Live carp straight from our tank – it hardly gets fresher. Fresh, frozen and smoked fish, depending on availability."
       },
       "v2": {
-        "title": "אישי",
-        "body": "אנחנו מכירים את הסחורה ואת הלקוחות שלנו. זה לא סופרמרקט."
+        "title": "Personal preparation",
+        "body": "Scaling, gutting, cutting, filleting, mincing or vacuum-sealing – you get your fish exactly as you need it for your kitchen."
       },
       "v3": {
-        "title": "אמין",
-        "body": "טרי ואמין, כאן כשאתם צריכים אותנו."
+        "title": "More than fish",
+        "body": "Salmon caviar and Russian and Eastern European delicacies – for everyone who loves traditional flavours."
       }
     }
   },
@@ -285,11 +228,11 @@
     "items": [
       {
         "q": "אפשר להזמין דגים או מגשי דגים מראש?",
-        "a": "כן. לפי בקשה אנו מרכיבים מגשי דגים מעושנים אישיים לכל אירוע ומספקים אותם אליכם. הכי טוב בחנות או בטלפון, מבעוד מועד."
+        "a": "Yes – best in the shop or by phone, in good time. We prepare your fish to your wishes and put fish platters together for you."
       },
       {
         "q": "מה יש לכם מלבד דגים?",
-        "a": "מעדני דגים וכן מעדנים ממדינות רבות: פירות יבשים, אגוזים, דבש טבעי, תבלינים, ירקות כבושים, מתוקים ומשקאות חריפים."
+        "a": "Salmon caviar and Russian and Eastern European delicacies: pickled cucumbers, tomatoes, peppers, cabbage, mushrooms and garlic, courgette purée, Georgian-style peppers, aubergines with peppers, Russian condensed milk, canned cod liver, sprats and more."
       },
       {
         "q": "אתם מעבדים את הדג במקום?",
@@ -308,22 +251,6 @@
         "a": "כרגע אין חנות מקוונת. בואו לבקר או התקשרו — נשמח לספר לכם מה טרי היום."
       }
     ]
-  },
-  "why": {
-    "eyebrow": "למה Fische & mehr",
-    "title": "קטן, כן,\nובדיוק כמו שצריך.",
-    "c1": {
-      "title": "חי וטרי",
-      "body": "דגים חיים מהאקווריום, נשחטים טרי במיוחד עבורכם — לא ימים במקרר. מרגישים את זה בטעם ורואים את זה."
-    },
-    "c2": {
-      "title": "מוצא על המדף",
-      "body": "פירות יבשים, אגוזים, דבש טבעי, תבלינים ועוד מאוזבקיסטן ומהאזור — דברים עם סיפור, שקשה למצוא בווינה."
-    },
-    "c3": {
-      "title": "החנות שלכם מעבר לפינה",
-      "body": "לא סופרמרקט. אנחנו מכירים את הסחורה ואת הלקוחות שלנו — אישי, בלב המחוז השני."
-    }
   },
   "alt": {
     "hero": "סלמון טרי, מוגש בסגנון עריכתי על מגש",
@@ -386,7 +313,7 @@
   },
   "meta": {
     "home": {
-      "title": "Fische & mehr — דגים חיים וטריים בווינה 1020",
+      "title": "Fische & mehr — דגים טריים, קוויאר סלמון ומעדנים בווינה 1020",
       "description": "Freshness you can taste: fresh, frozen and smoked fish, salmon caviar and Russian & Eastern European delicacies – Fische & Mehr, Glockengasse 22, 1020 Vienna."
     },
     "sortiment": {
@@ -409,65 +336,6 @@
       "title": "פרטיות — Fische & mehr",
       "description": "מדיניות הפרטיות של Fische & mehr בהתאם ל-GDPR."
     }
-  },
-  "platter": {
-    "eyebrow": "מגש דגים מעושנים",
-    "title": "הרכיבו את\nמגש הדגים המעושנים שלכם.",
-    "intro": "לפי בקשה אנו מרכיבים מגשי דגים מעושנים אישיים לכל אירוע ומספקים אותם ישירות אליכם. בחרו מה לשים עליו — נחזור אליכם לאישור. ללא תשלום מקוון, רק הזמנה מוקדמת לא מחייבת במייל.",
-    "personsLabel": "לכמה אנשים",
-    "selectionLabel": "בחירה",
-    "selectionHint": "פשוט אמרו לנו מה לשים על המגש. אפשר לבחור כמה פריטים.",
-    "items": [
-      "סלמון מעושן",
-      "מקרל מעושן",
-      "פורל מעושן",
-      "הרינג מעושן",
-      "שפרוטים",
-      "דג חמאה"
-    ],
-    "dateLabel": "תאריך מבוקש",
-    "nameLabel": "שם",
-    "contactLabel": "אימייל או טלפון",
-    "notesLabel": "בקשות מיוחדות",
-    "notesPlaceholder": "למשל כמות, חיתוך, אלרגיות …",
-    "submit": "לשלוח הזמנה מוקדמת",
-    "sending": "שולח …",
-    "success": "תודה! ההזמנה המוקדמת התקבלה — נחזור אליכם לאישור.",
-    "error": "משהו השתבש. אנא התקשרו או כתבו בוואטסאפ.",
-    "required": "נא למלא.",
-    "summaryHeading": "הזמנה מוקדמת של מגש דגים"
-  },
-  "todayFresh": {
-    "label": "טרי היום",
-    "note": "מתעדכן באופן שוטף על ידי הצוות שלנו.",
-    "items": [
-      "סלמון",
-      "פורל",
-      "לברק"
-    ]
-  },
-  "reviews": {
-    "eyebrow": "מה הלקוחות אומרים",
-    "title": "מרגישים\nשזה אמיתי.",
-    "googleCta": "כל הביקורות בגוגל",
-    "note": "",
-    "items": [
-      {
-        "initials": "M.K.",
-        "name": "מ. ק.",
-        "quote": "סוף סוף חנות במחוז השני שבה הדג באמת טרי. מרגישים את זה מיד."
-      },
-      {
-        "initials": "R.B.",
-        "name": "ר. ב.",
-        "quote": "הפירות היבשים והדבש מעולים — מזכיר את הבית."
-      },
-      {
-        "initials": "S.L.",
-        "name": "ש. ל.",
-        "quote": "ידידותי, אישי, אמין. בדיוק מה שרוצים."
-      }
-    ]
   },
   "liveFish": {
     "eyebrow": "Live carp – Šaran",

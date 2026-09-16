@@ -26,7 +26,8 @@
     "contact": "Contact",
     "rights": "© 2026 Fische & mehr. All rights reserved.",
     "impressum": "Imprint",
-    "datenschutz": "Privacy"
+    "datenschutz": "Privacy",
+    "tagline": "Fish, delicacies & personal service. Vienna."
   },
   "config": {
     "phone": "0676 844293203",
@@ -66,32 +67,6 @@
       "title": "A wide choice\nfor every taste.",
       "body": "Our fish range includes carp, gilt-head bream (dorade), sea bass (branzino), trout and salmon – whole or as fillet, depending on availability.\n\nWe also carry tuna fillet and tuna steaks, tilapia fillet, cod fillet, pike-perch fillet, silver carp, plaice fillet and hake (Oslić). Depending on the type of fish and availability, we offer them fresh or frozen."
     },
-    "sortiment": {
-      "eyebrow": "What we have",
-      "title": "Two things, both done right.",
-      "fish": {
-        "title": "Fish",
-        "body": "Live, fresh, carefully chosen. From classic to special."
-      },
-      "spec": {
-        "title": "Specialties",
-        "body": "Dried fruit, spices and products from Uzbekistan, Tajikistan and the region."
-      },
-      "cta": "See the full range"
-    },
-    "origin": {
-      "eyebrow": "Origin",
-      "title": "From Central Asia\nTo the second district.",
-      "body": "The specialties are no accident. They come from where we come from — bringing a piece of home to Vienna.",
-      "cta": "Our story"
-    },
-    "location": {
-      "eyebrow": "Find & visit",
-      "title": "Right in the second.",
-      "hoursTitle": "Opening hours",
-      "addrTitle": "Address",
-      "cta": "Route & contact"
-    },
     "cta": {
       "title": "Come by.",
       "body": "Questions about today's selection? Give us a call or message us on WhatsApp. We're happy to help.",
@@ -119,60 +94,28 @@
     "hero": {
       "eyebrow": "Range",
       "title": "What's in our counter.",
-      "intro": "We deliberately don't list prices here — fresh fish is daily produce, and prices follow the market and the season. Just ask, in the shop, by phone or on WhatsApp."
-    },
-    "fish": {
-      "eyebrow": "Fish",
-      "title": "Live fish, freshly slaughtered.",
-      "body": "We carry a carefully chosen selection rather than an endless range. That keeps the quality high and the freshness dependable. Which species are in right now depends on the catch and the season.",
-      "note": "Live in the tank: carp and silver carp, slaughtered fresh for you. Also day-fresh: salmon, trout, mackerel, sea bass, sea bream, smoked fish, caviar and more. What's in stock depends on season and delivery."
-    },
-    "spec": {
-      "eyebrow": "Specialties",
-      "title": "Treasures from Central Asia.",
-      "body": "Dried fruit, nuts, spices and selected products from Uzbekistan, Tajikistan and the region. Things with origin and story — rarely found in Vienna.",
-      "note": "Dried fruit, nuts, natural honey, spices, pickled vegetables, sweets and spirits from Uzbekistan, Tajikistan and the region."
-    },
-    "platter": {
-      "eyebrow": "By pre-order",
-      "title": "Fish platters to pre-order.",
-      "body": "On request we put together individual smoked-fish platters for any occasion and deliver them straight to you.",
-      "cta": "Pre-order"
-    },
-    "cta": {
-      "title": "Looking for something specific?",
-      "body": "Give us a call or message us. We'll tell you what's fresh today."
+      "intro": "Fresh, frozen and smoked fish, salmon caviar and selected delicacies. Ask in the shop, by phone or on WhatsApp what's in today."
     }
   },
   "ueber": {
     "hero": {
       "eyebrow": "About us",
-      "title": "One shop, one origin,\nOne conviction."
-    },
-    "story": {
-      "eyebrow": "The story",
-      "title": "A family business\nWith roots in Central Asia.",
-      "body": "Fische & mehr is a small speciality shop in Vienna's 2nd district, run by a family with roots in Central Asia. With them came the conviction that fish has to be truly fresh — ideally live, straight from the tank. Alongside live and day-fresh fish we bring specialities from Uzbekistan, Tajikistan and the region to Vienna: things that taste of home. Today all of that lives behind the counter on Glockengasse — personally run, with advice like in the old days."
-    },
-    "origin": {
-      "eyebrow": "Origin",
-      "title": "Uzbekistan, Tajikistan, Vienna.",
-      "body": "The specialties in our shop come from where our roots are. They are a bridge — between two worlds, and between people looking for a piece of home."
+      "title": "Fish, delicacies &\npersonal service."
     },
     "values": {
-      "eyebrow": "Approach",
-      "title": "Small, honest, specialized.",
+      "eyebrow": "What matters to us",
+      "title": "Quality, taste and\npersonal preparation.",
       "v1": {
-        "title": "Quality over quantity",
-        "body": "A few species genuinely fresh, rather than a full shelf from yesterday."
+        "title": "Freshness",
+        "body": "Live carp straight from our tank – it hardly gets fresher. Fresh, frozen and smoked fish, depending on availability."
       },
       "v2": {
-        "title": "Personal",
-        "body": "We know our goods and our customers. This is not a supermarket."
+        "title": "Personal preparation",
+        "body": "Scaling, gutting, cutting, filleting, mincing or vacuum-sealing – you get your fish exactly as you need it for your kitchen."
       },
       "v3": {
-        "title": "Dependable",
-        "body": "Fresh and reliable, there when you need us."
+        "title": "More than fish",
+        "body": "Salmon caviar and Russian and Eastern European delicacies – for everyone who loves traditional flavours."
       }
     }
   },
@@ -285,11 +228,11 @@
     "items": [
       {
         "q": "Can I pre-order fish or fish platters?",
-        "a": "Yes. On request we put together individual smoked-fish platters for any occasion and deliver them to you. Best in the shop or by phone, in good time."
+        "a": "Yes – best in the shop or by phone, in good time. We prepare your fish to your wishes and put fish platters together for you."
       },
       {
         "q": "What do you have besides fish?",
-        "a": "Fish delicacies plus specialties from many countries: dried fruit, nuts, natural honey, spices, pickled vegetables, sweets and spirits."
+        "a": "Salmon caviar and Russian and Eastern European delicacies: pickled cucumbers, tomatoes, peppers, cabbage, mushrooms and garlic, courgette purée, Georgian-style peppers, aubergines with peppers, Russian condensed milk, canned cod liver, sprats and more."
       },
       {
         "q": "Do you prepare the fish on site?",
@@ -308,22 +251,6 @@
         "a": "There's currently no online shop. Come by or give us a call — we're happy to tell you what's fresh today."
       }
     ]
-  },
-  "why": {
-    "eyebrow": "Why fische & mehr",
-    "title": "Small, honest,\nAnd just right.",
-    "c1": {
-      "title": "Live & fresh",
-      "body": "Live fish from the tank, freshly slaughtered for you — not sitting in cold storage for days. You taste it and you see it."
-    },
-    "c2": {
-      "title": "Origin on the shelf",
-      "body": "Dried fruit, nuts, natural honey, spices and more from Uzbekistan and the region — things with a story, rarely found in Vienna."
-    },
-    "c3": {
-      "title": "Your shop round the corner",
-      "body": "Not a supermarket. We know our goods and our customers — personal, right in the 2nd district."
-    }
   },
   "alt": {
     "hero": "Fresh salmon, plated editorially on a tray",
@@ -386,7 +313,7 @@
   },
   "meta": {
     "home": {
-      "title": "Fische & mehr — Live & fresh fish in Vienna 1020",
+      "title": "Fische & mehr — Fresh fish, salmon caviar & delicacies in Vienna 1020",
       "description": "Freshness you can taste: fresh, frozen and smoked fish, salmon caviar and Russian & Eastern European delicacies – Fische & Mehr, Glockengasse 22, 1020 Vienna."
     },
     "sortiment": {
@@ -409,65 +336,6 @@
       "title": "Privacy — Fische & mehr",
       "description": "Privacy policy of Fische & mehr under GDPR."
     }
-  },
-  "platter": {
-    "eyebrow": "Smoked-fish platter",
-    "title": "Build your\nsmoked-fish platter.",
-    "intro": "On request we put together individual smoked-fish platters for any occasion and deliver them straight to you. Choose what goes on it — we'll get in touch to confirm. No online payment, just a non-binding pre-order by e-mail.",
-    "personsLabel": "For how many people",
-    "selectionLabel": "Selection",
-    "selectionHint": "Just tell us what should go on the platter. Multiple choice possible.",
-    "items": [
-      "Smoked salmon",
-      "Smoked mackerel",
-      "Smoked trout",
-      "Smoked herring",
-      "Sprats",
-      "Butterfish"
-    ],
-    "dateLabel": "Preferred date",
-    "nameLabel": "Name",
-    "contactLabel": "E-mail or phone",
-    "notesLabel": "Special requests",
-    "notesPlaceholder": "E.G. Quantity, cut, allergies …",
-    "submit": "Send pre-order",
-    "sending": "Sending …",
-    "success": "Thank you! Your pre-order arrived — we'll get back to you to confirm.",
-    "error": "Something went wrong. Please call us or message us on WhatsApp.",
-    "required": "Please fill in.",
-    "summaryHeading": "Fish platter pre-order"
-  },
-  "todayFresh": {
-    "label": "Fresh today",
-    "note": "Kept up to date by our team.",
-    "items": [
-      "Salmon",
-      "Trout",
-      "Sea bass"
-    ]
-  },
-  "reviews": {
-    "eyebrow": "What customers say",
-    "title": "You can tell\nIt's genuine.",
-    "googleCta": "All reviews on Google",
-    "note": "",
-    "items": [
-      {
-        "initials": "M.K.",
-        "name": "M. K.",
-        "quote": "Finally a shop in the 2nd district where the fish is genuinely fresh. You can tell right away."
-      },
-      {
-        "initials": "R.B.",
-        "name": "R. B.",
-        "quote": "The dried fruit and honey are wonderful — tastes like home."
-      },
-      {
-        "initials": "S.L.",
-        "name": "S. L.",
-        "quote": "Friendly, personal, dependable. Exactly what you'd want."
-      }
-    ]
   },
   "liveFish": {
     "eyebrow": "Live carp – Šaran",
