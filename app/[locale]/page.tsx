@@ -10,6 +10,7 @@ import Portions from '@/components/sections/Portions';
 import ProductGallery from '@/components/sections/ProductGallery';
 import ProductCategories from '@/components/sections/ProductCategories';
 import Product from '@/components/sections/Product';
+import StorefrontBand from '@/components/sections/StorefrontBand';
 import FindUs from '@/components/sections/FindUs';
 import FreshFishNotifier from '@/components/sections/FreshFishNotifier';
 
@@ -21,6 +22,7 @@ export async function generateMetadata({
   return pageMetadata(locale, 'home', '/');
 }
 
+// Section order follows the client's copy, block by block (round 1, 2026-09-16).
 export default function HomePage({
   params: { locale },
 }: {
@@ -33,12 +35,22 @@ export default function HomePage({
       <JsonLd locale={locale} />
       <Hero />
       <TrustBar />
+      {/* Lebendiger Karpfen – Šaran */}
       <LiveFish />
       <Marquee />
-      <ProductGallery />
+      {/* Frischer & tiefgekühlter Fisch */}
+      <Product ns="home.product" image="/images/ang-fresh-counter.webp" altKey="angFreshCounter" />
+      {/* Frisch für Sie vorbereitet (portions video) */}
       <Portions />
+      {/* Geräucherte Fischspezialitäten — the platter, shown, no configurator */}
+      <Product ns="home.smoked" image="/images/ang-smoked-counter.webp" altKey="angSmokedCounter" flip tone="foam" />
+      {/* Lachskaviar */}
+      <Product ns="home.caviar" image="/images/ang-lachskaviar.webp" altKey="angLachskaviar" />
+      <ProductGallery />
+      {/* Russische & osteuropäische Delikatessen */}
       <ProductCategories />
-      <Product />
+      {/* Closing band: poster blue, storefront watermark, contact data */}
+      <StorefrontBand />
       <FindUs />
       <FreshFishNotifier />
     </>

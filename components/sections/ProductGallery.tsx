@@ -68,12 +68,27 @@ const DIMS: Record<string, [number, number]> = {
   'shoot-dorade': [1125, 2000],
   'shoot-live-carp': [941, 1672],
   'shoot-tuna': [1125, 2000],
+  // Client photos, 2026-09-16 (Angelina) — all portrait 1500×2000
+  'ang-fresh-counter': [1500, 2000],
+  'ang-smoked-counter': [1500, 2000],
+  'ang-smoked-counter-2': [1500, 2000],
+  'ang-lachskaviar': [1500, 2000],
+  'ang-cheese-counter': [1500, 2000],
+  'ang-pickles-coffee': [1500, 2000],
+  'ang-canned-sprats': [1500, 2000],
+  'ang-dry-goods': [1500, 2000],
+  'ang-storefront-corner': [1500, 2000],
 };
 
 // Picture-forward masonry. Real shop photos only — the generic placeholder
 // images were removed (except the salmon/fish studio shots the owner wanted
 // kept). Fish shots lead, specialties follow.
 const TILES: Tile[] = [
+  // Client photos (2026-09-16) lead each group
+  { img: 'ang-fresh-counter', cat: 'fish' },
+  { img: 'ang-smoked-counter', cat: 'fish' },
+  { img: 'ang-lachskaviar', cat: 'fish' },
+  { img: 'ang-storefront-corner', cat: 'fish' },
   // Live & fresh fish
   { img: 'shoot-live-carp', cat: 'fish' },
   { img: 'shoot-whole-fish-ice', cat: 'fish' },
@@ -95,7 +110,6 @@ const TILES: Tile[] = [
   { img: 'shoot-smoked-whole', cat: 'fish' },
   { img: 'shoot-smoked-counter', cat: 'fish' },
   { img: 'shoot-smoked-fillets', cat: 'fish' },
-  { img: 'shoot-owner-fish-2', cat: 'fish' },
   { img: 'shoot-fish-selection', cat: 'fish' },
   { img: 'shoot-platter-catering', cat: 'fish' },
   { img: 'shoot-platters', cat: 'fish' },
@@ -103,8 +117,11 @@ const TILES: Tile[] = [
   { img: 'shoot-seashells', cat: 'fish' },
   { img: 'shoot-tinned-fish', cat: 'fish' },
   { img: 'shoot-frozen-fish-1', cat: 'fish' },
-  { img: 'shoot-frozen-fish-2', cat: 'fish' },
   // Specialties
+  { img: 'ang-pickles-coffee', cat: 'spec' },
+  { img: 'ang-canned-sprats', cat: 'spec' },
+  { img: 'ang-cheese-counter', cat: 'spec' },
+  { img: 'ang-dry-goods', cat: 'spec' },
   { img: 'shoot-honey-jar', cat: 'spec' },
   { img: 'shoot-condensed-milk', cat: 'spec' },
   { img: 'shoot-sweets-shelf', cat: 'spec' },
@@ -237,6 +254,15 @@ export default function ProductGallery() {
     'shoot-dorade': 'shootDorade',
     'shoot-live-carp': 'shootLiveCarp',
     'shoot-tuna': 'shootTuna',
+    'ang-fresh-counter': 'angFreshCounter',
+    'ang-smoked-counter': 'angSmokedCounter',
+    'ang-smoked-counter-2': 'angSmokedCounter2',
+    'ang-lachskaviar': 'angLachskaviar',
+    'ang-cheese-counter': 'angCheeseCounter',
+    'ang-pickles-coffee': 'angPicklesCoffee',
+    'ang-canned-sprats': 'angCannedSprats',
+    'ang-dry-goods': 'angDryGoods',
+    'ang-storefront-corner': 'angStorefrontCorner',
   };
 
   return (

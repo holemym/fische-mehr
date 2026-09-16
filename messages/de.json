@@ -40,9 +40,9 @@
   "whatsappPrefill": "Hallo Fische & mehr, ich habe eine Frage zum Tagesangebot.",
   "home": {
     "hero": {
-      "eyebrow": "Lebendige Fische · Wien 1020",
-      "title": "Lebendige Fische.\nUnd vieles mehr.",
-      "subtitle": "Lebendige, frische und geräucherte Fische sowie eine große Auswahl an Fischdelikatessen. Wir verarbeiten Ihren Fisch direkt vor Ort nach Wunsch und vakuumieren ihn frisch für Sie.\n\nAußerdem bieten wir verschiedene Delikatessen aus vielen Ländern sowie Spirituosen an. Kommen Sie vorbei und lassen Sie sich überraschen!",
+      "eyebrow": "Willkommen bei Fische & Mehr in Wien",
+      "title": "Frische,\ndie man schmeckt.",
+      "subtitle": "Bei uns erwartet Sie eine große Auswahl an frischem, tiefgekühltem und geräuchertem Fisch sowie Kaviar und ausgewählten russischen und osteuropäischen Delikatessen. Qualität, Geschmack und persönliche Zubereitung stehen bei uns im Mittelpunkt.",
       "ctaPrimary": "Sortiment ansehen",
       "ctaSecond": "So finden Sie uns"
     },
@@ -61,9 +61,9 @@
       }
     },
     "product": {
-      "eyebrow": "Das Produkt",
-      "title": "Lebendig frisch.",
-      "body": "Lebendige Fische sind in Wien seltener als man denkt. Bei uns warten sie im Becken, bis sie bestellt werden — und werden frisch für Sie geschlachtet. Frischer geht es nicht. Das schmeckt man. Das sieht man."
+      "eyebrow": "Frischer & tiefgekühlter Fisch",
+      "title": "Große Auswahl\nfür jeden Geschmack.",
+      "body": "Unser Fischsortiment umfasst Karpfen, Goldbrasse (Dorade), Branzino (Wolfsbarsch), Forelle und Lachs – je nach Verfügbarkeit als ganzer Fisch oder als Filet.\n\nAußerdem erhalten Sie bei uns Thunfischfilet und Thunfischsteaks, Tilapiafilet, Kabeljaufilet, Zanderfilet, Silberkarpfen, Schollenfilet und Seehecht (Oslić). Unser Sortiment bieten wir je nach Fischart und Verfügbarkeit frisch oder tiefgekühlt an."
     },
     "sortiment": {
       "eyebrow": "Was es gibt",
@@ -96,6 +96,22 @@
       "body": "Fragen zum Tagesangebot? Rufen Sie an oder schreiben Sie uns auf WhatsApp. Wir helfen gern.",
       "call": "Anrufen",
       "whatsapp": "WhatsApp schreiben"
+    },
+    "smoked": {
+      "eyebrow": "Geräucherte Fischspezialitäten",
+      "title": "Aromatisch, herzhaft\nund voller Geschmack.",
+      "body": "Entdecken Sie unsere Auswahl an geräucherten Fischen und Filets. Ideal für die Jause, zum Frühstück, für Gäste oder einfach zum Genießen."
+    },
+    "caviar": {
+      "eyebrow": "Lachskaviar",
+      "title": "Eine besondere Delikatesse\nfür besondere Momente.",
+      "body": "Bei uns finden Sie hochwertigen Lachskaviar mit feinem Geschmack und bester Qualität – perfekt zum Genießen, Servieren und für festliche Anlässe."
+    },
+    "closing": {
+      "eyebrow": "Fische & Mehr",
+      "title": "Fisch, Delikatessen & persönlicher Service\nan einem Ort.",
+      "body": "Ob für das tägliche Essen, ein Familienfest oder einen besonderen Anlass – entdecken Sie unser vielfältiges Sortiment und lassen Sie Ihren Fisch direkt nach Wunsch vorbereiten.",
+      "cta": "Besuchen Sie uns in Wien – wir freuen uns auf Sie!"
     }
   },
   "sortiment": {
@@ -212,32 +228,32 @@
     "note": "Fotos aus unserem Geschäft. Das Tagesangebot wechselt — fragen Sie einfach nach, was heute frisch ist."
   },
   "categories": {
-    "eyebrow": "Was wir führen",
-    "title": "Fisch — und alles,\nwas dazugehört.",
-    "intro": "Neben frischem Fisch finden Sie bei uns ausgesuchte Delikatessen — nichts Abgehobenes, einfach gute Ware.",
+    "eyebrow": "Russische & osteuropäische Delikatessen",
+    "title": "Bei uns gibt es\nweit mehr als nur Fisch.",
+    "intro": "Entdecken Sie eine große Auswahl an beliebten Spezialitäten: eingelegte Gurken, Tomaten, Paprika, Kraut, Champignons und Knoblauch, dazu Zucchinipüree, Paprika nach georgischer Art sowie milde Auberginen mit Paprika. Auch Klassiker wie russische Kondensmilch, Dorschleber in Konserven, Sprotten und weitere ausgewählte Spezialitäten finden Sie bei uns. Für alle, die den traditionellen Geschmack lieben – bei uns gibt es vieles, was das Herz begehrt.",
     "fish": {
-      "title": "Lebendige Fische",
-      "body": "Lebendig im Becken, frisch für Sie geschlachtet. Welche Arten da sind, hängt von Fang und Saison ab."
+      "title": "Frischer & tiefgekühlter Fisch",
+      "body": "Karpfen, Goldbrasse, Branzino, Forelle, Lachs – ganz oder als Filet."
     },
     "dried": {
-      "title": "Trockenfrüchte",
-      "body": "Aprikosen, Rosinen, Melone und mehr — sonnengetrocknet, aus der Region."
+      "title": "Eingelegtes",
+      "body": "Gurken, Tomaten, Paprika, Kraut, Champignons und Knoblauch."
     },
     "nuts": {
-      "title": "Nüsse",
-      "body": "Walnüsse, Mandeln, Pistazien. Zum Knabbern, Backen, Schenken."
+      "title": "Gemüse-Aufstriche",
+      "body": "Zucchinipüree, Paprika nach georgischer Art, milde Auberginen mit Paprika."
     },
     "honey": {
-      "title": "Naturhonig",
-      "body": "Echter, naturbelassener Honig. Kräftig und ehrlich im Geschmack."
+      "title": "Lachskaviar",
+      "body": "Hochwertiger Lachskaviar – zum Genießen, Servieren und für festliche Anlässe."
     },
     "spices": {
-      "title": "Gewürze",
-      "body": "Aromatische Gewürze für die Küche und darüber hinaus."
+      "title": "Klassiker",
+      "body": "Russische Kondensmilch, Dorschleber in Konserven, Sprotten."
     },
     "spirits": {
-      "title": "Spirituosen",
-      "body": "Ausgewählte Spirituosen und Getränke aus der Region."
+      "title": "Geräuchertes",
+      "body": "Geräucherte Fische und Filets – für die Jause, das Frühstück, für Gäste."
     }
   },
   "notifier": {
@@ -259,7 +275,8 @@
     "transitTitle": "Anfahrt",
     "mapCta": "In Karten öffnen",
     "directionsCta": "Route planen",
-    "mapAlt": "Karte: Standort von Fische & mehr, Ecke Novaragasse / Glockengasse, 1020 Wien"
+    "mapAlt": "Karte: Standort von Fische & mehr, Ecke Novaragasse / Glockengasse, 1020 Wien",
+    "contactTitle": "Kontakt"
   },
   "todayFresh": {
     "label": "Heute frisch",
@@ -367,32 +384,32 @@
     }
   },
   "liveFish": {
-    "eyebrow": "Lebendige Fische",
-    "title": "Frisch ist, was heute\nnoch geschwommen ist.",
-    "body": "Das Herz unseres Geschäfts sind lebendige Fische. Sie warten bei uns im Becken, bis sie bestellt werden — dann werden sie frisch für Sie geschlachtet, geputzt und filetiert. Frischer geht Fisch nicht. Genau so machen wir es mitten im zweiten Bezirk.",
-    "listTitle": "Typische Arten, lebendig & frisch geschlachtet",
-    "note": "welche fische gerade lebendig im becken sind, hängt von saison und lieferung ab — fragen Sie einfach im laden oder telefonisch nach.",
+    "eyebrow": "Lebendiger Karpfen – Šaran",
+    "title": "Direkt aus unserem Becken.\nFrischer geht’s kaum.",
+    "body": "Eine unserer besonderen Spezialitäten ist unser lebendiger Karpfen – auch Šaran genannt. Sie wählen Ihren Karpfen direkt vor Ort und wir bereiten ihn frisch nach Ihren Wünschen zu: gereinigt, geschnitten oder faschiert.",
+    "listTitle": "Unser Fischsortiment",
+    "note": "Je nach Fischart und Verfügbarkeit frisch oder tiefgekühlt – als ganzer Fisch oder als Filet.",
     "cta": "Nach dem Tagesfang fragen",
     "species": [
       {
-        "name": "Karpfen",
-        "desc": "Der Klassiker — kräftig und saftig, traditionell für Festtage und gefilte Fisch."
+        "name": "Karpfen (Šaran)",
+        "desc": "Lebendig aus dem Becken – gereinigt, geschnitten oder faschiert."
       },
       {
-        "name": "Silberkarpfen (Tolstolob)",
-        "desc": "Groß und ergiebig, zart im Geschmack — ideal für die ganze Familie."
+        "name": "Goldbrasse (Dorade)",
+        "desc": "Je nach Verfügbarkeit als ganzer Fisch oder als Filet."
+      },
+      {
+        "name": "Branzino (Wolfsbarsch)",
+        "desc": "Je nach Verfügbarkeit als ganzer Fisch oder als Filet."
       },
       {
         "name": "Forelle",
-        "desc": "Zart und fein, schnell zubereitet — immer gefragt, ganzjährig beliebt."
+        "desc": "Je nach Verfügbarkeit als ganzer Fisch oder als Filet."
       },
       {
-        "name": "Makrele",
-        "desc": "Kräftig und aromatisch — frisch wie geräuchert ein Klassiker."
-      },
-      {
-        "name": "Wolfsbarsch & Dorade",
-        "desc": "Edel und mild — tagesfrisch, ideal im Ganzen aus dem Ofen."
+        "name": "Lachs",
+        "desc": "Je nach Verfügbarkeit als ganzer Fisch oder als Filet."
       }
     ]
   },
@@ -442,12 +459,23 @@
     "shootDriedGoodsShelf": "Regal mit Trockenwaren und Hülsenfrüchten",
     "shootGrainBags": "Getreide- und Hülsenfrüchte-Auswahl im Regal",
     "shootLiveCarp": "Lebendige Karpfen im Wasserbecken bei Fische & mehr",
-    "shootTuna": "Frische Thunfisch-Loins, frisch zugeschnitten"
+    "shootTuna": "Frische Thunfisch-Loins, frisch zugeschnitten",
+    "angCheeseCounter": "Käse- und Feinkosttheke",
+    "angPicklesCoffee": "Eingelegtes Gemüse und Kaffee im Regal",
+    "angCannedSprats": "Sprotten und Dorschleber in Konserven",
+    "angLachskaviar": "Lachskaviar in Dosen",
+    "angDryGoods": "Nudeln, Hülsenfrüchte und Trockenwaren",
+    "angSmokedCounter": "Geräucherte Fische in der Theke",
+    "angSmokedCounter2": "Geräucherte Fische und Filets",
+    "angFreshCounter": "Frischer Lachs, Dorade und Branzino auf Eis",
+    "angStorefrontCorner": "Fische & Mehr an der Ecke Glockengasse / Novaragasse",
+    "angStorefrontEntrance": "Eingang von Fische & Mehr",
+    "angPoster": "Plakat an der Fassade von Fische & Mehr"
   },
   "meta": {
     "home": {
       "title": "Fische & mehr — Lebendige & frische Fische in Wien 1020",
-      "description": "Lebendige, frische und geräucherte Fische sowie Fischdelikatessen im 2. Bezirk in Wien. Dazu Delikatessen aus vielen Ländern und Spirituosen. Vor Ort verarbeitet und frisch vakuumiert."
+      "description": "Frische, die man schmeckt: frischer, tiefgekühlter und geräucherter Fisch, Lachskaviar und russische & osteuropäische Delikatessen – Fische & Mehr, Glockengasse 22, 1020 Wien."
     },
     "sortiment": {
       "title": "Sortiment — Fische & mehr",
@@ -471,8 +499,8 @@
     }
   },
   "portions": {
-    "eyebrow": "Frisch zugeschnitten",
-    "title": "So sehen unsere\nPortionen aus.",
-    "body": "Jeder Fisch wird bei uns frisch für Sie zugeschnitten — in der Größe, die Sie brauchen."
+    "eyebrow": "Frisch für Sie vorbereitet",
+    "title": "Sie wählen –\nwir kümmern uns um den Rest.",
+    "body": "Gerne bereiten wir Ihren Fisch direkt für Sie vor. Ob entschuppen, herausnehmen, schneiden, filetieren, faschieren oder vakuumieren – Sie bekommen Ihren Fisch so, wie Sie ihn für Ihre Küche brauchen."
   }
 }

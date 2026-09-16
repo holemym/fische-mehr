@@ -63,8 +63,8 @@ export default function FindUs() {
           </a>
         </Reveal>
 
-        {/* Details row below the map */}
-        <div className="mt-10 grid gap-8 border-t border-sea-deep/12 pt-10 sm:grid-cols-3">
+        {/* Details row below the map — address, hours, contact, transit */}
+        <div className="mt-10 grid gap-8 border-t border-sea-deep/12 pt-10 sm:grid-cols-2 lg:grid-cols-4">
           <Reveal>
             <div className="flex items-center gap-2.5">
               <Pin className="text-sea" />
@@ -72,6 +72,20 @@ export default function FindUs() {
             </div>
             <p className="mt-3 font-display text-xl tracking-tight text-sea-deep">
               {c('address')}
+            </p>
+          </Reveal>
+
+          <Reveal delay={35}>
+            <h3 className="eyebrow">{t('contactTitle')}</h3>
+            <p className="mt-3 font-display text-xl tracking-tight text-sea-deep">
+              <a href={SITE.phoneHref} className="transition-colors hover:text-sea">
+                {c('phone')}
+              </a>
+            </p>
+            <p className="mt-1 min-w-0 break-words font-mono text-sm text-grey-dark">
+              <a href={`mailto:${SITE.email}`} className="transition-colors hover:text-sea">
+                {c('email')}
+              </a>
             </p>
           </Reveal>
 

@@ -41,9 +41,9 @@
   "whatsappPrefill": "Hello Fische & mehr, I have a question about today's selection.",
   "home": {
     "hero": {
-      "eyebrow": "live fish · vienna 1020",
-      "title": "Live fish.\nAnd much more.",
-      "subtitle": "Live, fresh and smoked fish, plus a wide selection of fish delicacies. We prepare your fish on site just the way you like it and vacuum-seal it fresh for you.\n\nWe also offer a range of delicacies from many countries, as well as spirits. Come by and let us surprise you!",
+      "eyebrow": "Welcome to Fische & Mehr in Vienna",
+      "title": "Freshness\nyou can taste.",
+      "subtitle": "A wide selection of fresh, frozen and smoked fish, caviar and selected Russian and Eastern European delicacies. Quality, taste and personal preparation are at the heart of what we do.",
       "ctaPrimary": "View the range",
       "ctaSecond": "How to find us"
     },
@@ -62,9 +62,9 @@
       }
     },
     "product": {
-      "eyebrow": "The product",
-      "title": "Fresh, alive.",
-      "body": "Live fish is rarer in Vienna than you'd think. Here it waits in the tank until you order — and is slaughtered fresh for you. Fish doesn't get fresher. You taste it. You see it."
+      "eyebrow": "Fresh & frozen fish",
+      "title": "A wide choice\nfor every taste.",
+      "body": "Our fish range includes carp, gilt-head bream (dorade), sea bass (branzino), trout and salmon – whole or as fillet, depending on availability.\n\nWe also carry tuna fillet and tuna steaks, tilapia fillet, cod fillet, pike-perch fillet, silver carp, plaice fillet and hake (Oslić). Depending on the type of fish and availability, we offer them fresh or frozen."
     },
     "sortiment": {
       "eyebrow": "What we have",
@@ -97,6 +97,22 @@
       "body": "Questions about today's selection? Give us a call or message us on WhatsApp. We're happy to help.",
       "call": "Call",
       "whatsapp": "Message on WhatsApp"
+    },
+    "smoked": {
+      "eyebrow": "Smoked fish specialities",
+      "title": "Aromatic, hearty\nand full of flavour.",
+      "body": "Discover our selection of smoked fish and fillets. Ideal for a snack, for breakfast, for guests or simply to enjoy."
+    },
+    "caviar": {
+      "eyebrow": "Salmon caviar",
+      "title": "A special delicacy\nfor special moments.",
+      "body": "We carry high-quality salmon caviar with a fine taste and the best quality – perfect for enjoying, serving and for festive occasions."
+    },
+    "closing": {
+      "eyebrow": "Fische & Mehr",
+      "title": "Fish, delicacies & personal service\nin one place.",
+      "body": "Whether for everyday meals, a family celebration or a special occasion – discover our varied range and have your fish prepared just the way you want it.",
+      "cta": "Visit us in Vienna – we look forward to seeing you!"
     }
   },
   "sortiment": {
@@ -213,32 +229,32 @@
     "note": "Photos from our shop. The daily offer changes — just ask what's fresh today."
   },
   "categories": {
-    "eyebrow": "What we carry",
-    "title": "Fish — and everything\nThat goes with it.",
-    "intro": "A fish shop with a soft spot for the imported. Alongside fresh fish you'll find selected specialties from Uzbekistan and the region — nothing fancy, just good stuff.",
+    "eyebrow": "Russian & Eastern European delicacies",
+    "title": "Far more\nthan just fish.",
+    "intro": "Discover a wide selection of popular specialities: pickled cucumbers, tomatoes, peppers, cabbage, mushrooms and garlic, plus courgette purée, Georgian-style peppers and mild aubergines with peppers. You'll also find classics such as Russian condensed milk, canned cod liver, sprats and other selected specialities. For everyone who loves traditional flavours – there's plenty here to delight.",
     "fish": {
-      "title": "Live fish",
-      "body": "Live in the tank, freshly slaughtered for you. Which species are in depends on the catch and the season."
+      "title": "Fresh & frozen fish",
+      "body": "Carp, gilt-head bream, sea bass, trout, salmon – whole or as fillet."
     },
     "dried": {
-      "title": "Dried fruit",
-      "body": "Apricots, raisins, melon and more — sun-dried, from the region."
+      "title": "Pickles",
+      "body": "Cucumbers, tomatoes, peppers, cabbage, mushrooms and garlic."
     },
     "nuts": {
-      "title": "Nuts",
-      "body": "Walnuts, almonds, pistachios. To snack, bake or give."
+      "title": "Vegetable spreads",
+      "body": "Courgette purée, Georgian-style peppers, mild aubergines with peppers."
     },
     "honey": {
-      "title": "Natural honey",
-      "body": "Real, unprocessed honey. Bold and honest in taste."
+      "title": "Salmon caviar",
+      "body": "High-quality salmon caviar – for enjoying, serving and festive occasions."
     },
     "spices": {
-      "title": "Spices",
-      "body": "Aromatic spices for Central Asian cooking and beyond."
+      "title": "Classics",
+      "body": "Russian condensed milk, canned cod liver, sprats."
     },
     "spirits": {
-      "title": "Spirits",
-      "body": "Selected spirits and drinks from the region."
+      "title": "Smoked",
+      "body": "Smoked fish and fillets – for a snack, breakfast or guests."
     }
   },
   "notifier": {
@@ -260,7 +276,8 @@
     "transitTitle": "Getting here",
     "mapCta": "Open in Maps",
     "directionsCta": "Get directions",
-    "mapAlt": "Map: location of Fische & mehr, corner Novaragasse / Glockengasse, 1020 Vienna"
+    "mapAlt": "Map: location of Fische & mehr, corner Novaragasse / Glockengasse, 1020 Vienna",
+    "contactTitle": "Contact"
   },
   "faq": {
     "eyebrow": "Frequent questions",
@@ -354,12 +371,23 @@
     "shootSmokedFillets": "Smoked fish fillets in the counter",
     "shootDorade": "Fresh sea bream on ice, close-up",
     "shootLiveCarp": "Live carp in the water tank at Fische & mehr",
-    "shootTuna": "Fresh tuna loins, freshly cut"
+    "shootTuna": "Fresh tuna loins, freshly cut",
+    "angCheeseCounter": "Cheese and deli counter",
+    "angPicklesCoffee": "Pickled vegetables and coffee on the shelf",
+    "angCannedSprats": "Canned sprats and cod liver",
+    "angLachskaviar": "Tins of salmon caviar",
+    "angDryGoods": "Pasta, pulses and dry goods",
+    "angSmokedCounter": "Smoked fish in the display counter",
+    "angSmokedCounter2": "Smoked fish and fillets",
+    "angFreshCounter": "Fresh salmon, bream and sea bass on ice",
+    "angStorefrontCorner": "Fische & Mehr on the corner of Glockengasse / Novaragasse",
+    "angStorefrontEntrance": "Entrance of Fische & Mehr",
+    "angPoster": "Poster on the Fische & Mehr façade"
   },
   "meta": {
     "home": {
       "title": "Fische & mehr — Live & fresh fish in Vienna 1020",
-      "description": "Live, fresh and smoked fish and fish delicacies in Vienna's 2nd district. Plus delicacies from many countries and spirits. Prepared on site and freshly vacuum-sealed."
+      "description": "Freshness you can taste: fresh, frozen and smoked fish, salmon caviar and Russian & Eastern European delicacies – Fische & Mehr, Glockengasse 22, 1020 Vienna."
     },
     "sortiment": {
       "title": "Range — Fische & mehr",
@@ -442,38 +470,38 @@
     ]
   },
   "liveFish": {
-    "eyebrow": "Live fish",
-    "title": "Fresh means it was\nStill swimming today.",
-    "body": "The heart of our shop is live fish. They wait in the tank until you order — then they're slaughtered, cleaned and filleted fresh for you. Fish doesn't get fresher than this. That's how it's done in Central Asia, and that's how we do it in the middle of the 2nd district.",
-    "listTitle": "Typical species, live & freshly slaughtered",
-    "note": "Which fish are live in the tank right now depends on season and delivery — just ask in the shop or by phone.",
+    "eyebrow": "Live carp – Šaran",
+    "title": "Straight from our tank.\nIt hardly gets fresher.",
+    "body": "One of our special offerings is live carp – also known as Šaran. You choose your carp on the spot and we prepare it fresh to your wishes: cleaned, cut or minced.",
+    "listTitle": "Our fish range",
+    "note": "Fresh or frozen depending on the type of fish and availability – whole or as fillet.",
     "cta": "Ask about today's catch",
     "species": [
       {
-        "name": "Carp",
-        "desc": "The classic — rich and juicy, traditional for holidays and gefilte fish."
+        "name": "Carp (Šaran)",
+        "desc": "Live from the tank – cleaned, cut or minced."
       },
       {
-        "name": "Silver carp (tolstolob)",
-        "desc": "Large and generous, delicate in flavour — ideal for the whole family."
+        "name": "Gilt-head bream (Dorade)",
+        "desc": "Whole or as fillet, depending on availability."
+      },
+      {
+        "name": "Sea bass (Branzino)",
+        "desc": "Whole or as fillet, depending on availability."
       },
       {
         "name": "Trout",
-        "desc": "Tender and fine, quick to prepare — always in demand, popular year-round."
+        "desc": "Whole or as fillet, depending on availability."
       },
       {
-        "name": "Mackerel",
-        "desc": "Full-flavoured and aromatic — a classic fresh or smoked."
-      },
-      {
-        "name": "Sea bass & sea bream",
-        "desc": "Refined and mild — day-fresh, ideal whole from the oven."
+        "name": "Salmon",
+        "desc": "Whole or as fillet, depending on availability."
       }
     ]
   },
   "portions": {
-    "eyebrow": "Freshly cut",
-    "title": "This is what\nOur portions look like.",
-    "body": "Every fish is cut fresh for you — in the size you need."
+    "eyebrow": "Prepared fresh for you",
+    "title": "You choose –\nwe take care of the rest.",
+    "body": "We're happy to prepare your fish for you: scaling, gutting, cutting, filleting, mincing or vacuum-sealing – you get your fish exactly as you need it for your kitchen."
   }
 }

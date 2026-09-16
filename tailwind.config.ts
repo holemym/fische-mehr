@@ -12,18 +12,20 @@ const config: Config = {
         cream: '#f7f2e8', // warm off-white, primary bg
         'cream-soft': '#efe7d6',
         foam: '#e6eef8', // pale royal tint for alternating sections
-        sea: '#08497e', // deep royal accent — icons, lines, button hover, links
-        'sea-deep': '#0a5fa5', // the store's royal blue — dark sections / strong text
+        // Client round 1: lifted to the brighter water-blue of the shop's poster/logo
+        // ("nicht so dunkel") — same roles, lighter values.
+        sea: '#135e9c', // deeper accent — icons, lines, button hover, links
+        'sea-deep': '#1e78c2', // the store's poster blue — dark sections / strong text
         'sea-ink': '#08243f', // near-black royal — body text
-        'sea-light': '#6ba6d9', // light royal — highlights, the "&", accents on dark
+        'sea-light': '#8cc0ea', // light water blue — highlights, the "&", accents on dark
         sand: '#c9a05f', // warm fine accent on royal blue
         coral: '#c25a3e', // demoted: rare warm accent only
         grey: '#79858b',
         'grey-dark': '#3a4751',
 
         // — Legacy aliases (so not-yet-migrated sections keep rendering) —
-        navy: '#0a5fa5',
-        'navy-soft': '#08497e',
+        navy: '#1e78c2',
+        'navy-soft': '#135e9c',
         paper: '#f7f2e8',
         'paper-soft': '#efe7d6',
         gold: '#c9a05f',
