@@ -74,13 +74,13 @@
       },
       "spec": {
         "title": "Spezialitäten",
-        "body": "Trockenfrüchte, Gewürze und Produkte aus Usbekistan, Tadschikistan und der Region."
+        "body": "Trockenfrüchte, Gewürze und ausgewählte Produkte aus verschiedenen Ländern."
       },
       "cta": "Ganzes Sortiment ansehen"
     },
     "origin": {
       "eyebrow": "Herkunft",
-      "title": "Von Zentralasien\nin den zweiten Bezirk.",
+      "title": "Feine Auswahl\nim zweiten Bezirk.",
       "body": "Die Spezialitäten sind kein Zufall. Sie kommen von dort, wo wir herkommen — und bringen ein Stück Heimat nach Wien.",
       "cta": "Unsere Geschichte"
     },
@@ -112,9 +112,9 @@
     },
     "spec": {
       "eyebrow": "Spezialitäten",
-      "title": "Schätze aus Zentralasien.",
-      "body": "Getrocknete Früchte, Nüsse, Gewürze und ausgewählte Produkte aus Usbekistan, Tadschikistan und der Region. Dinge mit Herkunft und Geschichte — die man in Wien selten bekommt.",
-      "note": "Getrocknete Früchte, Nüsse, Naturhonig, Gewürze, eingelegtes Gemüse, Süßwaren und Spirituosen aus Usbekistan, Tadschikistan und der Region."
+      "title": "Feine Delikatessen.",
+      "body": "Getrocknete Früchte, Nüsse, Gewürze und ausgewählte Produkte aus verschiedenen Ländern. Dinge mit Herkunft und Geschichte — die man in Wien selten bekommt.",
+      "note": "Getrocknete Früchte, Nüsse, Naturhonig, Gewürze, eingelegtes Gemüse, Süßwaren und Spirituosen."
     },
     "platter": {
       "eyebrow": "Auf Vorbestellung",
@@ -202,7 +202,7 @@
   "gallery": {
     "eyebrow": "Die Auslage",
     "title": "Ein Blick\nin die Auslage.",
-    "intro": "Keine Preisliste — Fisch ist Tagesware. Das hier ist ein Eindruck von dem, was bei uns über den Tresen geht. Fragen Sie im Laden, telefonisch oder per WhatsApp nach dem Tagesangebot.",
+    "intro": "Das hier ist ein Eindruck von dem, was bei uns über den Tresen geht. Fragen Sie im Laden, telefonisch oder per WhatsApp nach dem Tagesangebot.",
     "all": "Alles",
     "fish": "Fisch",
     "spec": "Spezialitäten",
@@ -214,7 +214,7 @@
   "categories": {
     "eyebrow": "Was wir führen",
     "title": "Fisch — und alles,\nwas dazugehört.",
-    "intro": "Ein Fischgeschäft mit Herz fürs Importierte. Neben frischem Fisch finden Sie bei uns ausgesuchte Spezialitäten aus Usbekistan und der Region — nichts Abgehobenes, einfach gute Ware.",
+    "intro": "Neben frischem Fisch finden Sie bei uns ausgesuchte Delikatessen — nichts Abgehobenes, einfach gute Ware.",
     "fish": {
       "title": "Lebendige Fische",
       "body": "Lebendig im Becken, frisch für Sie geschlachtet. Welche Arten da sind, hängt von Fang und Saison ab."
@@ -233,7 +233,7 @@
     },
     "spices": {
       "title": "Gewürze",
-      "body": "Aromatische Gewürze für die Küche Zentralasiens und darüber hinaus."
+      "body": "Aromatische Gewürze für die Küche und darüber hinaus."
     },
     "spirits": {
       "title": "Spirituosen",
@@ -369,7 +369,7 @@
   "liveFish": {
     "eyebrow": "Lebendige Fische",
     "title": "Frisch ist, was heute\nnoch geschwommen ist.",
-    "body": "Das Herz unseres Geschäfts sind lebendige Fische. Sie warten bei uns im Becken, bis sie bestellt werden — dann werden sie frisch für Sie geschlachtet, geputzt und filetiert. Frischer geht Fisch nicht. Genau so kennt man es aus Zentralasien, und genau so machen wir es mitten im zweiten Bezirk.",
+    "body": "Das Herz unseres Geschäfts sind lebendige Fische. Sie warten bei uns im Becken, bis sie bestellt werden — dann werden sie frisch für Sie geschlachtet, geputzt und filetiert. Frischer geht Fisch nicht. Genau so machen wir es mitten im zweiten Bezirk.",
     "listTitle": "Typische Arten, lebendig & frisch geschlachtet",
     "note": "welche fische gerade lebendig im becken sind, hängt von saison und lieferung ab — fragen Sie einfach im laden oder telefonisch nach.",
     "cta": "Nach dem Tagesfang fragen",
@@ -411,9 +411,9 @@
     "shootDorade": "Frische Dorade auf Eis, Nahaufnahme",
     "productFresh": "Makroaufnahme von frischem Lachs, appetitliche Textur",
     "sortimentFish": "Frischer Fisch auf Eis im Verkaufstresen",
-    "sortimentSpecialties": "Zentralasiatische Spezialitäten, Trockenfrüchte und Gewürze",
+    "sortimentSpecialties": "Feine Spezialitäten, Trockenfrüchte und Gewürze",
     "specialtyDetail": "Detailaufnahme einer Fischkonserve, editorial",
-    "origin": "Stimmungsbild Herkunft Zentralasien",
+    "origin": "Stimmungsbild Herkunft",
     "kosher": "Frische Lachshaut, sauber und glänzend",
     "boats": "Fischerboote, Stimmungsbild Authentizität",
     "parrotfish": "Bunter Fisch auf Eis",
@@ -451,11 +451,11 @@
     },
     "sortiment": {
       "title": "Sortiment — Fische & mehr",
-      "description": "Lebendige und frische Fische sowie zentralasiatische Spezialitäten. Tagesware — fragen Sie nach dem aktuellen Angebot."
+      "description": "Lebendige und frische Fische sowie feine Delikatessen. Tagesware — fragen Sie nach dem aktuellen Angebot."
     },
     "ueber": {
       "title": "Über uns — Fische & mehr",
-      "description": "Die Geschichte hinter Fische & mehr: frischer Fisch, Herkunft in Zentralasien, ein kleines spezialisiertes Fachgeschäft in Wien."
+      "description": "Die Geschichte hinter Fische & mehr: frischer Fisch, ein kleines Fachgeschäft in Wien."
     },
     "kontakt": {
       "title": "Kontakt — Fische & mehr",

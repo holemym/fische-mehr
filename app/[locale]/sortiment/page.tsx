@@ -6,7 +6,6 @@ import PageHero from '@/components/ui/PageHero';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import ProductGallery from '@/components/sections/ProductGallery';
 import ProductCategories from '@/components/sections/ProductCategories';
-import PlatterBuilder from '@/components/sections/PlatterBuilder';
 import FreshFishNotifier from '@/components/sections/FreshFishNotifier';
 
 export async function generateMetadata({
@@ -42,8 +41,6 @@ export default function SortimentPage({
         intro={t('hero.intro')}
       />
 
-      {/* Wizard up top — it's the main action on this page */}
-      <PlatterBuilder />
       <ProductGallery />
       <ProductCategories />
       <FreshFishNotifier />

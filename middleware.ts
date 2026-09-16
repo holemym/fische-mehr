@@ -24,10 +24,11 @@ const canonicalHost = new URL(SITE.url).host; // www.fische-mehr.at
 
 export default function middleware(request: NextRequest) {
   const host = request.headers.get('host') ?? '';
-  // Send the raw *.vercel.app deployment URL to the real domain, so it's never the
-  // URL Google indexes or a visitor lands on. Only the vercel.app host is caught;
+  // Send the production *.vercel.app deployment URL to the real domain, so it's
+  // never the URL Google indexes or a visitor lands on. Only the production alias
+  // is caught — branch/preview deploys keep their own URL so they stay reviewable;
   // localhost and the custom domain pass straight through to the i18n middleware.
-  if (host.endsWith('.vercel.app')) {
+  if (host === 'fische-mehr.vercel.app') {
     const url = new URL(
       request.nextUrl.pathname + request.nextUrl.search,
       `https://${canonicalHost}`,

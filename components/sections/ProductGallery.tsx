@@ -86,7 +86,6 @@ const TILES: Tile[] = [
   { img: 'shoot-salmon-fresh', cat: 'fish' },
   { img: 'shoot-fresh-fish', cat: 'fish' },
   { img: 'shoot-fish-fresh-2', cat: 'fish' },
-  { img: 'sortiment-fish', cat: 'fish' },
   { img: 'shoot-white-fillets', cat: 'fish' },
   { img: 'shoot-salmon-fillet', cat: 'fish' },
   { img: 'kosher', cat: 'fish' },
