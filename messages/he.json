@@ -31,7 +31,7 @@
   },
   "config": {
     "phone": "0676 844293203",
-    "email": "angelina.refaelov@chello.at",
+    "email": "refaelovdavid@gmail.com",
     "whatsapp": "0676 844293203",
     "address": "Glockengasse 22, 1020 וינה",
     "transit": "כמה דקות הליכה מתחנת Taborstraße.",
@@ -42,7 +42,7 @@
   "whatsappPrefill": "שלום Fische & mehr, יש לי שאלה לגבי המבחר של היום.",
   "home": {
     "hero": {
-      "eyebrow": "Welcome to Fische & Mehr in Vienna",
+      "eyebrow": "Welcome to Fische & mehr in Vienna",
       "title": "Freshness\nyou can taste.",
       "subtitle": "A wide selection of fresh, frozen and smoked fish, caviar and selected Russian and Eastern European delicacies. Quality, taste and personal preparation are at the heart of what we do.",
       "ctaPrimary": "לצפות במבחר",
@@ -84,7 +84,7 @@
       "body": "We carry high-quality salmon caviar with a fine taste and the best quality – perfect for enjoying, serving and for festive occasions."
     },
     "closing": {
-      "eyebrow": "Fische & Mehr",
+      "eyebrow": "Fische & mehr",
       "title": "Fish, delicacies & personal service\nin one place.",
       "body": "Whether for everyday meals, a family celebration or a special occasion – discover our varied range and have your fish prepared just the way you want it.",
       "cta": "Visit us in Vienna – we look forward to seeing you!"
@@ -307,14 +307,14 @@
     "angSmokedCounter": "Smoked fish in the display counter",
     "angSmokedCounter2": "Smoked fish and fillets",
     "angFreshCounter": "Fresh salmon, bream and sea bass on ice",
-    "angStorefrontCorner": "Fische & Mehr on the corner of Glockengasse / Novaragasse",
-    "angStorefrontEntrance": "Entrance of Fische & Mehr",
-    "angPoster": "Poster on the Fische & Mehr façade"
+    "angStorefrontCorner": "Fische & mehr on the corner of Glockengasse / Novaragasse",
+    "angStorefrontEntrance": "Entrance of Fische & mehr",
+    "angPoster": "Poster on the Fische & mehr façade"
   },
   "meta": {
     "home": {
       "title": "Fische & mehr — דגים טריים, קוויאר סלמון ומעדנים בווינה 1020",
-      "description": "Freshness you can taste: fresh, frozen and smoked fish, salmon caviar and Russian & Eastern European delicacies – Fische & Mehr, Glockengasse 22, 1020 Vienna."
+      "description": "Freshness you can taste: fresh, frozen and smoked fish, salmon caviar and Russian & Eastern European delicacies – Fische & mehr, Glockengasse 22, 1020 Vienna."
     },
     "sortiment": {
       "title": "מבחר — Fische & mehr",

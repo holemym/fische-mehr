@@ -1,9 +1,9 @@
 import { SITE } from '@/lib/site';
 
 /**
- * Real Austrian legal text (German is the binding version). Fields marked
- * "(wird ergänzt)" still need the shop's registration data (see the client
- * questionnaire). Not legal advice — have it reviewed before launch.
+ * Real Austrian legal text (German is the binding version). Company data is the
+ * client's own registration data; the Firmenbuchgericht is the one field still
+ * outstanding. Not legal advice — have it reviewed before launch.
  */
 
 const H = ({ children }: { children: React.ReactNode }) => (
@@ -20,25 +20,27 @@ export function Impressum() {
     <div className="max-w-prose">
       <H>Offenlegung gemäß §§ 24, 25 MedienG und § 5 ECG</H>
       <P>
-        <strong>Fische &amp; mehr</strong>
+        <strong>{SITE.legalName}</strong>
         <br />
         Einzelhandel mit Fisch und Lebensmitteln
         <br />
-        {SITE.streetAddress}, {SITE.postalCode} {SITE.city}, Österreich
+        {SITE.legalAddress}, {SITE.postalCode} {SITE.city}, Österreich
       </P>
       <P>
         Telefon: {SITE.phone}
         <br />
-        E-Mail: {SITE.email}
+        E-Mail: {SITE.legalEmail}
       </P>
 
       <H>Unternehmensdaten</H>
       <P>
-        Firmenwortlaut / Inhaber:in: (wird ergänzt)
+        Firmenwortlaut: {SITE.legalName}
         <br />
-        Umsatzsteuer-Identifikationsnummer (UID): (wird ergänzt)
+        Umsatzsteuer-Identifikationsnummer (UID): {SITE.uid}
         <br />
-        Firmenbuchnummer / Firmenbuchgericht: (falls eingetragen)
+        Firmenbuchnummer: {SITE.firmenbuch}
+        <br />
+        Firmenbuchgericht: (wird ergänzt)
         <br />
         Gewerbe: Handelsgewerbe, verliehen in Österreich
         <br />
@@ -95,8 +97,8 @@ export function Datenschutz() {
       <P>
         Verantwortlich für die Datenverarbeitung im Sinne der DSGVO ist:
         <br />
-        <strong>Fische &amp; mehr</strong>, {SITE.streetAddress},{' '}
-        {SITE.postalCode} {SITE.city}, Österreich. E-Mail: {SITE.email}.
+        <strong>{SITE.legalName}</strong>, {SITE.legalAddress},{' '}
+        {SITE.postalCode} {SITE.city}, Österreich. E-Mail: {SITE.legalEmail}.
       </P>
 
       <H>Grundsätzliches</H>
@@ -122,7 +124,7 @@ export function Datenschutz() {
         Wenn Sie sich für Benachrichtigungen anmelden, verarbeiten wir Ihre E-Mail-Adresse
         ausschließlich zum Versand dieser Nachrichten. Rechtsgrundlage ist Ihre
         Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), die Sie jederzeit mit Wirkung für die
-        Zukunft widerrufen können — etwa per E-Mail an {SITE.email}.
+        Zukunft widerrufen können — etwa per E-Mail an {SITE.legalEmail}.
       </P>
 
       <H>Auftragsverarbeiter &amp; Hosting</H>

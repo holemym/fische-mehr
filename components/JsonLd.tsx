@@ -28,7 +28,7 @@ export default async function JsonLd({ locale }: { locale: string }) {
     '@id': `${SITE.url}/#store`,
     name: SITE.name,
     description:
-      'Frischer, tiefgekühlter und geräucherter Fisch, lebender Karpfen, Lachskaviar sowie russische und osteuropäische Delikatessen — Fische & Mehr, Glockengasse 22, 1020 Wien.',
+      'Frischer, tiefgekühlter und geräucherter Fisch, lebender Karpfen, Lachskaviar sowie russische und osteuropäische Delikatessen — Fische & mehr, Glockengasse 22, 1020 Wien.',
     image: `${SITE.url}/images/og-image.webp`,
     logo: `${SITE.url}/logo.png`,
     url: `${SITE.url}/${locale}`,

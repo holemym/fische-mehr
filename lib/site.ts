@@ -12,7 +12,13 @@ export const SITE = {
   phone: '0676 844293203',
   phoneHref: 'tel:+43676844293203',
   whatsapp: '43676844293203', // same mobile number; confirm WhatsApp is active on it
-  email: 'angelina.refaelov@chello.at',
+  email: 'refaelovdavid@gmail.com',
+  // Registered company data, as supplied by the client for the Impressum.
+  legalName: 'Refaelov Fische und mehr KG',
+  legalAddress: 'Glockengasse 22/4',
+  legalEmail: 'angelina.refaelov@chello.at',
+  uid: 'ATU66563667',
+  firmenbuch: 'FN 365561s',
   // Location — Glockengasse 22, 1020 Wien (Leopoldstadt, near Taborstraße)
   streetAddress: 'Glockengasse 22',
   postalCode: '1020',

@@ -30,7 +30,7 @@
   },
   "config": {
     "phone": "0676 844293203",
-    "email": "angelina.refaelov@chello.at",
+    "email": "refaelovdavid@gmail.com",
     "whatsapp": "0676 844293203",
     "address": "Glockengasse 22, 1020 Wien",
     "transit": "Nur wenige Gehminuten von der Station Taborstraße.",
@@ -41,7 +41,7 @@
   "whatsappPrefill": "Hallo Fische & mehr, ich habe eine Frage zum Tagesangebot.",
   "home": {
     "hero": {
-      "eyebrow": "Willkommen bei Fische & Mehr in Wien",
+      "eyebrow": "Willkommen bei Fische & mehr in Wien",
       "title": "Frische,\ndie man schmeckt.",
       "subtitle": "Bei uns erwartet Sie eine große Auswahl an frischem, tiefgekühltem und geräuchertem Fisch sowie Kaviar und ausgewählten russischen und osteuropäischen Delikatessen. Qualität, Geschmack und persönliche Zubereitung stehen bei uns im Mittelpunkt.",
       "ctaPrimary": "Sortiment ansehen",
@@ -83,7 +83,7 @@
       "body": "Bei uns finden Sie hochwertigen Lachskaviar mit feinem Geschmack und bester Qualität – perfekt zum Genießen, Servieren und für festliche Anlässe."
     },
     "closing": {
-      "eyebrow": "Fische & Mehr",
+      "eyebrow": "Fische & mehr",
       "title": "Fisch, Delikatessen & persönlicher Service\nan einem Ort.",
       "body": "Ob für das tägliche Essen, ein Familienfest oder einen besonderen Anlass – entdecken Sie unser vielfältiges Sortiment und lassen Sie Ihren Fisch direkt nach Wunsch vorbereiten.",
       "cta": "Besuchen Sie uns in Wien – wir freuen uns auf Sie!"
@@ -336,14 +336,14 @@
     "angSmokedCounter": "Geräucherte Fische in der Theke",
     "angSmokedCounter2": "Geräucherte Fische und Filets",
     "angFreshCounter": "Frischer Lachs, Dorade und Branzino auf Eis",
-    "angStorefrontCorner": "Fische & Mehr an der Ecke Glockengasse / Novaragasse",
-    "angStorefrontEntrance": "Eingang von Fische & Mehr",
-    "angPoster": "Plakat an der Fassade von Fische & Mehr"
+    "angStorefrontCorner": "Fische & mehr an der Ecke Glockengasse / Novaragasse",
+    "angStorefrontEntrance": "Eingang von Fische & mehr",
+    "angPoster": "Plakat an der Fassade von Fische & mehr"
   },
   "meta": {
     "home": {
       "title": "Fische & mehr — Frischer Fisch, Lachskaviar & Delikatessen in Wien 1020",
-      "description": "Frische, die man schmeckt: frischer, tiefgekühlter und geräucherter Fisch, Lachskaviar und russische & osteuropäische Delikatessen – Fische & Mehr, Glockengasse 22, 1020 Wien."
+      "description": "Frische, die man schmeckt: frischer, tiefgekühlter und geräucherter Fisch, Lachskaviar und russische & osteuropäische Delikatessen – Fische & mehr, Glockengasse 22, 1020 Wien."
     },
     "sortiment": {
       "title": "Sortiment — Fische & mehr",
