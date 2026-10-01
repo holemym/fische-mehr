@@ -1,6 +1,7 @@
 # Status & offene Punkte — Fische & mehr
 
-Stand **20.09.2026**. Vorschau (nicht öffentlich): Branch `angelina-round-1`.
+Stand **01.10.2026**. Vorschau (öffentlich abrufbar, noindex): Branch `angelina-round-1`.
+Die am 20.09. erbetene Rückmeldung bis 24.09. ist nicht eingelangt. Termin im Geschäft: Mo 05.10. oder Di 06.10. (ihr Vorschlag).
 Live seit Monaten: **www.fische-mehr.at** (unverändert, bis die Runde freigegeben ist).
 
 ---
@@ -17,6 +18,12 @@ spezialisiert" · Kontakt fehlte → Kontaktdaten jetzt auf der Startseite.
 Konfigurator · heller Hintergrund wie am Plakat, Blau aufgehellt · Geschäft als
 Wasserzeichen · Foto von Herrn Rafaelov aufgehellt · Telefon, E-Mail und Adresse
 sichtbar.
+
+**Nachgeholt aus Mail 2 (01.10.)** — „im Hintergrund wie am Plakat **mit allen Sprachen**":
+„Frische Fische" in allen 32 Sprachen des Plakats, zwei langsam laufende Reihen direkt
+unter dem Titelbild · Geschäft als Wasserzeichen jetzt auch am Handy sichtbar ·
+Telefonnummer wie gewünscht gegliedert (0676 844 293 203) · Video: falls das Handy
+Autoplay blockiert (Stromsparmodus), erscheint eine Abspieltaste.
 
 **Aus dem Formular (17.09.)**:
 - E-Mail auf der Website → **refaelovdavid@gmail.com**
@@ -35,12 +42,12 @@ sichtbar.
 | 2 | **Hintergrund / Blau** | Im Formular „Anders – ich schreibe es unten", aber kein Text dazu. Bitte ein Satz: heller, dunkler, oder was genau anders sein soll. |
 | 3 | **Fotos** | „Ich schicke dir noch Fotos." Noch nicht eingelangt. Falls es bei den jetzigen bleibt: kurz Bescheid. |
 | 4 | **Firmenbuchgericht** | Einziges fehlendes Pflichtfeld im Impressum. Steht auf dem Firmenbuchauszug (vermutlich Handelsgericht Wien — bitte bestätigen). |
-| 5 | **Domain-Termin** | „Zuerst muss die Webseite passen." Die Domain `fische-mehr.at` (ohne www) zeigt weiterhin eine fremde GoDaddy-Seite. 10 Minuten mit Ihrem Sohn, unabhängig vom Text. |
+| 5 | **Domain-Termin** | „Zuerst muss die Webseite passen." Seit ca. 23.09. zeigt `fische-mehr.at` (ohne www) Besucher:innen eine **Sicherheitswarnung** (Zertifikat passt nicht, GoDaddy). 10 Minuten mit Ihrem Sohn, unabhängig vom Text. |
 
 ## ⏸ Wartet auf Freigabe des deutschen Textes
 - **Russisch & Hebräisch** übersetzen (im Formular gewünscht) — wird einmal sauber
   gemacht, sobald Deutsch final ist, damit nichts doppelt übersetzt wird.
-- **Veröffentlichung** auf www.fische-mehr.at.
+- **Veröffentlichung** auf www.fische-mehr.at. Bis dahin zeigt die Live-Seite noch alles, was Sie streichen wollten (Usbekistan, Zentralasien, Vorbestellung, Preise) und ein Impressum mit 4 leeren Feldern.
 
 ## 📌 Nicht Teil dieser Runde
 - Bankverbindung (IBAN/BIC) gehört **nicht** auf eine Website — bewusst weggelassen.

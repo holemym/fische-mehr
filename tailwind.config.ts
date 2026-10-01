@@ -34,7 +34,7 @@ const config: Config = {
       fontFamily: {
         // Wired to next/font CSS variables (see app/[locale]/layout.tsx)
         display: ['var(--font-display)', 'var(--font-he-display)', 'Georgia', 'serif'],
-        sans: ['var(--font-inter)', 'var(--font-he-body)', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-inter)', 'var(--font-inter-ext)', 'var(--font-he-body)', 'system-ui', 'sans-serif'],
         mono: ['var(--font-mono)', 'var(--font-he-body)', 'ui-monospace', 'monospace'],
       },
       letterSpacing: {
@@ -71,6 +71,10 @@ const config: Config = {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-50%)' },
         },
+        'marquee-back': {
+          from: { transform: 'translateX(-50%)' },
+          to: { transform: 'translateX(0)' },
+        },
         'float-slow': {
           '0%, 100%': { transform: 'translateY(0) rotate(0deg)' },
           '50%': { transform: 'translateY(-14px) rotate(1.5deg)' },
@@ -91,6 +95,9 @@ const config: Config = {
         'curtain-lift': 'curtain-lift 1.1s cubic-bezier(0.22, 1, 0.36, 1) forwards',
         'scroll-cue': 'scroll-cue 1.8s cubic-bezier(0.22, 1, 0.36, 1) infinite',
         marquee: 'marquee 32s linear infinite',
+        // Poster band: slow, opposite drifts so the words read as a field, not a ticker.
+        'poster-left': 'marquee 90s linear infinite',
+        'poster-right': 'marquee-back 110s linear infinite',
         'float-slow': 'float-slow 11s ease-in-out infinite',
         'float-drift': 'float-drift 9s ease-in-out infinite',
       },

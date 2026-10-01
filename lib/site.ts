@@ -9,7 +9,7 @@ export const SITE = {
   name: 'Fische & mehr',
   url: 'https://www.fische-mehr.at', // canonical domain (www serves the site on Vercel)
   // Contact — real shop details
-  phone: '0676 844293203',
+  phone: '0676 844 293 203',
   phoneHref: 'tel:+43676844293203',
   whatsapp: '43676844293203', // same mobile number; confirm WhatsApp is active on it
   email: 'refaelovdavid@gmail.com',

@@ -4,7 +4,7 @@ import { pageMetadata } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import Hero from '@/components/sections/Hero';
 import TrustBar from '@/components/sections/TrustBar';
-import Marquee from '@/components/sections/Marquee';
+import PosterWords from '@/components/sections/PosterWords';
 import LiveFish from '@/components/sections/LiveFish';
 import Portions from '@/components/sections/Portions';
 import ProductGallery from '@/components/sections/ProductGallery';
@@ -34,10 +34,11 @@ export default function HomePage({
     <>
       <JsonLd locale={locale} />
       <Hero />
+      {/* Frische Fische in every language on the façade poster */}
+      <PosterWords />
       <TrustBar />
       {/* Lebendiger Karpfen – Šaran */}
       <LiveFish />
-      <Marquee />
       {/* Frischer & tiefgekühlter Fisch */}
       <Product ns="home.product" image="/images/ang-fresh-counter.webp" altKey="angFreshCounter" />
       {/* Frisch für Sie vorbereitet (portions video) */}

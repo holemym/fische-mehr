@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 import Eyebrow from '@/components/ui/Eyebrow';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Reveal from '@/components/ui/Reveal';
+import LoopVideo from '@/components/ui/LoopVideo';
 
 /**
  * "So sehen unsere Portionen aus" — a short vertical clip from the shop showing
@@ -21,18 +22,14 @@ export default function Portions() {
 
         <Reveal className="order-1 justify-self-center md:order-2">
           <div className="relative aspect-[9/16] w-full max-w-[330px] overflow-hidden rounded-sm bg-sea-deep/5 shadow-xl ring-1 ring-sea-deep/10">
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="metadata"
+            <LoopVideo
               poster="/video/portions-poster.webp"
+              sources={[
+                { src: '/video/portions.webm', type: 'video/webm' },
+                { src: '/video/portions.mp4', type: 'video/mp4' },
+              ]}
               className="absolute inset-0 h-full w-full object-cover"
-            >
-              <source src="/video/portions.webm" type="video/webm" />
-              <source src="/video/portions.mp4" type="video/mp4" />
-            </video>
+            />
           </div>
         </Reveal>
       </div>

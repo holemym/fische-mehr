@@ -33,6 +33,16 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
+// Same Inter, extended scripts only (Polish, Czech, Kazakh, Greek, Vietnamese ...),
+// not preloaded: the browser fetches it only where such glyphs appear.
+const interExt = Inter({
+  subsets: ['latin-ext', 'cyrillic-ext', 'greek', 'vietnamese'],
+  display: 'swap',
+  weight: ['400', '500'],
+  preload: false,
+  variable: '--font-inter-ext',
+});
+
 const mono = Spline_Sans_Mono({
   subsets: ['latin'],
   display: 'swap',
@@ -121,7 +131,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       dir={isRtl(locale) ? 'rtl' : 'ltr'}
-      className={`${lora.variable} ${inter.variable} ${mono.variable} ${frankRuhl.variable} ${heebo.variable}`}
+      className={`${lora.variable} ${inter.variable} ${interExt.variable} ${mono.variable} ${frankRuhl.variable} ${heebo.variable}`}
     >
       <body className="min-h-dvh bg-paper text-navy">
         <NextIntlClientProvider messages={messages}>

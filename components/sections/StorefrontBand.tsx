@@ -31,7 +31,7 @@ export default function StorefrontBand() {
         className="-z-20 object-cover opacity-40"
       />
       {/* The storefront as a ghost: greyscale, faint, held to the right half */}
-      <div aria-hidden className="absolute inset-y-0 right-0 -z-10 hidden w-1/2 lg:block">
+      <div aria-hidden className="absolute inset-0 -z-10 lg:left-auto lg:w-1/2">
         <Image
           src="/images/ang-storefront-corner.webp"
           alt={alt('angStorefrontCorner')}
@@ -39,7 +39,7 @@ export default function StorefrontBand() {
           sizes="50vw"
           className="object-cover object-center opacity-[0.09] grayscale"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-foam via-foam/40 to-transparent" />
+        <div className="absolute inset-0 bg-foam/40 lg:bg-transparent lg:bg-gradient-to-r lg:from-foam lg:via-foam/40 lg:to-transparent" />
       </div>
 
       <div className="container-page">
