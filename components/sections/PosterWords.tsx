@@ -83,7 +83,7 @@ function Row({
           key={i}
           lang={lang}
           dir="auto"
-          className={`whitespace-nowrap px-[clamp(1.1rem,2.2vw,2.4rem)] font-sans leading-none tracking-tight transition-colors duration-300 hover:text-sea-deep ${TIER[tier]}`}
+          className={`whitespace-nowrap px-[clamp(1.1rem,2.2vw,2.4rem)] font-sans leading-[1.3] tracking-tight transition-colors duration-300 hover:text-sea-deep ${TIER[tier]}`}
         >
           {text}
         </span>
@@ -198,6 +198,7 @@ export default function PosterWords() {
     <section
       ref={section}
       aria-hidden
+      data-marquee
       dir="ltr"
       onPointerEnter={(e) => {
         if (e.pointerType === 'mouse') hover.current = true;
@@ -211,7 +212,7 @@ export default function PosterWords() {
       }}
       onPointerUp={() => (hold.current = false)}
       onPointerCancel={() => (hold.current = false)}
-      className="relative isolate select-none overflow-hidden bg-foam py-[clamp(2.25rem,4vw,3.75rem)]"
+      className="relative isolate select-none overflow-hidden bg-foam py-[clamp(1.75rem,3.4vw,3.25rem)]"
     >
       <Image
         src="/images/water-texture-pale.webp"
@@ -220,14 +221,16 @@ export default function PosterWords() {
         sizes="100vw"
         className="-z-10 object-cover opacity-50"
       />
+      {/* mask-image clips like overflow:hidden — the padding keeps every glyph's ink inside it */}
       <div
+        className="py-2"
         style={{
           maskImage: 'linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent)',
           WebkitMaskImage: 'linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent)',
         }}
       >
         <Row words={TOP} trackRef={top} startPct={0} />
-        <div className="mt-[clamp(0.75rem,1.6vw,1.5rem)]">
+        <div className="mt-[clamp(0.25rem,0.9vw,0.9rem)]">
           <Row words={BOTTOM} trackRef={bottom} startPct={-(ROW2_START * 50)} />
         </div>
       </div>

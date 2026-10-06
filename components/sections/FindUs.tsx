@@ -47,7 +47,7 @@ export default function FindUs() {
               loading="lazy"
               tabIndex={-1}
               referrerPolicy="no-referrer-when-downgrade"
-              className="map-tint pointer-events-none absolute inset-0 h-full w-full scale-105 transition-transform duration-700 ease-out-soft group-hover:scale-110"
+              className="map-tint pointer-events-none absolute inset-0 h-full w-full"
             />
             {/* Brand wash — pulls the raw OSM palette toward navy/cream */}
             <div className="pointer-events-none absolute inset-0 bg-sea-deep/15 mix-blend-multiply" />

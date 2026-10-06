@@ -68,6 +68,8 @@ export default function ParallaxImage({
   return (
     <div
       ref={ref}
+      // Intended bleed: oversized for the scroll drift (photo, cover). The clip gate skips it.
+      data-bleed
       className="pointer-events-none absolute inset-x-0 will-change-transform"
       style={{ top: `-${overscan}`, bottom: `-${overscan}` }}
     >

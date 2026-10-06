@@ -47,7 +47,7 @@ export default function FreshFishNotifier() {
       <Wave fill="fill-cream" position="top" />
       <BrandBackdrop
         variant="fish"
-        className="-bottom-12 right-4 h-56 w-56 text-sea-deep/[0.06]"
+        className="bottom-6 right-6 h-56 w-56 text-sea-deep/[0.06]"
       />
 
       <div className="container-page relative grid items-center gap-10 py-24 sm:py-28 md:grid-cols-[1.2fr_1fr]">

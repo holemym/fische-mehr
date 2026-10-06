@@ -10,10 +10,9 @@ import { clsx } from '@/lib/clsx';
 type Cat = 'fish' | 'spec';
 type Tile = { img: string; cat: Cat };
 
-// Row-span masonry tuning: rows are ROW_UNIT tall, GAP between items. Each tile
-// spans however many rows its real (uncropped) height needs — computed on the
-// client from the measured column width and the image's aspect ratio.
-const ROW_UNIT = 8;
+// Row-span masonry: 1 px rows, no row gap; the 12 px gutter is each tile's bottom
+// margin. A tile spans ceil(photo height + gutter) rows, so its frame always fits the
+// photo to the pixel (coarser row steps used to cut the bottom off photos).
 const GAP = 12;
 
 // Real pixel dimensions of every gallery source image, so each tile renders at
@@ -163,7 +162,7 @@ export default function ProductGallery() {
         const width = fig.getBoundingClientRect().width;
         if (!width) return;
         const height = width / aspect;
-        const span = Math.max(1, Math.round((height + GAP) / (ROW_UNIT + GAP)));
+        const span = Math.max(1, Math.ceil(height + GAP));
         fig.style.gridRowEnd = `span ${span}`;
       });
     };
@@ -305,8 +304,8 @@ export default function ProductGallery() {
             (no forced crop); landscape shots span 2 columns so they read bigger. */}
         <div
           ref={gridRef}
-          className="mt-8 grid grid-flow-row-dense grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4"
-          style={{ gridAutoRows: `${ROW_UNIT}px` }}
+          className="mt-8 grid grid-flow-row-dense grid-cols-2 gap-x-3 md:grid-cols-3 lg:grid-cols-4"
+          style={{ gridAutoRows: '1px' }}
         >
           {tiles.map((tile, i) => {
             const [w, h] = DIMS[tile.img];
@@ -316,7 +315,7 @@ export default function ProductGallery() {
             const estWidth = landscape ? 640 : 320;
             const estSpan = Math.max(
               1,
-              Math.round((estWidth / (w / h) + GAP) / (ROW_UNIT + GAP)),
+              Math.ceil(estWidth / (w / h) + GAP),
             );
             return (
               <figure
@@ -328,7 +327,7 @@ export default function ProductGallery() {
                   transitionDelay: `${(i % 4) * 55}ms`,
                 }}
                 className={clsx(
-                  'reveal-tile group relative block overflow-hidden rounded-sm bg-sea-deep/5',
+                  'reveal-tile group relative mb-3 block self-start overflow-hidden rounded-sm bg-sea-deep/5',
                   landscape && 'col-span-2',
                 )}
               >

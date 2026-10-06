@@ -20,7 +20,7 @@ export default function Footer() {
     <footer className="relative overflow-hidden bg-sea-deep text-cream">
       <BrandBackdrop
         variant="fish"
-        className="-right-4 top-1/2 h-52 w-52 -translate-y-1/2 text-sea-light/[0.06] sm:h-60 sm:w-60"
+        className="right-6 top-1/2 h-52 w-52 -translate-y-1/2 text-sea-light/[0.06] sm:h-60 sm:w-60"
       />
       <div className="container-page relative grid gap-12 py-16 md:grid-cols-[1.2fr_1fr_1fr] md:py-20">
         {/* Brand + address/hours */}
