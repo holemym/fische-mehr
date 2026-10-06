@@ -37,6 +37,9 @@
 
   body {
     @apply bg-paper text-navy font-sans antialiased;
+    overflow-x: clip;
+    /* Break a word only when it cannot fit a line at all (long RU/DE compounds). */
+    overflow-wrap: break-word;
     font-feature-settings: 'kern' 1, 'liga' 1;
   }
 

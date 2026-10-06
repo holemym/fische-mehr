@@ -26,21 +26,16 @@ const lora = Lora({
   variable: '--font-display',
 });
 
+// One Inter instance only: a second Inter() loader for the extended scripts made
+// production hash the font classes differently in HTML and CSS (site fell back to
+// Times, 06.10.2026). All scripts live here; not preloaded — next/font's
+// size-adjusted fallback holds the layout until it swaps in.
 const inter = Inter({
-  subsets: ['latin', 'cyrillic'],
+  subsets: ['latin', 'latin-ext', 'cyrillic', 'cyrillic-ext', 'greek', 'vietnamese'],
+  preload: false,
   display: 'swap',
   weight: ['400', '500'],
   variable: '--font-inter',
-});
-
-// Same Inter, extended scripts only (Polish, Czech, Kazakh, Greek, Vietnamese ...),
-// not preloaded: the browser fetches it only where such glyphs appear.
-const interExt = Inter({
-  subsets: ['latin-ext', 'cyrillic-ext', 'greek', 'vietnamese'],
-  display: 'swap',
-  weight: ['400', '500'],
-  preload: false,
-  variable: '--font-inter-ext',
 });
 
 const mono = Spline_Sans_Mono({
@@ -131,7 +126,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       dir={isRtl(locale) ? 'rtl' : 'ltr'}
-      className={`${lora.variable} ${inter.variable} ${interExt.variable} ${mono.variable} ${frankRuhl.variable} ${heebo.variable}`}
+      className={`${lora.variable} ${inter.variable} ${mono.variable} ${frankRuhl.variable} ${heebo.variable}`}
     >
       <body className="min-h-dvh bg-paper text-navy">
         <NextIntlClientProvider messages={messages}>

@@ -76,7 +76,7 @@ export default function Header() {
 
         {/* Desktop nav */}
         <nav
-          className="hidden items-center gap-8 md:flex"
+          className="hidden items-center gap-5 md:flex lg:gap-8"
           aria-label="Hauptnavigation"
         >
           {NAV.map(({ href, key }) => (
@@ -101,11 +101,11 @@ export default function Header() {
         </nav>
 
         {/* Desktop actions */}
-        <div className="hidden items-center gap-5 md:flex">
+        <div className="hidden items-center gap-4 md:flex lg:gap-5">
           <LanguageSwitcher />
           <Link
             href="/kontakt"
-            className="inline-flex h-11 items-center gap-2 rounded-full bg-sea-deep px-5 font-mono text-xs uppercase tracking-[0.12em] text-cream transition-colors duration-200 hover:bg-sea"
+            className="hidden h-11 shrink-0 items-center gap-2 whitespace-nowrap rounded-full bg-sea-deep px-5 font-mono text-xs uppercase tracking-[0.12em] text-cream transition-colors duration-200 hover:bg-sea lg:inline-flex"
           >
             <Pin />
             {t('cta.visit')}

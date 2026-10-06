@@ -33,9 +33,11 @@ const config: Config = {
       },
       fontFamily: {
         // Wired to next/font CSS variables (see app/[locale]/layout.tsx)
-        display: ['var(--font-display)', 'var(--font-he-display)', 'Georgia', 'serif'],
-        sans: ['var(--font-inter)', 'var(--font-inter-ext)', 'var(--font-he-body)', 'system-ui', 'sans-serif'],
-        mono: ['var(--font-mono)', 'var(--font-he-body)', 'ui-monospace', 'monospace'],
+        // Each var() carries a fallback: an undefined custom property inside a
+        // font-family list invalidates the entire declaration (-> Times).
+        display: ['var(--font-display, Georgia)', 'var(--font-he-display, Georgia)', 'Georgia', 'serif'],
+        sans: ['var(--font-inter, system-ui)', 'var(--font-he-body, system-ui)', 'system-ui', 'sans-serif'],
+        mono: ['var(--font-mono, ui-monospace)', 'var(--font-he-body, ui-monospace)', 'ui-monospace', 'monospace'],
       },
       letterSpacing: {
         eyebrow: '0.16em',

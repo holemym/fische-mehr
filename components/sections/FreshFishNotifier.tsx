@@ -79,7 +79,7 @@ export default function FreshFishNotifier() {
               <label htmlFor="notify-email" className="sr-only">
                 {t('placeholder')}
               </label>
-              <div className="flex flex-col gap-3 sm:flex-row">
+              <div className="flex flex-col gap-3 lg:flex-row">
                 <input
                   id="notify-email"
                   name="email"
@@ -89,7 +89,7 @@ export default function FreshFishNotifier() {
                   required
                   placeholder={t('placeholder')}
                   aria-invalid={status === 'invalid' || undefined}
-                  className="h-12 flex-1 rounded-full border border-sea-deep/25 bg-cream px-5 text-sea-deep placeholder:text-grey focus-visible:outline-sea"
+                  className="h-12 min-w-0 flex-1 rounded-full border border-sea-deep/25 bg-cream px-5 text-sea-deep placeholder:text-grey focus-visible:outline-sea"
                 />
                 <button
                   type="submit"
