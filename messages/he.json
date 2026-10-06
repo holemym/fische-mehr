@@ -42,9 +42,9 @@
   "whatsappPrefill": "שלום Fische & mehr, יש לי שאלה לגבי המבחר של היום.",
   "home": {
     "hero": {
-      "eyebrow": "Welcome to Fische & mehr in Vienna",
-      "title": "Freshness\nyou can taste.",
-      "subtitle": "A wide selection of fresh, frozen and smoked fish, caviar and selected Russian and Eastern European delicacies. Quality, taste and personal preparation are at the heart of what we do.",
+      "eyebrow": "ברוכים הבאים ל־Fische & mehr בווינה",
+      "title": "טריות\nשמרגישים בטעם.",
+      "subtitle": "מבחר גדול של דגים טריים, קפואים ומעושנים, קוויאר ומעדנים נבחרים מרוסיה וממזרח אירופה. איכות, טעם והכנה אישית עומדים אצלנו במרכז.",
       "ctaPrimary": "לצפות במבחר",
       "ctaSecond": "איך למצוא אותנו"
     },
@@ -63,9 +63,9 @@
       }
     },
     "product": {
-      "eyebrow": "Fresh & frozen fish",
-      "title": "A wide choice\nfor every taste.",
-      "body": "Our fish range includes carp, gilt-head bream (dorade), sea bass (branzino), trout and salmon – whole or as fillet, depending on availability.\n\nWe also carry tuna fillet and tuna steaks, tilapia fillet, cod fillet, pike-perch fillet, silver carp, plaice fillet and hake (Oslić). Depending on the type of fish and availability, we offer them fresh or frozen."
+      "eyebrow": "דגים טריים וקפואים",
+      "title": "מבחר גדול\nלכל טעם.",
+      "body": "במבחר שלנו: קרפיון, דניס, לברק (ברנזינו), פורל וסלמון – בהתאם לזמינות, שלמים או כפילה.\n\nבנוסף תמצאו אצלנו פילה וסטייקים של טונה, פילה טילפיה, פילה בקלה, פילה זנדר, כסיף, פילה דג משה רבנו ומרלוזה (Oslić) – טריים או קפואים, בהתאם לסוג הדג ולזמינות."
     },
     "cta": {
       "title": "בואו לבקר.",
@@ -74,48 +74,48 @@
       "whatsapp": "לכתוב בוואטסאפ"
     },
     "smoked": {
-      "eyebrow": "Smoked fish specialities",
-      "title": "Aromatic, hearty\nand full of flavour.",
-      "body": "Discover our selection of smoked fish and fillets. Ideal for a snack, for breakfast, for guests or simply to enjoy."
+      "eyebrow": "דגים מעושנים",
+      "title": "ארומטיים, עשירים\nומלאי טעם.",
+      "body": "גלו את מבחר הדגים והפילה המעושנים שלנו. מושלם לנשנוש, לארוחת בוקר, לאורחים או פשוט להנאה."
     },
     "caviar": {
-      "eyebrow": "Salmon caviar",
-      "title": "A special delicacy\nfor special moments.",
-      "body": "We carry high-quality salmon caviar with a fine taste and the best quality – perfect for enjoying, serving and for festive occasions."
+      "eyebrow": "קוויאר סלמון",
+      "title": "מעדן מיוחד\nלרגעים מיוחדים.",
+      "body": "אצלנו תמצאו קוויאר סלמון איכותי בטעם עדין – להנאה, להגשה ולאירועים חגיגיים."
     },
     "closing": {
       "eyebrow": "Fische & mehr",
-      "title": "Fish, delicacies & personal service\nin one place.",
-      "body": "Whether for everyday meals, a family celebration or a special occasion – discover our varied range and have your fish prepared just the way you want it.",
-      "cta": "Visit us in Vienna – we look forward to seeing you!"
+      "title": "דגים, מעדנים ושירות אישי\nבמקום אחד.",
+      "body": "לארוחה יומיומית, לחגיגה משפחתית או לאירוע מיוחד – גלו את המבחר שלנו, ואנחנו נכין את הדג בדיוק כפי שתרצו.",
+      "cta": "בואו לבקר אותנו בווינה – נשמח לראותכם!"
     }
   },
   "sortiment": {
     "hero": {
       "eyebrow": "מבחר",
       "title": "מה מונח אצלנו על הדלפק.",
-      "intro": "Fresh, frozen and smoked fish, salmon caviar and selected delicacies. Ask in the shop, by phone or on WhatsApp what's in today."
+      "intro": "דגים טריים, קפואים ומעושנים, קוויאר סלמון ומעדנים נבחרים. מה יש היום – שאלו בחנות, בטלפון או בוואטסאפ."
     }
   },
   "ueber": {
     "hero": {
       "eyebrow": "עלינו",
-      "title": "Fish, delicacies &\npersonal service."
+      "title": "דגים, מעדנים\nושירות אישי."
     },
     "values": {
-      "eyebrow": "What matters to us",
-      "title": "Quality, taste and\npersonal preparation.",
+      "eyebrow": "מה חשוב לנו",
+      "title": "איכות, טעם\nוהכנה אישית.",
       "v1": {
-        "title": "Freshness",
-        "body": "Live carp straight from our tank – it hardly gets fresher. Fresh, frozen and smoked fish, depending on availability."
+        "title": "טריות",
+        "body": "קרפיון חי ישר מהבריכה שלנו – טרי מזה אי אפשר. דגים טריים, קפואים ומעושנים, בהתאם לזמינות."
       },
       "v2": {
-        "title": "Personal preparation",
-        "body": "Scaling, gutting, cutting, filleting, mincing or vacuum-sealing – you get your fish exactly as you need it for your kitchen."
+        "title": "הכנה לפי בקשה",
+        "body": "ניקוי קשקשים, הוצאת קרביים, חיתוך, פילוט, טחינה או אריזת ואקום – הדג מגיע אליכם בדיוק כפי שהמטבח שלכם צריך."
       },
       "v3": {
-        "title": "More than fish",
-        "body": "Salmon caviar and Russian and Eastern European delicacies – for everyone who loves traditional flavours."
+        "title": "יותר מדגים",
+        "body": "קוויאר סלמון ומעדנים מרוסיה וממזרח אירופה – לכל מי שאוהב את הטעם המסורתי."
       }
     }
   },
@@ -172,32 +172,32 @@
     "note": "תמונות מהחנות שלנו. ההיצע היומי משתנה — פשוט שאלו מה טרי היום."
   },
   "categories": {
-    "eyebrow": "Russian & Eastern European delicacies",
-    "title": "Far more\nthan just fish.",
-    "intro": "Discover a wide selection of popular specialities: pickled cucumbers, tomatoes, peppers, cabbage, mushrooms and garlic, plus courgette purée, Georgian-style peppers and mild aubergines with peppers. You'll also find classics such as Russian condensed milk, canned cod liver, sprats and other selected specialities. For everyone who loves traditional flavours – there's plenty here to delight.",
+    "eyebrow": "מעדנים רוסיים ומזרח־אירופיים",
+    "title": "יש אצלנו הרבה\nיותר מדגים.",
+    "intro": "מבחר גדול של מעדנים אהובים: מלפפונים, עגבניות, פלפלים, כרוב, פטריות ושום כבושים, ממרח קישואים, פלפלים בסגנון גאורגי וחצילים עדינים עם פלפלים. וגם קלאסיקות כמו חלב מרוכז רוסי, כבד בקלה משומר, שפרוטים ומעדנים נבחרים נוספים. לכל מי שאוהב את הטעם המסורתי – יש אצלנו כל מה שהלב חפץ.",
     "fish": {
-      "title": "Fresh & frozen fish",
-      "body": "Carp, gilt-head bream, sea bass, trout, salmon – whole or as fillet."
+      "title": "דגים טריים וקפואים",
+      "body": "קרפיון, דניס, לברק, פורל, סלמון – שלמים או כפילה."
     },
     "dried": {
-      "title": "Pickles",
-      "body": "Cucumbers, tomatoes, peppers, cabbage, mushrooms and garlic."
+      "title": "כבושים",
+      "body": "מלפפונים, עגבניות, פלפלים, כרוב, פטריות ושום."
     },
     "nuts": {
-      "title": "Vegetable spreads",
-      "body": "Courgette purée, Georgian-style peppers, mild aubergines with peppers."
+      "title": "ממרחי ירקות",
+      "body": "ממרח קישואים, פלפלים בסגנון גאורגי, חצילים עם פלפלים."
     },
     "honey": {
-      "title": "Salmon caviar",
-      "body": "High-quality salmon caviar – for enjoying, serving and festive occasions."
+      "title": "קוויאר סלמון",
+      "body": "קוויאר סלמון איכותי – להנאה, להגשה ולאירועים חגיגיים."
     },
     "spices": {
-      "title": "Classics",
-      "body": "Russian condensed milk, canned cod liver, sprats."
+      "title": "קלאסיקות",
+      "body": "חלב מרוכז רוסי, כבד בקלה משומר, שפרוטים."
     },
     "spirits": {
-      "title": "Smoked",
-      "body": "Smoked fish and fillets – for a snack, breakfast or guests."
+      "title": "מעושנים",
+      "body": "דגים ופילה מעושנים – לנשנוש, לארוחת בוקר, לאורחים."
     }
   },
   "notifier": {
@@ -220,7 +220,7 @@
     "mapCta": "לפתוח במפות",
     "directionsCta": "לתכנן מסלול",
     "mapAlt": "מפה: מיקום Fische & mehr, פינת Novaragasse / Glockengasse, 1020 וינה",
-    "contactTitle": "Contact"
+    "contactTitle": "יצירת קשר"
   },
   "faq": {
     "eyebrow": "שאלות נפוצות",
@@ -228,11 +228,11 @@
     "items": [
       {
         "q": "אפשר להזמין דגים או מגשי דגים מראש?",
-        "a": "Yes – best in the shop or by phone, in good time. We prepare your fish to your wishes and put fish platters together for you."
+        "a": "כן – עדיף בחנות או בטלפון, מראש. נכין את הדג לפי בקשתכם ונרכיב עבורכם מגשי דגים."
       },
       {
         "q": "מה יש לכם מלבד דגים?",
-        "a": "Salmon caviar and Russian and Eastern European delicacies: pickled cucumbers, tomatoes, peppers, cabbage, mushrooms and garlic, courgette purée, Georgian-style peppers, aubergines with peppers, Russian condensed milk, canned cod liver, sprats and more."
+        "a": "קוויאר סלמון ומעדנים מרוסיה וממזרח אירופה: מלפפונים, עגבניות, פלפלים, כרוב, פטריות ושום כבושים, ממרח קישואים, פלפלים בסגנון גאורגי, חצילים עם פלפלים, חלב מרוכז רוסי, כבד בקלה משומר, שפרוטים ועוד."
       },
       {
         "q": "אתם מעבדים את הדג במקום?",
@@ -299,22 +299,22 @@
     "shootDorade": "דניס טרי על קרח, תקריב",
     "shootLiveCarp": "קרפיונים חיים באקווריום ב-Fische & mehr",
     "shootTuna": "נתחי טונה טריים, פרוסים טרי",
-    "angCheeseCounter": "Cheese and deli counter",
-    "angPicklesCoffee": "Pickled vegetables and coffee on the shelf",
-    "angCannedSprats": "Canned sprats and cod liver",
-    "angLachskaviar": "Tins of salmon caviar",
-    "angDryGoods": "Pasta, pulses and dry goods",
-    "angSmokedCounter": "Smoked fish in the display counter",
-    "angSmokedCounter2": "Smoked fish and fillets",
-    "angFreshCounter": "Fresh salmon, bream and sea bass on ice",
-    "angStorefrontCorner": "Fische & mehr on the corner of Glockengasse / Novaragasse",
-    "angStorefrontEntrance": "Entrance of Fische & mehr",
-    "angPoster": "Poster on the Fische & mehr façade"
+    "angCheeseCounter": "דלפק גבינות ומעדנים",
+    "angPicklesCoffee": "ירקות כבושים וקפה על המדף",
+    "angCannedSprats": "שפרוטים וכבד בקלה בשימורים",
+    "angLachskaviar": "פחיות קוויאר סלמון",
+    "angDryGoods": "פסטה, קטניות ומוצרים יבשים",
+    "angSmokedCounter": "דגים מעושנים בוויטרינה",
+    "angSmokedCounter2": "דגים ופילה מעושנים",
+    "angFreshCounter": "סלמון, דניס ולברק טריים על קרח",
+    "angStorefrontCorner": "Fische & mehr בפינת Glockengasse ו־Novaragasse",
+    "angStorefrontEntrance": "הכניסה ל־Fische & mehr",
+    "angPoster": "שלט על חזית Fische & mehr"
   },
   "meta": {
     "home": {
       "title": "Fische & mehr — דגים טריים, קוויאר סלמון ומעדנים בווינה 1020",
-      "description": "Freshness you can taste: fresh, frozen and smoked fish, salmon caviar and Russian & Eastern European delicacies – Fische & mehr, Glockengasse 22, 1020 Vienna."
+      "description": "טריות שמרגישים בטעם: דגים טריים, קפואים ומעושנים, קוויאר סלמון ומעדנים רוסיים ומזרח־אירופיים – Fische & mehr, Glockengasse 22, 1020 וינה."
     },
     "sortiment": {
       "title": "מבחר — Fische & mehr",
@@ -338,38 +338,38 @@
     }
   },
   "liveFish": {
-    "eyebrow": "Live carp – Šaran",
-    "title": "Straight from our tank.\nIt hardly gets fresher.",
-    "body": "One of our special offerings is live carp – also known as Šaran. You choose your carp on the spot and we prepare it fresh to your wishes: cleaned, cut or minced.",
-    "listTitle": "Our fish range",
-    "note": "Fresh or frozen depending on the type of fish and availability – whole or as fillet.",
+    "eyebrow": "קרפיון חי – Šaran",
+    "title": "ישר מהבריכה שלנו.\nטרי מזה אי אפשר.",
+    "body": "אחד המוצרים המיוחדים שלנו הוא קרפיון חי – המכונה גם Šaran. אתם בוחרים את הקרפיון במקום, ואנחנו מכינים אותו טרי לפי בקשתכם: מנוקה, חתוך או טחון.",
+    "listTitle": "מבחר הדגים שלנו",
+    "note": "טריים או קפואים בהתאם לסוג הדג ולזמינות – שלמים או כפילה.",
     "cta": "לשאול על שלל היום",
     "species": [
       {
-        "name": "Carp (Šaran)",
-        "desc": "Live from the tank – cleaned, cut or minced."
+        "name": "קרפיון (Šaran)",
+        "desc": "חי מהבריכה – מנוקה, חתוך או טחון."
       },
       {
-        "name": "Gilt-head bream (Dorade)",
-        "desc": "Whole or as fillet, depending on availability."
+        "name": "דניס (Dorade)",
+        "desc": "שלם או כפילה, בהתאם לזמינות."
       },
       {
-        "name": "Sea bass (Branzino)",
-        "desc": "Whole or as fillet, depending on availability."
+        "name": "לברק (Branzino)",
+        "desc": "שלם או כפילה, בהתאם לזמינות."
       },
       {
-        "name": "Trout",
-        "desc": "Whole or as fillet, depending on availability."
+        "name": "פורל",
+        "desc": "שלם או כפילה, בהתאם לזמינות."
       },
       {
-        "name": "Salmon",
-        "desc": "Whole or as fillet, depending on availability."
+        "name": "סלמון",
+        "desc": "שלם או כפילה, בהתאם לזמינות."
       }
     ]
   },
   "portions": {
-    "eyebrow": "Prepared fresh for you",
-    "title": "You choose –\nwe take care of the rest.",
-    "body": "We're happy to prepare your fish for you: scaling, gutting, cutting, filleting, mincing or vacuum-sealing – you get your fish exactly as you need it for your kitchen."
+    "eyebrow": "מוכן טרי עבורכם",
+    "title": "אתם בוחרים –\nאנחנו דואגים לשאר.",
+    "body": "נשמח להכין עבורכם את הדג: ניקוי קשקשים, הוצאת קרביים, חיתוך, פילוט, טחינה או אריזת ואקום – בדיוק כפי שהמטבח שלכם צריך."
   }
 }

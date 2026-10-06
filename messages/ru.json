@@ -42,9 +42,9 @@
   "whatsappPrefill": "Здравствуйте, Fische & mehr! У меня вопрос о сегодняшнем ассортименте.",
   "home": {
     "hero": {
-      "eyebrow": "Welcome to Fische & mehr in Vienna",
-      "title": "Freshness\nyou can taste.",
-      "subtitle": "A wide selection of fresh, frozen and smoked fish, caviar and selected Russian and Eastern European delicacies. Quality, taste and personal preparation are at the heart of what we do.",
+      "eyebrow": "Добро пожаловать в Fische & mehr в Вене",
+      "title": "Свежесть,\nкоторую ощущаешь на вкус.",
+      "subtitle": "У нас вас ждёт большой выбор свежей, замороженной и копчёной рыбы, икра и избранные русские и восточноевропейские деликатесы. Качество, вкус и разделка по вашему желанию — в центре всего, что мы делаем.",
       "ctaPrimary": "Смотреть ассортимент",
       "ctaSecond": "Как нас найти"
     },
@@ -63,9 +63,9 @@
       }
     },
     "product": {
-      "eyebrow": "Fresh & frozen fish",
-      "title": "A wide choice\nfor every taste.",
-      "body": "Our fish range includes carp, gilt-head bream (dorade), sea bass (branzino), trout and salmon – whole or as fillet, depending on availability.\n\nWe also carry tuna fillet and tuna steaks, tilapia fillet, cod fillet, pike-perch fillet, silver carp, plaice fillet and hake (Oslić). Depending on the type of fish and availability, we offer them fresh or frozen."
+      "eyebrow": "Свежая и замороженная рыба",
+      "title": "Большой выбор\nна любой вкус.",
+      "body": "В нашем ассортименте — карп, дорадо, сибас (бранзино), форель и лосось: в зависимости от наличия целиком или филе.\n\nКроме того, у нас есть филе и стейки тунца, филе тилапии, трески и судака, толстолобик, филе камбалы и хек (Oslić). В зависимости от вида рыбы и наличия — свежие или замороженные."
     },
     "cta": {
       "title": "Заходите к нам.",
@@ -74,48 +74,48 @@
       "whatsapp": "Написать в WhatsApp"
     },
     "smoked": {
-      "eyebrow": "Smoked fish specialities",
-      "title": "Aromatic, hearty\nand full of flavour.",
-      "body": "Discover our selection of smoked fish and fillets. Ideal for a snack, for breakfast, for guests or simply to enjoy."
+      "eyebrow": "Копчёная рыба",
+      "title": "Ароматная, сытная\nи полная вкуса.",
+      "body": "Откройте для себя наш выбор копчёной рыбы и филе. Идеально к перекусу, на завтрак, для гостей или просто для удовольствия."
     },
     "caviar": {
-      "eyebrow": "Salmon caviar",
-      "title": "A special delicacy\nfor special moments.",
-      "body": "We carry high-quality salmon caviar with a fine taste and the best quality – perfect for enjoying, serving and for festive occasions."
+      "eyebrow": "Лососёвая икра",
+      "title": "Особый деликатес\nдля особых моментов.",
+      "body": "У нас вы найдёте качественную лососёвую икру с тонким вкусом — чтобы наслаждаться, подавать к столу и для праздников."
     },
     "closing": {
       "eyebrow": "Fische & mehr",
-      "title": "Fish, delicacies & personal service\nin one place.",
-      "body": "Whether for everyday meals, a family celebration or a special occasion – discover our varied range and have your fish prepared just the way you want it.",
-      "cta": "Visit us in Vienna – we look forward to seeing you!"
+      "title": "Рыба, деликатесы и личный сервис\nв одном месте.",
+      "body": "Для повседневного стола, семейного праздника или особого случая — откройте наш разнообразный ассортимент, а рыбу мы разделаем так, как вам нужно.",
+      "cta": "Приходите к нам в Вене — будем рады вас видеть!"
     }
   },
   "sortiment": {
     "hero": {
       "eyebrow": "Ассортимент",
       "title": "Что лежит у нас на прилавке.",
-      "intro": "Fresh, frozen and smoked fish, salmon caviar and selected delicacies. Ask in the shop, by phone or on WhatsApp what's in today."
+      "intro": "Свежая, замороженная и копчёная рыба, лососёвая икра и избранные деликатесы. Что есть сегодня — спросите в магазине, по телефону или в WhatsApp."
     }
   },
   "ueber": {
     "hero": {
       "eyebrow": "О нас",
-      "title": "Fish, delicacies &\npersonal service."
+      "title": "Рыба, деликатесы\nи личный сервис."
     },
     "values": {
-      "eyebrow": "What matters to us",
-      "title": "Quality, taste and\npersonal preparation.",
+      "eyebrow": "Что для нас важно",
+      "title": "Качество, вкус\nи разделка по вашему желанию.",
       "v1": {
-        "title": "Freshness",
-        "body": "Live carp straight from our tank – it hardly gets fresher. Fresh, frozen and smoked fish, depending on availability."
+        "title": "Свежесть",
+        "body": "Живой карп прямо из нашего аквариума — свежее не бывает. Свежая, замороженная и копчёная рыба — в зависимости от наличия."
       },
       "v2": {
-        "title": "Personal preparation",
-        "body": "Scaling, gutting, cutting, filleting, mincing or vacuum-sealing – you get your fish exactly as you need it for your kitchen."
+        "title": "Разделка по желанию",
+        "body": "Почистим от чешуи, выпотрошим, нарежем, разделаем на филе, сделаем фарш или завакуумируем — вы получите рыбу именно такой, какая нужна вашей кухне."
       },
       "v3": {
-        "title": "More than fish",
-        "body": "Salmon caviar and Russian and Eastern European delicacies – for everyone who loves traditional flavours."
+        "title": "Больше, чем рыба",
+        "body": "Лососёвая икра, русские и восточноевропейские деликатесы — для всех, кто любит традиционный вкус."
       }
     }
   },
@@ -172,32 +172,32 @@
     "note": "Фотографии из нашего магазина. Ежедневный ассортимент меняется — просто спросите, что свежее сегодня."
   },
   "categories": {
-    "eyebrow": "Russian & Eastern European delicacies",
-    "title": "Far more\nthan just fish.",
-    "intro": "Discover a wide selection of popular specialities: pickled cucumbers, tomatoes, peppers, cabbage, mushrooms and garlic, plus courgette purée, Georgian-style peppers and mild aubergines with peppers. You'll also find classics such as Russian condensed milk, canned cod liver, sprats and other selected specialities. For everyone who loves traditional flavours – there's plenty here to delight.",
+    "eyebrow": "Русские и восточноевропейские деликатесы",
+    "title": "У нас гораздо больше,\nчем просто рыба.",
+    "intro": "Большой выбор любимых деликатесов: солёные огурцы, помидоры, перец, капуста, шампиньоны и чеснок, кабачковая икра, перец по-грузински и нежные баклажаны с перцем. А также классика — сгущёнка, печень трески, шпроты и другие избранные продукты. Для всех, кто любит традиционный вкус, — у нас есть всё, что душе угодно.",
     "fish": {
-      "title": "Fresh & frozen fish",
-      "body": "Carp, gilt-head bream, sea bass, trout, salmon – whole or as fillet."
+      "title": "Свежая и замороженная рыба",
+      "body": "Карп, дорадо, сибас, форель, лосось — целиком или филе."
     },
     "dried": {
-      "title": "Pickles",
-      "body": "Cucumbers, tomatoes, peppers, cabbage, mushrooms and garlic."
+      "title": "Соленья",
+      "body": "Огурцы, помидоры, перец, капуста, шампиньоны и чеснок."
     },
     "nuts": {
-      "title": "Vegetable spreads",
-      "body": "Courgette purée, Georgian-style peppers, mild aubergines with peppers."
+      "title": "Овощная икра",
+      "body": "Кабачковая икра, перец по-грузински, баклажаны с перцем."
     },
     "honey": {
-      "title": "Salmon caviar",
-      "body": "High-quality salmon caviar – for enjoying, serving and festive occasions."
+      "title": "Лососёвая икра",
+      "body": "Качественная лососёвая икра — к столу и для праздников."
     },
     "spices": {
-      "title": "Classics",
-      "body": "Russian condensed milk, canned cod liver, sprats."
+      "title": "Классика",
+      "body": "Сгущёнка, печень трески, шпроты."
     },
     "spirits": {
-      "title": "Smoked",
-      "body": "Smoked fish and fillets – for a snack, breakfast or guests."
+      "title": "Копчёности",
+      "body": "Копчёная рыба и филе — к перекусу, на завтрак, для гостей."
     }
   },
   "notifier": {
@@ -220,7 +220,7 @@
     "mapCta": "Открыть в картах",
     "directionsCta": "Построить маршрут",
     "mapAlt": "Карта: расположение Fische & mehr, угол Novaragasse / Glockengasse, 1020 Вена",
-    "contactTitle": "Contact"
+    "contactTitle": "Контакты"
   },
   "faq": {
     "eyebrow": "Частые вопросы",
@@ -228,11 +228,11 @@
     "items": [
       {
         "q": "Могу ли я заказать рыбу или рыбные тарелки заранее?",
-        "a": "Yes – best in the shop or by phone, in good time. We prepare your fish to your wishes and put fish platters together for you."
+        "a": "Да — лучше в магазине или по телефону, заранее. Мы подготовим рыбу по вашему желанию и соберём для вас рыбное ассорти."
       },
       {
         "q": "Что у вас есть кроме рыбы?",
-        "a": "Salmon caviar and Russian and Eastern European delicacies: pickled cucumbers, tomatoes, peppers, cabbage, mushrooms and garlic, courgette purée, Georgian-style peppers, aubergines with peppers, Russian condensed milk, canned cod liver, sprats and more."
+        "a": "Лососёвая икра, русские и восточноевропейские деликатесы: солёные огурцы, помидоры, перец, капуста, шампиньоны и чеснок, кабачковая икра, перец по-грузински, баклажаны с перцем, сгущёнка, печень трески, шпроты и многое другое."
       },
       {
         "q": "Вы обрабатываете рыбу на месте?",
@@ -299,22 +299,22 @@
     "shootDorade": "Свежая дорада на льду, крупный план",
     "shootLiveCarp": "Живые карпы в аквариуме в Fische & mehr",
     "shootTuna": "Свежие стейки тунца, свежая нарезка",
-    "angCheeseCounter": "Cheese and deli counter",
-    "angPicklesCoffee": "Pickled vegetables and coffee on the shelf",
-    "angCannedSprats": "Canned sprats and cod liver",
-    "angLachskaviar": "Tins of salmon caviar",
-    "angDryGoods": "Pasta, pulses and dry goods",
-    "angSmokedCounter": "Smoked fish in the display counter",
-    "angSmokedCounter2": "Smoked fish and fillets",
-    "angFreshCounter": "Fresh salmon, bream and sea bass on ice",
-    "angStorefrontCorner": "Fische & mehr on the corner of Glockengasse / Novaragasse",
-    "angStorefrontEntrance": "Entrance of Fische & mehr",
-    "angPoster": "Poster on the Fische & mehr façade"
+    "angCheeseCounter": "Витрина с сырами и деликатесами",
+    "angPicklesCoffee": "Соленья и кофе на полке",
+    "angCannedSprats": "Шпроты и печень трески в банках",
+    "angLachskaviar": "Банки лососёвой икры",
+    "angDryGoods": "Макароны, бобовые и бакалея",
+    "angSmokedCounter": "Копчёная рыба в витрине",
+    "angSmokedCounter2": "Копчёная рыба и филе",
+    "angFreshCounter": "Свежий лосось, дорадо и сибас на льду",
+    "angStorefrontCorner": "Fische & mehr на углу Glockengasse и Novaragasse",
+    "angStorefrontEntrance": "Вход в Fische & mehr",
+    "angPoster": "Плакат на фасаде Fische & mehr"
   },
   "meta": {
     "home": {
       "title": "Fische & mehr — Свежая рыба, лососёвая икра и деликатесы в Вене 1020",
-      "description": "Freshness you can taste: fresh, frozen and smoked fish, salmon caviar and Russian & Eastern European delicacies – Fische & mehr, Glockengasse 22, 1020 Vienna."
+      "description": "Свежесть, которую ощущаешь на вкус: свежая, замороженная и копчёная рыба, лососёвая икра, русские и восточноевропейские деликатесы — Fische & mehr, Glockengasse 22, 1020 Вена."
     },
     "sortiment": {
       "title": "Ассортимент — Fische & mehr",
@@ -338,38 +338,38 @@
     }
   },
   "liveFish": {
-    "eyebrow": "Live carp – Šaran",
-    "title": "Straight from our tank.\nIt hardly gets fresher.",
-    "body": "One of our special offerings is live carp – also known as Šaran. You choose your carp on the spot and we prepare it fresh to your wishes: cleaned, cut or minced.",
-    "listTitle": "Our fish range",
-    "note": "Fresh or frozen depending on the type of fish and availability – whole or as fillet.",
+    "eyebrow": "Живой карп — Šaran",
+    "title": "Прямо из нашего аквариума.\nСвежее не бывает.",
+    "body": "Одно из наших особых предложений — живой карп, он же Šaran. Вы выбираете карпа прямо на месте, а мы готовим его по вашему желанию: почистим, нарежем или сделаем фарш.",
+    "listTitle": "Наша рыба",
+    "note": "Свежая или замороженная — в зависимости от вида и наличия, целиком или филе.",
     "cta": "Спросить об улове дня",
     "species": [
       {
-        "name": "Carp (Šaran)",
-        "desc": "Live from the tank – cleaned, cut or minced."
+        "name": "Карп (Šaran)",
+        "desc": "Живой из аквариума — почистим, нарежем или сделаем фарш."
       },
       {
-        "name": "Gilt-head bream (Dorade)",
-        "desc": "Whole or as fillet, depending on availability."
+        "name": "Дорадо",
+        "desc": "Целиком или филе, в зависимости от наличия."
       },
       {
-        "name": "Sea bass (Branzino)",
-        "desc": "Whole or as fillet, depending on availability."
+        "name": "Сибас (бранзино)",
+        "desc": "Целиком или филе, в зависимости от наличия."
       },
       {
-        "name": "Trout",
-        "desc": "Whole or as fillet, depending on availability."
+        "name": "Форель",
+        "desc": "Целиком или филе, в зависимости от наличия."
       },
       {
-        "name": "Salmon",
-        "desc": "Whole or as fillet, depending on availability."
+        "name": "Лосось",
+        "desc": "Целиком или филе, в зависимости от наличия."
       }
     ]
   },
   "portions": {
-    "eyebrow": "Prepared fresh for you",
-    "title": "You choose –\nwe take care of the rest.",
-    "body": "We're happy to prepare your fish for you: scaling, gutting, cutting, filleting, mincing or vacuum-sealing – you get your fish exactly as you need it for your kitchen."
+    "eyebrow": "Подготовим для вас",
+    "title": "Вы выбираете —\nостальное за нами.",
+    "body": "С удовольствием подготовим вашу рыбу: почистим от чешуи, выпотрошим, нарежем, разделаем на филе, сделаем фарш или завакуумируем — именно так, как нужно вашей кухне."
   }
 }

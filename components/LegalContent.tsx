@@ -40,7 +40,9 @@ export function Impressum() {
         <br />
         Firmenbuchnummer: {SITE.firmenbuch}
         <br />
-        Firmenbuchgericht: (wird ergänzt)
+        {/* ASSUMED (06.10.2026): Vienna seat -> Handelsgericht Wien. Confirm from the client's
+            Firmenbuchauszug; tracked in CLIENT-QUESTIONS.md. */}
+        Firmenbuchgericht: Handelsgericht Wien
         <br />
         Gewerbe: Handelsgewerbe, verliehen in Österreich
         <br />

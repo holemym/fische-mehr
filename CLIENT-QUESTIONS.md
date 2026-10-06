@@ -1,8 +1,7 @@
 # Status & offene Punkte — Fische & mehr
 
-Stand **01.10.2026**. Vorschau (öffentlich abrufbar, noindex): Branch `angelina-round-1`.
+Stand **06.10.2026**. **Live seit 06.10.2026** auf www.fische-mehr.at (Branch `angelina-round-1` → `main`).
 Die am 20.09. erbetene Rückmeldung bis 24.09. ist nicht eingelangt. Termin im Geschäft: Mo 05.10. oder Di 06.10. (ihr Vorschlag).
-Live seit Monaten: **www.fische-mehr.at** (unverändert, bis die Runde freigegeben ist).
 
 ---
 
@@ -34,6 +33,21 @@ Autoplay blockiert (Stromsparmodus), erscheint eine Abspieltaste.
 
 ---
 
+## ⚠️ Annahmen (live, bis zur Bestätigung)
+Online gestellt auf Davids Entscheidung, damit die Live-Seite nicht mehr die gestrichenen
+Inhalte zeigt. Diese Punkte sind **angenommen** und werden ersetzt, sobald Angaben kommen:
+
+| # | Annahme | Ersetzen durch |
+|---|---|---|
+| A1 | Firmenbuchgericht = **Handelsgericht Wien** (Sitz Wien) | Angabe laut Firmenbuchauszug |
+| A2 | **Russisch & Hebräisch** aus ihrem deutschen Text übersetzt (von uns, nicht muttersprachlich geprüft) | Freigabe Deutsch + Durchsicht durch Muttersprachler:in |
+| A3 | Deutscher Text = ihre Fassung aus Mail 2, unverändert | ihre angekündigte Änderungsmail |
+| A4 | Hintergrund/Blau = jetzige Plakat-Variante | ihr Satz zu „Anders" |
+| A5 | Fotos = die 11 aus Mail 2 | ihre angekündigten Fotos |
+| A6 | Zwei E-Mails: Website refaelovdavid@gmail.com, Impressum angelina.refaelov@chello.at | ihre Bestätigung |
+
+Im Code sind A1 mit `ASSUMED` kommentiert, A2 über `_meta` in ru.json / he.json.
+
 ## ⛔ Offen bei Ihnen — hier wartet das Projekt
 
 | # | Punkt | Was genau fehlt |
@@ -44,10 +58,8 @@ Autoplay blockiert (Stromsparmodus), erscheint eine Abspieltaste.
 | 4 | **Firmenbuchgericht** | Einziges fehlendes Pflichtfeld im Impressum. Steht auf dem Firmenbuchauszug (vermutlich Handelsgericht Wien — bitte bestätigen). |
 | 5 | **Domain-Termin** | „Zuerst muss die Webseite passen." Seit ca. 23.09. zeigt `fische-mehr.at` (ohne www) Besucher:innen eine **Sicherheitswarnung** (Zertifikat passt nicht, GoDaddy). 10 Minuten mit Ihrem Sohn, unabhängig vom Text. |
 
-## ⏸ Wartet auf Freigabe des deutschen Textes
-- **Russisch & Hebräisch** übersetzen (im Formular gewünscht) — wird einmal sauber
-  gemacht, sobald Deutsch final ist, damit nichts doppelt übersetzt wird.
-- **Veröffentlichung** auf www.fische-mehr.at. Bis dahin zeigt die Live-Seite noch alles, was Sie streichen wollten (Usbekistan, Zentralasien, Vorbestellung, Preise) und ein Impressum mit 4 leeren Feldern.
+## ⏸ Nach Freigabe des deutschen Textes
+- Russisch & Hebräisch an die finale deutsche Fassung angleichen (A2).
 
 ## 📌 Nicht Teil dieser Runde
 - Bankverbindung (IBAN/BIC) gehört **nicht** auf eine Website — bewusst weggelassen.
